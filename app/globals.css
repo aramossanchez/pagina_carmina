@@ -3,4 +3,13 @@
 @tailwind utilities;
 
 :root {
+
+  --primaryColor: #781E54;
+  --primaryColorSoft: #a77895;
+  --whiteColor: #ffffff;
+  --greyColor: #aaaaaa;
+
+  background-color: white;
+  margin: 0;
+  padding: 0;
 }
