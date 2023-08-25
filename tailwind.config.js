@@ -12,8 +12,12 @@ module.exports = {
         'primaryColor': 'var(--primaryColor)',
         'primaryColorSoft': 'var(--primaryColorSoft)',
         'whiteColor': 'var(--whiteColor)',
+        'whiteColorTransparent': 'var(--whiteColorTransparent)',
         'greyColor': 'var(--greyColor)'
       },
+      screens: {
+        'movil': '1023px',
+      }
     },
   },
   plugins: [],
