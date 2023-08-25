@@ -6,10 +6,19 @@ export function IndexPresentation() {
   return (
     <section className='w-full relative'>
       <div className="flex flex-row w-full absolute z-20 text-white">
-        <div className="w-6/12"></div>
-        <div className="w-4/12 flex flex-col h-full min-h-[65vh] items-center justify-center text-primaryColor">
-          <span className='text-7xl font-medium'>Carmina Zamora</span>
-          <span className='text-4xl mt-6'>Divulgación · Psicología · Neurociencia</span>
+        <div className="min-[1023px]:w-6/12 w-0"></div>
+        <div className="
+        min-[1980px]:w-4/12 min-[1900px]:w-5/12 min-[1023px]:w-5/12 w-full
+        flex flex-col h-full min-h-[65vh] items-center justify-center text-primaryColor"
+        >
+          <span className='
+          min-[1280px]:text-7xl min-[767px]:text-6xl min-[400px]:text-5xl text-[42px]
+          font-medium'
+          >Carmina Zamora</span>
+          <span className='
+          min-[1280px]:text-4xl min-[767px]:text-2xl text-[18px]
+          mt-6'
+          >Divulgación · Psicología · Neurociencia</span>
         </div>
       </div>
       {/* ESTE ES EL DIV QUE SIRVE COMO COLOR DE DIFUMINACIÓN AL VÍDEO */}
