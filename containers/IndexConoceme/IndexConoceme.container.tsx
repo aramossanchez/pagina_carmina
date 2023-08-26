@@ -4,15 +4,14 @@ import { basePath } from '../../config/config';
 
 export function IndexConoceme() {
   return (
-    <section className='w-full relative flex flex-col items-center'>
-      <hr className="bg-primaryColor border-r-[1px] border-greyColor w-3/12 mt-10 mb-20"/>
+    <section className='w-full relative flex flex-col items-center bg-slate-100'>
       <div className='
       flex
       min-[1023px]:flex-row flex-col
       min-[1023px]:w-[1000px] w-[87%]
       '>
         <div className={`${style.imagen_conoceme_container}
-         relative mb-10 flex flex-col items-center
+         relative mt-28 mb-20 flex flex-col items-center
         min-[1023px]:w-4/12 w-full
          `}>
           <Image
@@ -36,7 +35,7 @@ export function IndexConoceme() {
         <div className="
         min-[1023px]:w-8/12 w-full
         min-[1023px]:pl-40 pl-0
-        flex flex-col items-center  py-5 text-justify
+        flex flex-col items-center py-5 text-justify justify-center
         ">
           <span className="min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px]">
             Mi nombre es Carmina. Y la unión que tengo con la psicología nace desde la más tierna infancia. Donde descubrí que un buen acompañamiento puede ayudarte a sanar y aceptar aquello que necesitas para continuar. Fue ahí donde decidí ser yo quien acompañara.
