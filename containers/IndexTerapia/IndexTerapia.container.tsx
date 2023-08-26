@@ -22,11 +22,11 @@ export function IndexTerapia() {
         ">
           <span className="
           italic
-          min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
+          min-[1023px]:text-2xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl
           ">La terapia,</span>
           <span className="
           italic
-          min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
+          min-[1023px]:text-2xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl
           "> como acompañamiento</span>
           <div className="mt-5 cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">
             ¡Me interesa!
