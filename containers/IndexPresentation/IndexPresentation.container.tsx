@@ -1,5 +1,5 @@
 import style from './IndexPresentation.module.css';
-import {basePath} from '../../config/config';
+import { basePath } from '../../config/config';
 
 export function IndexPresentation() {
 
@@ -12,11 +12,18 @@ export function IndexPresentation() {
           <span className='
           min-[1280px]:text-9xl min-[767px]:text-6xl min-[400px]:text-5xl text-[42px]
           font-medium opacity-50'
-          >Carmina Zamora</span>
+          >
+            Carmina Zamora
+          </span>
           <span className='
           min-[1280px]:text-4xl min-[767px]:text-2xl text-[18px]
           mt-6 opacity-50'
-          >Divulgación · Psicología · Neurociencia</span>
+          >
+            Divulgación · Psicología · Neurociencia
+          </span>
+          <span className="w-auto cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg mt-10">
+            Quiero pedir cita
+          </span>
         </div>
       </div>
       {/* ESTE ES EL DIV QUE SIRVE COMO COLOR DE DIFUMINACIÓN AL VÍDEO */}
