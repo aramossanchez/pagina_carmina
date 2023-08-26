@@ -8,6 +8,7 @@ export function IndexPresentation() {
       <div className="flex flex-row items-end justify-center w-full absolute z-20 text-white">
         <div className="
         flex flex-col h-full min-h-[65vh] items-center justify-center text-primaryColor font-bold w-full
+        min-[1023px]:pt-48 pt-0
         ">
           <span className='
           min-[1280px]:text-9xl min-[767px]:text-6xl min-[400px]:text-5xl text-[42px]

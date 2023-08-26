@@ -32,15 +32,14 @@ export function MenuTop() {
       <div className={`
       ${scrolled > 0 ? style.menu_top_down : 'py-10 ease-in-out duration-300'}
       ${menuOpen ? style.menu_top_down : style.menu_top_down_closed}
-      flex items-center justify-end
+      flex items-center justify-end fixed
       'min-[1023px]:w-full w-full
       min-[1023px]:flex-row flex-col
       min-[1023px]:gap-32 gap-10
       min-[1023px]:z-20 z-30
-      min-[1023px]:relative fixed
       min-[1023px]:top-0 top-14
       min-[1023px]:bg-white bg-whiteColorTransparent
-      min-[1023px]:pr-32 p-0 '`
+      min-[1023px]:pr-20 p-0 '`
       }>
         <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">INICIO</div>
         <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">CONÓCEME</div>
