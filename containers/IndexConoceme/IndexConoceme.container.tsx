@@ -20,7 +20,7 @@ export function IndexConoceme() {
             height={550}
             alt="Picture of the author"
             className="
-            border-[8px] border-slate-100 z-20 relative
+            border-[8px] border-white z-20 relative
             min-[1023px]:left-16 left-0
             min-[1023px]:w-[350px] w-[250px]
             min-[1023px]:h-[440px] h-[340px]
