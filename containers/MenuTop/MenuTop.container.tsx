@@ -42,9 +42,9 @@ export function MenuTop() {
       min-[1023px]:bg-white bg-whiteColorTransparent
       min-[1023px]:pr-32 p-0 '`
       }>
-        <div className="text-black cursor-pointer hover:text-primaryColor font-medium">INICIO</div>
-        <div className="text-black cursor-pointer hover:text-primaryColor font-medium">CONÓCEME</div>
-        <div className="text-black cursor-pointer hover:text-primaryColor font-medium">¿NECESITAS AYUDA?</div>
+        <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">INICIO</div>
+        <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">CONÓCEME</div>
+        <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">¿NECESITAS AYUDA?</div>
         <div className="min-[1023px]:flex hidden cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">¿HABLAMOS?</div>
       </div>
     </>

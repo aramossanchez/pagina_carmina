@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         'primaryColor': 'var(--primaryColor)',
         'primaryColorSoft': 'var(--primaryColorSoft)',
+        'textColor': 'var(--textColor)',
         'whiteColor': 'var(--whiteColor)',
         'whiteColorTransparent': 'var(--whiteColorTransparent)',
         'greyColor': 'var(--greyColor)'
