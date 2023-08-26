@@ -6,7 +6,7 @@ export function IndexIntroduction() {
       <div className='
     min-[1023px]:w-[1000px] w-[95%]
     min-[1023px]:pr-0 pr-[1%]
-    min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-sm text-xs
+    min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
     text-center mt-20 flex flex-col gap-3'
       >
         <div className='

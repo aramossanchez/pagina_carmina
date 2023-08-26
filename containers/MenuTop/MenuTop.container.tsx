@@ -10,7 +10,6 @@ export function MenuTop() {
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY);
-      console.log(window.scrollY);
     };
     window.addEventListener('scroll', handleScroll);
     return () => {
