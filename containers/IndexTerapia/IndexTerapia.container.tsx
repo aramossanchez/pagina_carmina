@@ -47,13 +47,13 @@ export function IndexTerapia() {
           />
           <span className="
            text-justify
-            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg min-[348px]:text-sm text-sm
+            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px]
           ">
             Hace más de 8 años que mantengo un método muy sencillo en las terapias. Yo aporto las estrategias, reflexiones y guías necesarias. Tú practicas, decides y transformas.
           </span>
           <span className="
            text-justify
-            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg min-[348px]:text-sm text-sm
+            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px]
           ">
             Si estuviésemos perdidas en un bosque oscuro, yo te ayudaría a saber dónde se encuentran los puntos cardinales. La dirección siempre, siempre, la decides tú.
           </span>
