@@ -2,6 +2,7 @@
 
 import { IndexIntroduction } from '@/containers/IndexIntroduction/IndexIntroduction.container'
 import { IndexPresentation } from '@/containers/IndexPresentation/IndexPresentation.container'
+import { IndexTerapia } from '@/containers/IndexTerapia/IndexTerapia.container'
 import { MenuTop } from '@/containers/MenuTop/MenuTop.container'
 
 export default function Index() {
@@ -10,6 +11,7 @@ export default function Index() {
       <MenuTop />
       <IndexPresentation />
       <IndexIntroduction />
+      <IndexTerapia />
     </main>
   )
 }

@@ -1,5 +1,3 @@
-import style from './IndexIntroduction.module.css';
-
 export function IndexIntroduction() {
   return (
     <section className='w-full relative flex flex-col items-center'>
