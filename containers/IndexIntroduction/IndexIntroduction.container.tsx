@@ -4,7 +4,7 @@ export function IndexIntroduction() {
   return (
     <section className='w-full relative flex flex-col items-center'>
       <div className='
-    min-[1023px]:w-[1000px] w-[95%]
+    min-[1023px]:w-[1000px] w-[87%]
     min-[1023px]:pr-0 pr-[1%]
     min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
     text-center mt-20 flex flex-col gap-3'
@@ -12,7 +12,7 @@ export function IndexIntroduction() {
         <div className='
       font-semibold
       min-[400px]:mb-10 mb-5
-      min-[1023px]:text-3xl  min-[767px]:text-2xl min-[400px]:text-lg text-lg'
+      min-[1023px]:text-3xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl'
         >
           Si estás leyendo esto, quiero darte la bienvenida. ¡Te felicito!
         </div>
