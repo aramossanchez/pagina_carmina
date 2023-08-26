@@ -19,8 +19,8 @@ export function IndexIntroduction() {
         Y aunque posiblemente tengas dudas, buscar apoyo y acompañamiento
         es un gran medio para conseguirlo.</div>
         <div className='text-justify'>Hay momentos en nuestra vida, en los que de repente somos conscientes
-        de haber perdido algo indispensable para nuestro bienestar. El <strong className='text-greyColor'>equilibrio.</strong>
-        Puede que sientas haber perdido la ilusión, sentirte perdida/o o
+        de haber perdido algo indispensable para nuestro bienestar. El <strong className='text-greyColor'>equilibrio. </strong>
+         Puede que sientas haber perdido la ilusión, sentirte perdida/o o
         desesperanza. Puede que exista un motivo que identifiques como
         causante de este problema, o puede que no lo tengas tan claro.
         Sea cual sea la razón que te invita a iniciar este proceso de transformación,
@@ -28,7 +28,7 @@ export function IndexIntroduction() {
         <div className='text-justify min-[400px]:mb-10 mb-5'>En eso consiste el <strong className='text-greyColor'>acompañamiento</strong>.</div>
 
         <div className='
-      min-[1023px]:text-3xl text-2xl
+       min-[1023px]:text-3xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl
       text-primaryColor font-bold italic mb-10 '>&#34;Empecemos a sanar, como si tu vida dependiera de ello&#34;</div>
       </div>
     </section>

@@ -13,7 +13,7 @@ export function IndexTerapia() {
       `}>
         <div className="
        flex flex-col items-end justify-center border-primaryColor pr-5 
-        min-[1023px]:w-5/12  w-8/12
+        min-[1023px]:w-5/12  w-9/12
         min-[1023px]:h-3/6 h-auto
         min-[1023px]:border-r-[1px] border-r-[0px]
         min-[1023px]:border-b-[0px] border-b-[1px]
