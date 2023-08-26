@@ -10,8 +10,7 @@ export function IndexTerapia() {
       min-[1023px]:px-16 px-0
       min-[1023px]:w-[1000px] w-[87%]
       min-[1023px]:flex-row flex-col
-      "
-      >
+      ">
         <div className="
        flex flex-col items-end justify-center border-primaryColor pr-5 
         min-[1023px]:w-5/12  w-8/12
@@ -22,15 +21,19 @@ export function IndexTerapia() {
         ">
           <span className="
           italic
-          min-[1023px]:text-2xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl
-          ">La terapia,</span>
+          min-[1023px]:text-2xl  min-[767px]:text-2xl min-[400px]:text-xl min-[348px]:text-lg text-lg
+          ">
+            La terapia,
+          </span>
           <span className="
           italic
-          min-[1023px]:text-2xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl
-          "> como acompañamiento</span>
+          min-[1023px]:text-2xl  min-[767px]:text-2xl min-[400px]:text-xl min-[348px]:text-lg text-lg
+          ">
+            como acompañamiento
+          </span>
           <div className="mt-5 cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">
             ¡Me interesa!
-            </div>
+          </div>
         </div>
         <div className={`${style.terapia_text_with_quotes}
         flex flex-col gap-3
@@ -44,12 +47,16 @@ export function IndexTerapia() {
           />
           <span className="
            text-justify
-            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
-          ">Hace más de 8 años que mantengo un método muy sencillo en las terapias. Yo aporto las estrategias, reflexiones y guías necesarias. Tú practicas, decides y transformas.</span>
+            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg min-[348px]:text-sm text-sm
+          ">
+            Hace más de 8 años que mantengo un método muy sencillo en las terapias. Yo aporto las estrategias, reflexiones y guías necesarias. Tú practicas, decides y transformas.
+          </span>
           <span className="
            text-justify
-            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
-          ">Si estuviésemos perdidas en un bosque oscuro, yo te ayudaría a saber dónde se encuentran los puntos cardinales. La dirección siempre, siempre, la decides tú.</span>
+            min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg min-[348px]:text-sm text-sm
+          ">
+            Si estuviésemos perdidas en un bosque oscuro, yo te ayudaría a saber dónde se encuentran los puntos cardinales. La dirección siempre, siempre, la decides tú.
+          </span>
           <div className="w-full flex flex-row justify-end">
             <Image
               src={`${basePath}images/comillas.svg`}
