@@ -1,0 +1,4 @@
+.imagen_conoceme_container img{
+  transform-origin: bottom left;
+  transform: rotate(-10deg);
+}
