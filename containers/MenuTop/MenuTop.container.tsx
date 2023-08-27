@@ -28,7 +28,7 @@ export function MenuTop() {
           height={50}
           alt="Picture of the author"
           className='
-          absolute left-5
+          absolute left-12
           min-[1023px]:hidden block
           '
         />
@@ -44,7 +44,7 @@ export function MenuTop() {
         </div>
       </div>
       <div className={`
-      ${scrolled > 0 ? style.menu_top_down : 'py-10 ease-in-out duration-300'}
+      ${scrolled > 0 ? style.menu_top_down : 'py-2 ease-in-out duration-300'}
       ${menuOpen ? style.menu_top_down : style.menu_top_down_closed}
       flex items-center justify-between fixed z-30
       'min-[1023px]:w-full w-full
@@ -55,14 +55,14 @@ export function MenuTop() {
       }>
       <Image
         src={`${basePath}images/logo.png`}
-        width={50}
-        height={50}
+        width={100}
+        height={100}
         alt="Picture of the author"
         className='
-        min-[1023px]:ml-20 ml-0
+        min-[1281px]:ml-[20vw] min-[1023px]:ml-[7vw] ml-0
         min-[1023px]:flex hidden
-        min-[1023px]:w-[50px] w-[0px]
-        min-[1023px]:h-[50px] h-[0px]
+        min-[1023px]:w-[100px] w-[0px]
+        min-[1023px]:h-[100px] h-[0px]
         '
       />
         <div className={`
