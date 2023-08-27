@@ -37,11 +37,26 @@ export function IndexConoceme() {
         min-[1023px]:pl-40 pl-0
         flex flex-col items-center py-5 text-justify justify-center
         ">
-          <span className="min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px]">
-            Mi nombre es Carmina. Y la unión que tengo con la psicología nace desde la más tierna infancia. Donde descubrí que un buen acompañamiento puede ayudarte a sanar y aceptar aquello que necesitas para continuar. Fue ahí donde decidí ser yo quien acompañara.
+          <div className={`${style.title}
+          min-[1023px]:mt-20
+          min-[1023px]:text-4xl  min-[767px]:text-3xl min-[400px]:text-2xl text-[22px]
+          w-full flex flex-row items-center justify-start mb-7`}>
+            <span className="text-left">¡CONÓCEME UN POCO MÁS!</span>
+          </div>
+          <div className="w-full flex flex-row items-center justify-start mb-7">
+          <hr className="w-3/12 border-b-[1px] border-greyColor" />
+          </div>
+          <span className="min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px] font-medium mb-2">
+            Natural de Albacete y una enamorada de los pequeños detalles, la naturaleza y el yoga.
+          </span>
+          <span className="min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px] mb-2">
+            Tuve la gran suerte (ahora lo siento así), de necesitar ayuda psiquiátrica y psicológica a muy corta edad. Ahí descubrí todo lo que puede ayudar, un buen acompañamiento.
+          </span>
+          <span className="min-[1023px]:text-xl  min-[767px]:text-xl min-[400px]:text-lg text-[16px] mb-2">
+            Fue así como descubrí que mi misión sería la de ayudar a otras personas a afrontar los momentos más difíciles de sus vidas, porque todos merecemos reconectar con nosotr@s mism@s, y tener una vida plena que nos permita seguir avanzando.
           </span>
           <span className="w-auto cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg mt-10">
-            Cotillea un poco más
+            Te invito a saber más sobre mi
           </span>
         </div>
       </div>

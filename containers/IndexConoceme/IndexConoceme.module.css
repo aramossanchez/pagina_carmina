@@ -2,3 +2,6 @@
   transform-origin: bottom left;
   transform: rotate(-10deg);
 }
+.title {
+  font-family: 'Poiret One', cursive;
+}
