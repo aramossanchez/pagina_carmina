@@ -39,7 +39,7 @@ export function IndexConoceme() {
         ">
           <div className={`${style.title}
           min-[1023px]:mt-20
-          min-[1023px]:text-4xl  min-[767px]:text-3xl min-[400px]:text-2xl text-[22px]
+          min-[1023px]:text-4xl min-[767px]:text-3xl min-[400px]:text-2xl text-[22px]
           w-full flex flex-row items-center justify-start mb-7`}>
             <span className="text-left">¡CONÓCEME UN POCO MÁS!</span>
           </div>

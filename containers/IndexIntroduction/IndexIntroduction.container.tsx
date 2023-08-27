@@ -1,3 +1,7 @@
+import Image from 'next/image'
+import style from './IndexIntroduction.module.css'
+import { basePath } from '../../config/config';
+
 export function IndexIntroduction() {
   return (
     <section className='w-full relative flex flex-col items-center'>
@@ -5,31 +9,37 @@ export function IndexIntroduction() {
     min-[1023px]:w-[1000px] w-[87%]
     min-[1023px]:pr-0 pr-[1%]
     min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
-    text-center mt-20 flex flex-col gap-3'
+    text-center mt-7 flex flex-col gap-3'
       >
-        <div className='
-      font-semibold
-      min-[400px]:mb-10 mb-5
-      min-[1023px]:text-3xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl'
-        >
-          Si estás leyendo esto, quiero darte la bienvenida. ¡Te felicito!
+        <div className={`
+          min-[1023px]:mt-20
+          min-[1023px]:text-3xl min-[767px]:text-2xl min-[400px]:text-xl text-[18px]
+          w-full flex flex-col items-center justify-center mb-4`}>
+          <span className="text-center">¡BIENVENID@! SOY CARMINA.</span>
+          <span className="text-center">TU NEUROPSICÓLOGA EXPERTA EN PSICOLOGÍA CLÍNICA, DOLOR CRÓNICO Y DAÑO NEUROLÓGICO.</span>
         </div>
-        <div className=' text-justify'>Quiere decir que has decidido ir más allá. Dar un paso en adelante
-        hacia tu bienestar.
-        Y aunque posiblemente tengas dudas, buscar apoyo y acompañamiento
-        es un gran medio para conseguirlo.</div>
-        <div className='text-justify'>Hay momentos en nuestra vida, en los que de repente somos conscientes
-        de haber perdido algo indispensable para nuestro bienestar. El <strong className='text-greyColor'>equilibrio. </strong>
-         Puede que sientas haber perdido la ilusión, sentirte perdida/o o
-        desesperanza. Puede que exista un motivo que identifiques como
-        causante de este problema, o puede que no lo tengas tan claro.
-        Sea cual sea la razón que te invita a iniciar este proceso de transformación,
-        será escuchada, atendida y sanada.</div>
-        <div className='text-justify min-[400px]:mb-10 mb-5'>En eso consiste el <strong className='text-greyColor'>acompañamiento</strong>.</div>
-
+        <div className='flex flex-row items-center justify-center gap-2'>
+          <hr className="w-[100px] border-b-[1px] border-slate-100" />
+          <Image
+            src={`${basePath}images/logo.png`}
+            width={50}
+            height={50}
+            alt="Picture of the author"
+          />
+          <hr className="w-[100px] border-b-[1px] border-slate-100" />
+        </div>
+        <span className='font-medium'>
+          Llegar hasta aquí, implica que estás dispuest@ a dar el paso más importante hacia tu sanación. El primero.
+        </span>
+        <span>
+          Posiblemente tengas dudas, y créeme, es normal, incluso quizá puedes dudar si soy yo la profesional que necesitas para emprender este camino. Por eso permíteme dedicar este espacio para que me conozcas a mí y a mi manera de acompañar.
+        </span>
         <div className='
-       min-[1023px]:text-3xl  min-[767px]:text-2xl min-[400px]:text-xl text-xl
-      text-primaryColor font-bold italic mb-10 '>&#34;Empecemos a sanar, como si tu vida dependiera de ello&#34;</div>
+          min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
+          text-primaryColor font-bold italic mb-16 mt-10
+        '>
+          &#34;Empecemos a sanar, como si tu vida dependiera de ello&#34;
+        </div>
       </div>
     </section>
   )
