@@ -11,7 +11,8 @@ export function ConocemeIntroduction() {
       '>
         <div className={`
           min-[1023px]:text-2xl min-[767px]:text-xl min-[400px]:text-lg text-[16px]
-          w-full flex flex-col items-center justify-center mb-4`}>
+          min-[1023px]:
+          w-full flex flex-col items-center justify-center mb-4 px-10`}>
           <span className="text-center">¡TE INVITO A QUE CONOZCAS MÁS SOBRE MÍ!</span>
         </div>
         <div className='
