@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import style from './IndexIntroduction.module.css'
 import { basePath } from '../../config/config';
 
 export function IndexIntroduction() {
