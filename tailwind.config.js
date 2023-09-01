@@ -12,6 +12,7 @@ module.exports = {
         'primaryColor': 'var(--primaryColor)',
         'primaryColor1': 'var(--primaryColor1)',
         'primaryColor2': 'var(--primaryColor2)',
+        'primaryColor2Soft': 'var(--primaryColor2Soft)',
         'primaryColor3': 'var(--primaryColor3)',
         'primaryColor4': 'var(--primaryColor4)',
         'primaryColor5': 'var(--primaryColor5)',

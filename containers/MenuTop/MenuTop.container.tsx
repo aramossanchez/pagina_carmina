@@ -40,7 +40,7 @@ export function MenuTop() {
             <IconMenu2 onClick={() => setMenuOpen(true)} />
           }
         </div>
-        <div className="min-[1023px]:hidden block w-auto cursor-pointer py-2 px-5 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg absolute right-5">
+        <div className="min-[1023px]:hidden block w-auto cursor-pointer py-2 px-5 bg-primaryColor1 text-primaryColor5 hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg absolute right-5">
           ¿HABLAMOS?
         </div>
       </div>
