@@ -33,8 +33,10 @@ export function IndexConoceme() {
       min-[1023px]:flex-row flex-col
       min-[1023px]:w-[1000px] w-[87%]
       '>
-        <div className={`${scrollY <= heightContainer ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated}
-         relative mt-28 mb-20 flex flex-col items-center
+        <div className={`
+          ${scrollY <= heightContainer ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated}
+          ${scrollY <= (heightContainer - 600) ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated_movil}
+          relative mt-28 mb-20 flex flex-col items-center
           min-[1023px]:w-4/12 w-full
          `}>
           <Image

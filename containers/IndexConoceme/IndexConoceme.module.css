@@ -4,13 +4,24 @@
 	animation: image_go_normal 0.5s ease-in-out;
 }
 
-.imagen_conoceme_container_rotated img{
-  transform-origin: bottom left;
-  transform: rotate(-10deg);
-	animation: image_rotating 1s ease-in-out;
-}
 .title {
   font-family: 'Poiret One', cursive;
+}
+
+@media only screen and (min-width: 1023px) {
+	.imagen_conoceme_container_rotated img{
+		transform-origin: bottom left;
+		transform: rotate(-10deg);
+		animation: image_rotating 1s ease-in-out;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.imagen_conoceme_container_rotated_movil img{
+		transform-origin: bottom left;
+		transform: rotate(-10deg);
+		animation: image_rotating 1s ease-in-out;
+	}
 }
 
 @keyframes image_rotating {
