@@ -7,7 +7,7 @@ export function IndexPresentation() {
     <section className='w-full relative'>
       <div className="flex flex-row items-end justify-center w-full absolute z-20 text-white">
         <div className="
-        flex flex-col h-full min-h-[65vh] items-center justify-center text-primaryColor font-bold w-full
+        flex flex-col h-full min-h-[65vh] items-center justify-center text-primaryColor1 font-bold w-full
         min-[1023px]:pt-48 pt-0
         ">
           <span className='
@@ -22,7 +22,7 @@ export function IndexPresentation() {
           >
             Divulgación · Psicología · Neurociencia
           </span>
-          <span className="w-auto cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg mt-10">
+          <span className="w-auto cursor-pointer py-2 px-5 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg mt-10">
             Quiero pedir cita
           </span>
         </div>

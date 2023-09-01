@@ -3,16 +3,16 @@ import { basePath } from '../../config/config';
 
 export function IndexIntroduction() {
   return (
-    <section className='w-full relative flex flex-col items-center'>
+    <section className='w-full relative flex flex-col items-center bg-primaryColor5'>
       <div className='
     min-[1023px]:w-[1000px] w-[87%]
     min-[1023px]:pr-0 pr-[1%]
-    min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
+    min-[1023px]:text-xl  min-[767px]:text-lg min-[400px]:text-sm text-sm
     text-center mt-7 flex flex-col gap-3'
       >
         <div className={`
           min-[1023px]:mt-20
-          min-[1023px]:text-3xl min-[767px]:text-2xl min-[400px]:text-xl text-[18px]
+          min-[1023px]:text-2xl min-[767px]:text-xl min-[400px]:text-[19px] text-[17px]
           w-full flex flex-col items-center justify-center mb-4`}>
           <span className="text-center">¡BIENVENID@! SOY CARMINA.</span>
           <span className="text-center">TU NEUROPSICÓLOGA EXPERTA EN PSICOLOGÍA CLÍNICA, DOLOR CRÓNICO Y DAÑO NEUROLÓGICO.</span>
@@ -35,7 +35,7 @@ export function IndexIntroduction() {
         </span>
         <div className='
           min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
-          text-primaryColor font-bold italic mb-16 mt-10
+          text-primaryColor1 font-bold italic mb-16 mt-10
         '>
           &#34;Empecemos a sanar, como si tu vida dependiera de ello&#34;
         </div>

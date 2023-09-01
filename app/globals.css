@@ -4,9 +4,12 @@
 
 :root {
 
-  --primaryColor: #781E54;
-  --primaryColorSoft: #eee1e9;
-  --textColor: #363636;
+  --primaryColor1: #b88bad;
+  --primaryColor2: rgb(233, 197, 165);
+  --primaryColor3: #F4E2D2;
+  --primaryColor4: rgb(249, 240, 231);
+  --primaryColor5: rgb(252, 247, 242);
+  --textColor: rgb(95,57,26);
   --whiteColor: #ffffff;
   --whiteColorTransparent: #ffffffec;
   --greyColor: #aaaaaa;

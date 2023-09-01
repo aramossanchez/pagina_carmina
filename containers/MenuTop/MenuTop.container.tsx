@@ -22,7 +22,7 @@ export function MenuTop() {
 
   return (
     <>
-      <div className='w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-gray-100'>
+      <div className='w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor4'>
         <Image
           src={`${basePath}images/logo.png`}
           width={50}
@@ -40,7 +40,7 @@ export function MenuTop() {
             <IconMenu2 onClick={() => setMenuOpen(true)} />
           }
         </div>
-        <div className="min-[1023px]:hidden block w-auto cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg absolute right-5">
+        <div className="min-[1023px]:hidden block w-auto cursor-pointer py-2 px-5 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg absolute right-5">
           ¿HABLAMOS?
         </div>
       </div>
@@ -51,8 +51,9 @@ export function MenuTop() {
       'min-[1023px]:w-full w-full
       min-[1023px]:flex-row flex-col
       min-[1023px]:top-0 top-14
-      min-[1023px]:bg-white bg-whiteColorTransparent
-      min-[1023px]:pr-20 p-0 '`
+      min-[1023px]:bg-primaryColor4 bg-primaryColor5
+      min-[1023px]:pr-20 p-0 '
+      min-[1023px]:text-sm text-xs`
       }>
         <Image
           src={`${basePath}images/logo.png`}
@@ -73,13 +74,13 @@ export function MenuTop() {
         min-[1280px]:gap-28 min-[1023px]:gap-20
         `}>
           <Link href={'/'}>
-            <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">INICIO</div>
+            <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">INICIO</div>
           </Link>
           <Link href={'/conoceme'}>
-            <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">CONÓCEME</div>
+            <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">CONÓCEME</div>
           </Link>
-          <div className="text-textColor cursor-pointer hover:text-primaryColor font-medium">¿NECESITAS AYUDA?</div>
-          <div className="min-[1023px]:flex hidden cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">¿HABLAMOS?</div>
+          <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">¿NECESITAS AYUDA?</div>
+          <div className="min-[1023px]:flex hidden cursor-pointer py-2 px-5 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">¿HABLAMOS?</div>
         </div>
       </div>
     </>

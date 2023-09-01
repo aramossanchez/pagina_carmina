@@ -4,15 +4,15 @@ import { basePath } from '../../config/config';
 
 export function IndexTerapia() {
   return (
-    <section className='w-full relative flex flex-col items-center'>
+    <section className='w-full relative flex flex-col items-center bg-primaryColor2'>
       <div className={`${style.terapia_container}
-      rounded-lg flex mt-20 mb-20 py-10 gap-5 items-center shadow-greyColor bg-gray-50
+      rounded-lg flex mt-20 mb-20 py-10 gap-5 items-center shadow-greyColor bg-primaryColor4
       min-[1023px]:px-16 px-0
       min-[1023px]:w-[1000px] w-[87%]
       min-[1023px]:flex-row flex-col
       `}>
         <div className="
-       flex flex-col items-end justify-center border-primaryColor pr-5 
+       flex flex-col items-end justify-center border-primaryColor1 pr-5 
         min-[1023px]:w-5/12  w-9/12
         min-[1023px]:h-3/6 h-auto
         min-[1023px]:border-r-[1px] border-r-[0px]
@@ -31,7 +31,7 @@ export function IndexTerapia() {
           ">
             como acompañamiento
           </span>
-          <div className="mt-5 cursor-pointer py-2 px-5 bg-primaryColor text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">
+          <div className="mt-5 cursor-pointer py-2 px-5 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">
             ¡Me interesa!
           </div>
         </div>

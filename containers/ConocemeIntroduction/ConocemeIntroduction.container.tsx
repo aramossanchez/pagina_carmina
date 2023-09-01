@@ -76,7 +76,7 @@ export function ConocemeIntroduction() {
                   min-[1023px]:h-[440px] h-[340px]
                 "/>
               <div className="
-                absolute top-0 bg-primaryColor z-10
+                absolute top-0 bg-primaryColor1 z-10
                 min-[1023px]:left-20 left-6/12
                 min-[1023px]:w-[350px] w-[250px]
                 min-[1023px]:h-[440px] h-[340px]

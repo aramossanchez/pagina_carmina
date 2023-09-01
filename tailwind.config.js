@@ -10,7 +10,11 @@ module.exports = {
     extend: {
       colors: {
         'primaryColor': 'var(--primaryColor)',
-        'primaryColorSoft': 'var(--primaryColorSoft)',
+        'primaryColor1': 'var(--primaryColor1)',
+        'primaryColor2': 'var(--primaryColor2)',
+        'primaryColor3': 'var(--primaryColor3)',
+        'primaryColor4': 'var(--primaryColor4)',
+        'primaryColor5': 'var(--primaryColor5)',
         'textColor': 'var(--textColor)',
         'whiteColor': 'var(--whiteColor)',
         'whiteColorTransparent': 'var(--whiteColorTransparent)',
