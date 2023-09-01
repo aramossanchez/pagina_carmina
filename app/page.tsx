@@ -9,12 +9,11 @@ import { MenuTop } from '@/containers/MenuTop/MenuTop.container'
 export default function Index() {
   return (
     <main className='w-[100vw] h-[100vh]'>
-      hola
-      {/* <MenuTop />
+      <MenuTop />
       <IndexPresentation />
       <IndexIntroduction />
       <IndexConoceme />
-      <IndexTerapia /> */}
+      <IndexTerapia />
     </main>
   )
 }
