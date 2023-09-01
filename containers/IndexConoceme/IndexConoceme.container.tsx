@@ -1,18 +1,41 @@
 import Image from "next/image"
 import style from './IndexConoceme.module.css'
 import { basePath } from '../../config/config';
+import { useEffect, useRef, useState } from "react";
 
 export function IndexConoceme() {
+
+  const [scrollY, setScrollY] = useState<number>(0);
+  const [heightContainer, setHeightContainer] = useState<number>(0);
+  const indexConocemeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (indexConocemeRef.current) {
+      console.log('zoy el alto del container ', indexConocemeRef.current.offsetHeight);
+      setHeightContainer(indexConocemeRef.current.offsetHeight);
+    }
+  }, []);
+  
+  useEffect(() => {
+    const knowScrollHeight = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener('scroll', knowScrollHeight);
+    return () => {
+      window.removeEventListener('scroll', knowScrollHeight);
+    };
+  }, []);
+
   return (
-    <section className='w-full relative flex flex-col items-center  bg-primaryColor3'>
+    <section ref={indexConocemeRef} className='w-full relative flex flex-col items-center  bg-primaryColor3'>
       <div className='
       flex
       min-[1023px]:flex-row flex-col
       min-[1023px]:w-[1000px] w-[87%]
       '>
-        <div className={`${style.imagen_conoceme_container}
+        <div className={`${scrollY <= heightContainer ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated}
          relative mt-28 mb-20 flex flex-col items-center
-        min-[1023px]:w-4/12 w-full
+          min-[1023px]:w-4/12 w-full
          `}>
           <Image
             src={`${basePath}images/conoceme.jpg`}
