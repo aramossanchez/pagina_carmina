@@ -35,7 +35,7 @@ export function IndexConoceme() {
       '>
         <div className={`
           ${scrollY <= heightContainer ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated}
-          ${scrollY <= (heightContainer - 600) ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated_movil}
+          ${scrollY <= (heightContainer - 500) ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated_movil}
           relative mt-28 mb-20 flex flex-col items-center
           min-[1023px]:w-4/12 w-full
          `}>
@@ -49,7 +49,7 @@ export function IndexConoceme() {
             min-[1023px]:left-16 left-0
             min-[1023px]:w-[350px] w-[250px]
             min-[1023px]:h-[440px] h-[340px]
-            "/>
+          "/>
           <div className="
           absolute top-0 bg-primaryColor2 z-10
           min-[1023px]:left-16 left-6/12
