@@ -22,3 +22,10 @@
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
