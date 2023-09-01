@@ -4,7 +4,7 @@ import { basePath } from '../../config/config';
 
 export function ConocemeIntroduction() {
   return (
-    <section className='w-full relative flex flex-col items-center'>
+    <section className='w-full relative flex flex-col items-center bg-primaryColor5'>
       <div className='
       w-full
       min-[1023px]:pt-40 pt-28
@@ -16,7 +16,7 @@ export function ConocemeIntroduction() {
           <span className="text-center">¡TE INVITO A QUE CONOZCAS MÁS SOBRE MÍ!</span>
         </div>
         <div className='
-        bg-slate-100 w-full flex flex-row items-center justify-center
+        bg-primaryColor4 w-full flex flex-row items-center justify-center
         '>
           <div className='
             flex items-start justify-center pt-10 pb-16
@@ -51,14 +51,18 @@ export function ConocemeIntroduction() {
                   <span className="text-left">MOCHILA</span>
                 </div>
               </div>
-              <div className='flex flex-col gap-5 mt-9'>
+              <div className='
+                flex flex-col gap-5 mt-9
+                min-[1023px]:text-[17px] min-[768px]:text-[16px] text-[15px]
+                '>
                 <span>· Licenciada en Psicología <span className='text-[14px]'>(Universidad Valencia)</span></span>
                 <span>· COLEGIADA Nº CM02049</span>
-                <span>· Máster en Neuropsicología Clínica <span className='text-[14px]'>(ISEP)</span></span>
-                <span>· Experta en Acompañamiento psicológico Integrativo ante Patología y Dolor Crónico <span className='text-[14px]'>(AEPSIS)</span></span>
-                <span>· Experta en Intervención Integrativa del Duelo <span className='text-[14px]'>(AEPSIS)</span></span>
-                <span>· Experta en Psicogerontología <span className='text-[14px]'>(Universidad Rey Juan Carlos)</span></span>
-                <span>· Formada en Psicoterapia Integradora en Trauma <span className='text-[14px]'>(Escuela de Psicología Eva Molero)</span></span>
+                <span>· Máster en Psicología Clínica <span className='min-[1023px]:text-[14px] text-[12px]'>(C.P. Aarón Beck)</span></span>
+                <span>· Máster en Neuropsicología Clínica <span className='min-[1023px]:text-[14px] text-[12px]'>(ISEP)</span></span>
+                <span>· Experta en Acompañamiento psicológico Integrativo ante Patología y Dolor Crónico <span className='min-[1023px]:text-[14px] text-[12px]'>(AEPSIS)</span></span>
+                <span>· Experta en Intervención Integrativa del Duelo <span className='min-[1023px]:text-[14px] text-[12px]'>(AEPSIS)</span></span>
+                <span>· Experta en Psicogerontología <span className='min-[1023px]:text-[14px] text-[12px]'>(Universidad Rey Juan Carlos)</span></span>
+                <span>· Formada en Psicoterapia Integradora en Trauma <span className='min-[1023px]:text-[14px] text-[12px]'>(Escuela de Psicología Eva Molero)</span></span>
               </div>
             </div>
             <div className={`${style.imagen_conoceme_container}
@@ -71,12 +75,12 @@ export function ConocemeIntroduction() {
                 height={550}
                 alt="Picture of the author"
                 className="
-                  border-[8px] border-white z-20 relative
+                  border-[8px] border-primaryColor5 z-20 relative
                   min-[1023px]:w-[350px] w-[250px]
                   min-[1023px]:h-[440px] h-[340px]
                 "/>
               <div className="
-                absolute top-0 bg-primaryColor1 z-10
+                absolute top-0 bg-primaryColor2 z-10
                 min-[1023px]:left-20 left-6/12
                 min-[1023px]:w-[350px] w-[250px]
                 min-[1023px]:h-[440px] h-[340px]

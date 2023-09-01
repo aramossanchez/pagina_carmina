@@ -17,7 +17,7 @@ export function IndexIntroduction() {
           <span className="text-center">¡BIENVENID@! SOY CARMINA.</span>
           <span className="text-center">TU NEUROPSICÓLOGA EXPERTA EN PSICOLOGÍA CLÍNICA, DOLOR CRÓNICO Y DAÑO NEUROLÓGICO.</span>
         </div>
-        <div className='flex flex-row items-center justify-center gap-2'>
+        <div className='flex flex-row items-center justify-center gap-2 mb-5'>
           <hr className="w-[100px] border-b-[1px] border-slate-100" />
           <Image
             src={`${basePath}images/logo.png`}
