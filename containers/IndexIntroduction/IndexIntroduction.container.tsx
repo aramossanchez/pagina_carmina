@@ -33,9 +33,14 @@ export function IndexIntroduction() {
         <span>
           Posiblemente tengas dudas, y créeme, es normal, incluso quizá puedes dudar si soy yo la profesional que necesitas para emprender este camino. Por eso permíteme dedicar este espacio para que me conozcas a mí y a mi manera de acompañar.
         </span>
+        <div className='my-10'>
+          <span className="w-auto cursor-pointer py-2 px-5 mb-10 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg mt-10">
+            Quiero conocer tus Terapias
+          </span>
+        </div>
         <div className='
           min-[1023px]:text-2xl  min-[767px]:text-xl min-[400px]:text-lg text-lg
-          text-primaryColor1 font-bold italic mb-16 mt-10
+          text-primaryColor1 font-bold italic mb-16
         '>
           &#34;Empecemos a sanar, como si tu vida dependiera de ello&#34;
         </div>

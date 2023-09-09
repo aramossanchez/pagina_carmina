@@ -5,6 +5,7 @@ import { basePath } from '../../config/config';
 export function IndexTerapia() {
   return (
     <section className='w-full relative flex flex-col items-center bg-primaryColor2'>
+      {/* TARJETA */}
       <div className={`${style.terapia_container}
       rounded-lg flex mt-20 mb-20 py-10 gap-5 items-center shadow-greyColor bg-primaryColor4
       min-[1023px]:px-16 px-0
