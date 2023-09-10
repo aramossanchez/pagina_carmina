@@ -72,6 +72,7 @@ export function IndexIntroduction() {
               ${scrollY <= (heightContainer) ? style.imagen_conoceme_container : style.imagen_conoceme_container_rotated_movil}
               relative mb-10 flex flex-col items-center justify-center
               min-[1023px]:w-4/12 w-full
+              pt-10
             `}>
               <Image
                 src={`${basePath}images/conoceme.jpg`}
