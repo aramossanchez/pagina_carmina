@@ -60,14 +60,6 @@ export function Necesitas_ayudaTerapia() {
             <StepsTerapiaComponent text='Entrenamiento' top='330px' left='62px' />
             <StepsTerapiaComponent text='Recuperación' top='403px' left='130px' />
             <StepsTerapiaComponent text='Seguimientos' top='468px' left='59px' />
-            {/* USADO PARA PODER POSICIONAR EL RESTO DE COMPONENTES DE ARRIBA 🤷‍♂️ */}
-            {/* <div className={`
-              absolute flex flex-row items-center gap-1
-              top-[468px] left-[59px]
-            `}>
-              <div className='w-[15px] h-[15px] rounded-full bg-primaryColor2'></div>
-              <span className='text-xl'>Evaluación</span>
-            </div> */}
           </div>
         </div>
         <div className={`${style.terapia_text_with_quotes}
