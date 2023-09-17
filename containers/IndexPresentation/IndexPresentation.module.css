@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   min-width: 100vw;
-  min-height: 75vh;
+  min-height: 650px;
   overflow: hidden;
 }
 
@@ -12,7 +12,7 @@
   top: 32;
   width: 100%;
   min-width: 100vw;
-  min-height: 75vh;
+  min-height: 650px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
@@ -31,10 +31,10 @@
 
 @media only screen and (max-width: 1023px) {
   .video_container {
-    min-height: 65vh;
+    min-height: 600px;
   }
   
   .color_front_video_container {
-    min-height: 65vh;
+    min-height: 600px;
   }
 }

@@ -78,7 +78,7 @@ export function IndexIntroduction() {
                 src={`${basePath}images/conoceme.jpg`}
                 width={350}
                 height={550}
-                alt="Picture of the author"
+                alt="Foto de Carmina"
                 className={`
                   ${style.photo_indexIntroduction}
                   absolute border-[8px] border-whiteColor z-20 left-[-0.5em]

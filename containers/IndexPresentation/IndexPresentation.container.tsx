@@ -7,7 +7,7 @@ export function IndexPresentation() {
     <section className='w-full relative'>
       <div className="flex flex-row items-end justify-center w-full absolute z-20">
         <div className="
-        flex flex-col h-full min-h-[65vh] items-start justify-center text-primaryColor5 font-bold w-full
+        flex flex-col h-full min-h-[500px] items-start justify-center text-primaryColor5 font-bold w-full
         min-[1023px]:pt-48 pt-0
         min-[1023px]:ml-10 ml-5
         ">
