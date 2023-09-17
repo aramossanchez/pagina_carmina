@@ -11,7 +11,6 @@ export function IndexIntroduction() {
 
   useEffect(() => {
     if (indexIntroductionRef.current) {
-      console.log('zoy el alto del container ', indexIntroductionRef.current.offsetHeight);
       setHeightContainer(indexIntroductionRef.current.offsetHeight);
     }
   }, []);

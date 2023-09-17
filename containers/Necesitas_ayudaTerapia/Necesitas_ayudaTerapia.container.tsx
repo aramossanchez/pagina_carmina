@@ -1,6 +1,7 @@
 import Image from "next/image"
 import style from './Necesitas_ayudaTerapia.module.css'
 import { basePath } from '../../config/config';
+import { StepsTerapiaComponent } from "@/components/StepsTerapia.component";
 
 export function Necesitas_ayudaTerapia() {
   return (
@@ -43,6 +44,31 @@ export function Necesitas_ayudaTerapia() {
           ">
             COMO ACOMPAÑAMIENTO
           </span>
+          <div className='
+            flex-col justify-start items-center relative h-full
+            min-[1023px]:flex hidden pt-40
+          '>
+            <Image
+              src={`${basePath}images/linea_curva.svg`}
+              width={800}
+              height={1500}
+              alt="Picture of the author"
+              className='h-[450px] w-[100%]'
+            />
+            <StepsTerapiaComponent text='Evaluación' top='177px' left='65px' />
+            <StepsTerapiaComponent text='Objetivos' top='255px' left='130px' />
+            <StepsTerapiaComponent text='Entrenamiento' top='330px' left='62px' />
+            <StepsTerapiaComponent text='Recuperación' top='403px' left='130px' />
+            <StepsTerapiaComponent text='Seguimientos' top='468px' left='59px' />
+            {/* USADO PARA PODER POSICIONAR EL RESTO DE COMPONENTES DE ARRIBA 🤷‍♂️ */}
+            {/* <div className={`
+              absolute flex flex-row items-center gap-1
+              top-[468px] left-[59px]
+            `}>
+              <div className='w-[15px] h-[15px] rounded-full bg-primaryColor2'></div>
+              <span className='text-xl'>Evaluación</span>
+            </div> */}
+          </div>
         </div>
         <div className={`${style.terapia_text_with_quotes}
         flex flex-col items-center gap-6
