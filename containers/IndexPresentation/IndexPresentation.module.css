@@ -31,10 +31,10 @@
 
 @media only screen and (max-width: 1023px) {
   .video_container {
-    min-height: 600px;
+    min-height: 65vh;
   }
   
   .color_front_video_container {
-    min-height: 600px;
+    min-height: 65vh;
   }
 }

@@ -27,7 +27,7 @@ export function MenuTop() {
           src={`${basePath}images/logo.png`}
           width={50}
           height={50}
-          alt="Picture of the author"
+          alt="Imagen del Logo"
           className='
           absolute left-12
           min-[1023px]:hidden block
@@ -60,12 +60,12 @@ export function MenuTop() {
           width={100}
           height={100}
           alt="Picture of the author"
-          className='
-        min-[1281px]:ml-[20vw] min-[1023px]:ml-[7vw] ml-0
-        min-[1023px]:flex hidden
-        min-[1023px]:w-[100px] w-[0px]
-        min-[1023px]:h-[100px] h-[0px]
-        '
+          className={`
+          ${scrolled > 0 ? 'h-[50px] w-[50px]' : 'h-[100px] w-[100px]'}
+          ease-in duration-150
+          min-[1281px]:ml-[20vw] min-[1023px]:ml-[7vw] ml-0
+          min-[1023px]:flex hidden
+          `}
         />
         <div className={`
         ${menuOpen ? 'gap-10' : 'gap-0'}
