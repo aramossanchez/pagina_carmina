@@ -6,16 +6,10 @@ import { useEffect, useState } from "react";
 
 export function Necesitas_ayudaTerapia() {
 
-  const [scrolled, setScrolled] = useState(0);
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+    setShow(true);
   }, []);
 
   return (
@@ -59,8 +53,8 @@ export function Necesitas_ayudaTerapia() {
             COMO ACOMPAÑAMIENTO
           </span>
           <div className={`
-            ${scrolled > 0 ? 'left-0' : 'left-[-2000px]'}
-            flex-col justify-start items-center relative h-full ease-in-out duration-75
+            ${show ? 'left-0 opacity-100': 'left-[-2000px] opacity-0'}
+            flex-col justify-start items-center relative h-full transition-opacity duration-300
             min-[1023px]:flex hidden pt-40
           `}>
             <Image

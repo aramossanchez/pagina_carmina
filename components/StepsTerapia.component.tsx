@@ -1,5 +1,4 @@
 export function StepsTerapiaComponent({text = 'Texto', top = '0px', left = '0px'}) {
-  console.log(top);
 
   return (
     <div className='absolute flex flex-row items-center gap-1' style={{top: top, left: left}}>
