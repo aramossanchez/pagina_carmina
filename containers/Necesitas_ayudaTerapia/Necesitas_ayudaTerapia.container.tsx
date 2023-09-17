@@ -2,8 +2,22 @@ import Image from "next/image"
 import style from './Necesitas_ayudaTerapia.module.css'
 import { basePath } from '../../config/config';
 import { StepsTerapiaComponent } from "@/components/StepsTerapia.component";
+import { useEffect, useState } from "react";
 
 export function Necesitas_ayudaTerapia() {
+
+  const [scrolled, setScrolled] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <section className='w-full relative flex flex-col items-center pt-40'>
       {/* IMAGEN DE FONDO */}
@@ -44,10 +58,11 @@ export function Necesitas_ayudaTerapia() {
           ">
             COMO ACOMPAÑAMIENTO
           </span>
-          <div className='
-            flex-col justify-start items-center relative h-full
+          <div className={`
+            ${scrolled > 0 ? 'left-0' : 'left-[-2000px]'}
+            flex-col justify-start items-center relative h-full ease-in-out duration-75
             min-[1023px]:flex hidden pt-40
-          '>
+          `}>
             <Image
               src={`${basePath}images/linea_curva.svg`}
               width={800}
