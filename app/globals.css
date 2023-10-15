@@ -14,6 +14,7 @@
   --whiteColor: #ffffff;
   --whiteColorTransparent: #ffffffec;
   --greyColor: #aaaaaa;
+  --shadow: rgba(80, 80, 80, 0.459);
 
   background-color: white;
   color: var(--textColor);
