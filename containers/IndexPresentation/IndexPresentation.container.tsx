@@ -1,8 +1,9 @@
 import style from './IndexPresentation.module.css';
 import { basePath } from '../../config/config';
 import Image from 'next/image';
+import { TitleComponent } from '@/components/Title.component';
 
-export function IndexPresentation() {
+export function IndexPresentationContainer() {
 
   return (
     <section className='w-full relative'>
@@ -26,7 +27,7 @@ export function IndexPresentation() {
             flex flex-col pt-20 gap-3 pr-10
             min-[1023px]:pb-0 pb-20
           '>
-            <span className='text-2xl'>TE DOY LA BIENVENIDA A ESTE ESPACIO</span>
+            <TitleComponent title='TE DOY LA BIENVENIDA A ESTE ESPACIO' />
             <span className='text-xl'>Subtítulo de ejemplo</span>
             <span className='max-w-[700px] text-lg'>Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. </span>
             <span className='max-w-[700px] text-lg'>Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. Texto de ejemplo. </span>
