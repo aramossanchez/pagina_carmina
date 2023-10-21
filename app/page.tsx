@@ -4,6 +4,7 @@ import { IndexConoceme } from '@/containers/IndexConoceme/IndexConoceme.containe
 import { IndexEnfoquePropuestaContainer } from '@/containers/IndexEnfoquePropuesta/IndexEnfoquePropuesta.container'
 import { IndexIntroduction } from '@/containers/IndexIntroduction/IndexIntroduction.container'
 import { IndexOpcionesTerapiaContainer } from '@/containers/IndexOpcionesTerapia/IndexOpcionesTerapia.container'
+import { IndexPermitemeAcompañarteContainer } from '@/containers/IndexPermitemeAcompañarte/IndexPermitemeAcompañarte.container'
 import { IndexPresentationContainer } from '@/containers/IndexPresentation/IndexPresentation.container'
 import { IndexPuedoAyudarteContainer } from '@/containers/IndexPuedoAyudarte/IndexPuedoAyudarte.container'
 import { MenuTop } from '@/containers/MenuTop/MenuTop.container'
@@ -16,6 +17,7 @@ export default function Index() {
       <IndexPuedoAyudarteContainer />
       <IndexOpcionesTerapiaContainer />
       <IndexEnfoquePropuestaContainer />
+      <IndexPermitemeAcompañarteContainer />
       {/* <IndexIntroduction />
       <IndexConoceme /> */}
     </main>

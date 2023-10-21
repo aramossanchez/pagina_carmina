@@ -1,0 +1,53 @@
+[
+  {
+    "id": 0,
+    "title": "EVALUACIÓN / INTERVENCIÓN NEUROPSICOLÓGICA",
+    "subtitle": "",
+    "image": "permiteme-1.png",
+    "checks": [
+      "Texto de prueba.",
+      "Texto de prueba. Texto de prueba.",
+      "Texto de prueba. Texto de prueba. Texto de prueba."
+    ],
+    "button": "Formulario 1ª cita",
+    "orientation": "right"
+  },
+  {
+    "id": 1,
+    "title": "(RE) CONECTAR CONTIGO",
+    "subtitle": "Acompañamiento psicológico en:",
+    "image": "permiteme-2.png",
+    "checks": [
+      "Texto de prueba.",
+      "Texto de prueba. Texto de prueba.",
+      "Texto de prueba. Texto de prueba. Texto de prueba.",
+      "Texto de prueba. Texto de prueba. Texto de prueba.",
+      "Texto de prueba. Texto de prueba."
+    ],
+    "button": "Texto de prueba",
+    "orientation": "left"
+  },
+  {
+    "id": 2,
+    "title": "INTEGRAR LA PÉRDIDA",
+    "subtitle": "",
+    "image": "permiteme-3.png",
+    "checks": [
+      "Texto de prueba.",
+      "Texto de prueba. Texto de prueba.",
+      "Texto de prueba. Texto de prueba. Texto de prueba.",
+      "Texto de prueba. Texto de prueba."
+    ],
+    "button": "Texto de prueba",
+    "orientation": "right"
+  },
+  {
+    "id": 3,
+    "title": "INTEGRAR LA PÉRDIDA",
+    "subtitle": "TALLERES - CHARLAS - CURSOS",
+    "image": "permiteme-4.png",
+    "checks": [],
+    "button": "Texto de prueba",
+    "orientation": "left"
+  }
+]
