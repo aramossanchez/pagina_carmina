@@ -1,6 +1,3 @@
-import style from './IndexPuedoAyudarte.module.css';
-import { basePath } from '../../config/config';
-import Image from 'next/image';
 import { TitleComponent } from '@/components/Title.component';
 import { TextWithCheckComponent } from '@/components/TextWithCheck.component';
 import data from '../../data/TextWithCheck.data.json';

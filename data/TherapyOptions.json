@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "image": "online.png",
+    "text": "Acompañamiento ONLINE"
+  },
+  {
+    "id": 1,
+    "image": "online.png",
+    "text": "Acompañamiento Presencial (Valencia)"
+  },
+  {
+    "id": 2,
+    "image": "online.png",
+    "text": "Cursos / Talleres / Charlas"
+  }
+]

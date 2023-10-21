@@ -19,7 +19,12 @@ module.exports = {
         'textColor': 'var(--textColor)',
         'whiteColor': 'var(--whiteColor)',
         'whiteColorTransparent': 'var(--whiteColorTransparent)',
-        'greyColor': 'var(--greyColor)'
+        'greyColor': 'var(--greyColor)',
+        'blackColor': 'var(--blackColor)'
+      },
+      boxShadow: {
+        'customStrong': '0px 0px 12px 4px var(--shadow)',
+        'customSoft': '0px 0px 8px 1px var(--shadow)'
       }
     },
   },
