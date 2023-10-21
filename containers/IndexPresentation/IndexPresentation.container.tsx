@@ -22,10 +22,15 @@ export function IndexPresentationContainer() {
             <span className='text-whiteColor min-[768px]:px-0 px-5 min-[768px]:text-left text-center min-[1440px]:text-3xl min-[1280px]:text-2xl text-xl'>(RE) CONECTAR CONTIGO... ES POSIBLE</span>
           </div>
         </div>
-        <div className={`w-full flex flex-row items-start justify-start ${style.container_subsection_presentation}`}>
+        <div className={`
+        w-full flex flex-row items-start ${style.container_subsection_presentation}
+        min-[1023px]:justify-start justify-center
+        `}>
           <div className='
-            flex flex-col pt-20 gap-3 pr-10
+            flex flex-col pt-20 gap-3
             min-[1023px]:pb-0 pb-20
+            min-[1023px]:pr-10 pr-0
+            min-[1023px]:items-start items-center
           '>
             <TitleComponent title='TE DOY LA BIENVENIDA A ESTE ESPACIO' />
             <span className='text-xl'>Subtítulo de ejemplo</span>
