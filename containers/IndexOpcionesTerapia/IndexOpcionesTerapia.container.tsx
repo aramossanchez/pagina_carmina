@@ -39,7 +39,7 @@ export function IndexOpcionesTerapiaContainer() {
           <ButtonComponent text='Formulario 1ª visita' />
         </div>
         <div className='absolute z-10 bg-primaryColor2 w-full top-0 h-full'>
-          {/* PRIMERA TANDA DE IMÁGENES */}
+          {/* IMÁGENES PC */}
           <Image
             src={`${basePath}images/blob.svg`}
             width={600}
@@ -56,6 +56,7 @@ export function IndexOpcionesTerapiaContainer() {
             className='absolute right-[-20vw] w-[70vw] h-[70vw]'
             style={{ top: `-${scrollY}px` }}
           />
+          {/* IMÁGENES MÓVIL */}
           <Image
             src={`${basePath}images/blob.svg`}
             width={600}
