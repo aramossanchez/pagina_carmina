@@ -11,7 +11,7 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
     min-[1000px]:flex-row flex-col
     '>
       <div className={`
-      min-h-[250px] px-10 py-5 flex flex-col items-center justify-center gap-5
+      min-h-[250px] px-5 py-5 flex flex-col items-center justify-center gap-5
       ${orientation === 'right' ? 'min-[1000px]:order-2 order-1' : 'min-[1000px]:order-1'}
       min-[500px]:w-[500px] w-full
       `}>
@@ -23,7 +23,7 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
           {checks.map((check, index) => {
             return (
               <div key={`${index}-check`} className='flex flex-row items-start gap-2'>
-                <IconCheck width={20} />
+                <IconCheck className='w-[15px]' />
                 <span>{check}</span>
               </div>
             )
@@ -44,7 +44,7 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
           {checks.map((check, index) => {
             return (
               <div key={`${index}-check-hidden`} className='flex flex-row items-start gap-2'>
-                <IconCheck width={20} />
+                <IconCheck className='w-[15px]' />
                 <span>{check}</span>
               </div>
             )
