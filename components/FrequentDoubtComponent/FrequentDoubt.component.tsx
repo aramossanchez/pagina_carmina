@@ -12,11 +12,11 @@ export function FrequentDoubtComponent({ title = '', text = '' }) {
         className='flex flex-row items-center gap-2 cursor-pointer bg-primaryColor3 p-2'
         onClick={() => setOpenedOption(!openedOption)}
       >
-        <div className='border-2 border-textColor bg-whiteColor'>
+        <div className='rounded-full shadow-customSoft bg-whiteColor'>
           {!openedOption ?
-            <IconPlus className={`${style.animated_icon}`} />
+            <IconPlus size={15} className={`${style.animated_icon}`} />
             :
-            <IconMinus className={`${style.animated_icon}`} />
+            <IconMinus size={15} className={`${style.animated_icon}`} />
           }
         </div>
         <span className=''>{title}</span>
