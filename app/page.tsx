@@ -9,6 +9,7 @@ import { IndexPermitemeAcompañarteContainer } from '@/containers/IndexPermiteme
 import { IndexPresentationContainer } from '@/containers/IndexPresentation/IndexPresentation.container'
 import { IndexPuedoAyudarteContainer } from '@/containers/IndexPuedoAyudarte/IndexPuedoAyudarte.container'
 import { IndexRedesContainer } from '@/containers/IndexRedes/IndexRedes.container'
+import { IndexSliderContainer } from '@/containers/IndexSlider/IndexSlider.container'
 import { MenuTop } from '@/containers/MenuTop/MenuTop.container'
 
 export default function Index() {
@@ -22,6 +23,7 @@ export default function Index() {
       <IndexPermitemeAcompañarteContainer />
       <IndexDudasFrecuentesContainer />
       <IndexRedesContainer />
+      <IndexSliderContainer />
       {/* <IndexIntroduction />
       <IndexConoceme /> */}
     </main>
