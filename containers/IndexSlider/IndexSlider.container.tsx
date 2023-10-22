@@ -31,7 +31,7 @@ export function IndexSliderContainer() {
           min-[1023px]:relative
         `}>
           <div className={`
-            z-20 cursor-pointer p-1 rounded-full bg-whiteColor border-2 border-textColor
+            z-20 cursor-pointer p-[1px] rounded-full bg-whiteColor shadow-customSoft
             min-[1023px]:sticky absolute
             min-[1023px]:left-0 left-2
           `}
@@ -44,7 +44,7 @@ export function IndexSliderContainer() {
               )
             })}
           <div className={`
-            z-20 cursor-pointer p-1 rounded-full bg-whiteColor border-2 border-textColor
+            z-20 cursor-pointer p-[1px] rounded-full bg-whiteColor shadow-customSoft
             min-[1023px]:sticky absolute
             min-[1023px]:right-0 right-2
           `}
