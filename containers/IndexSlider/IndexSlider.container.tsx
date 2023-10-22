@@ -3,22 +3,22 @@ import style from './IndexSliderContainer.module.css'
 import { basePath } from '../../config/config';
 import Image from 'next/image';
 import { SliderItemComponent } from '@/components/SliderItem.component';
-import { useRef } from 'react';
+import { ReactElement, useRef } from 'react';
 import { IconArrowBadgeLeftFilled, IconArrowBadgeRightFilled } from '@tabler/icons-react';
 
 export function IndexSliderContainer() {
 
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<HTMLDivElement>(null);
 
   const handleScrollLeft = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: -200, behavior: 'smooth' }); // desplaza -200px a la izquierda
+      sliderRef.current.scrollBy({ left: -200, behavior: 'smooth' });
     }
   };
 
   const handleScrollRight = () => {
     if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: 200, behavior: 'smooth' }); // desplaza 200px a la derecha
+      sliderRef.current.scrollBy({ left: 200, behavior: 'smooth' });
     }
   };
 
