@@ -2,7 +2,7 @@ import { TitleComponent } from '@/components/Title.component';
 import { basePath } from '../../config/config';
 import Image from 'next/image';
 import { SubtitleComponent } from '@/components/Subtitle.component';
-import { IconBrandInstagram, IconBrandSpotify } from '@tabler/icons-react';
+import { IconBrandInstagram, IconBrandLinkedin, IconBrandSpotify } from '@tabler/icons-react';
 import Link from 'next/link';
 
 export function IndexRedesContainer() {
@@ -42,7 +42,7 @@ export function IndexRedesContainer() {
               <IconBrandInstagram size={50} />
             </Link>
             <Link href={'/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
-              <IconBrandSpotify size={50} />
+              <IconBrandLinkedin size={50} />
             </Link>
           </div>
         </article>
