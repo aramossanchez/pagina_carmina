@@ -8,9 +8,7 @@ import Link from 'next/link';
 export function IndexRedesContainer() {
 
   return (
-    <section
-      className='w-full relative py-20 bg-primaryColor2'
-    >
+    <section id='Redes' className='w-full relative py-20 bg-primaryColor2'>
       <div
         className='w-full h-full absolute opacity-10 top-0'
         style={{

@@ -23,7 +23,7 @@ export function IndexSliderContainer() {
   };
 
   return (
-    <section className='w-full relative py-10 bg-primaryColor3'>
+    <section id='Mis_Sitios' className='w-full relative py-10 bg-primaryColor3'>
       <div className='flex flex-row justify-center'>
         <article ref={sliderRef} className={`
           ${style.container_slider} flex flex-row items-center justify-start overflow-x-scroll py-5

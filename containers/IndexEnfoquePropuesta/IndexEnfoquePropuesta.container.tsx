@@ -7,7 +7,7 @@ import Image from 'next/image';
 export function IndexEnfoquePropuestaContainer() {
 
   return (
-    <section className='w-full relative'>
+    <section id='Enfoque' className='w-full relative'>
       <div className='
       flex items-start justify-center gap-3 bg-primaryColor4 pt-20 py-20
       min-[1023px]:flex-row flex-col

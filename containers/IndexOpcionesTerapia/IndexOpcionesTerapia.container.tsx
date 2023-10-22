@@ -22,7 +22,7 @@ export function IndexOpcionesTerapiaContainer() {
   }, []);
 
   return (
-    <section className='w-full relative'>
+    <section id='Servicios' className='w-full relative'>
       <article className='w-full flex flex-col items-center gap-9 bg-primaryColor5 py-20'>
         <div className='flex flex-row gap-x-40 gap-y-16 justify-center flex-wrap items-start px-10'>
           {data.map((item) => {
