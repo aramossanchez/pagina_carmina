@@ -13,7 +13,7 @@ export function IndexOpcionesTerapiaContainer() {
   useEffect(() => {
     const knowScrollHeight = () => {
       setScrollY((window.scrollY) / 9);
-      setScrollYMobile((window.scrollY / 95));
+      setScrollYMobile((window.scrollY / 25) - 150);
     };
     window.addEventListener('scroll', knowScrollHeight);
     return () => {
