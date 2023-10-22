@@ -5,7 +5,7 @@ import data from '../../data/TextWithCheck.data.json';
 export function IndexPuedoAyudarteContainer() {
 
   return (
-    <section id='Puedo_Ayudarte' className='w-full relative py-20 bg-primaryColor4'>
+    <section id='Puedo_Ayudarte' className='w-full relative py-20 bg-primaryColor2'>
       <article className='w-full flex flex-col items-center gap-9'>
         <TitleComponent title='¿EN QUÉ PUEDO AYUDARTE?' />
         <div className='

@@ -9,12 +9,12 @@ export function IndexEnfoquePropuestaContainer() {
   return (
     <section id='Enfoque' className='w-full relative'>
       <div className='
-      flex items-start justify-center gap-3 bg-primaryColor4 pt-20 py-20
+      flex items-start justify-center gap-3 bg-primaryColor2 pt-20 py-20
       min-[1023px]:flex-row flex-col
       min-[1023px]:gap-y-0 gap-y-8
       '>
         <article className='
-        border-r-2 border-whiteColor px-10 flex flex-col gap-3
+        border-r-2 border-secondaryColor2 px-10 flex flex-col gap-3
         min-[1023px]:w-[500px] w-full
         min-[1023px]:justify-start justify-center
         min-[1023px]:items-start items-center
@@ -34,7 +34,7 @@ export function IndexEnfoquePropuestaContainer() {
             height={250}
             alt="Enfoque propuesta imagen 1"
             className='
-            relative border-2 border-whiteColor shadow-customStrong z-20
+            relative border-2 border-secondaryColor2 shadow-customStrong z-20
             min-[468px]:w-[300px] w-[50vw]
             min-[468px]:h-[300px] h-[50vw]
             '
@@ -45,7 +45,7 @@ export function IndexEnfoquePropuestaContainer() {
             height={250}
             alt="Enfoque propuesta imagen 1"
             className='
-            absolute border-2 border-whiteColor shadow-customStrong top-[35%] z-10
+            absolute border-2 border-secondaryColor2 shadow-customStrong top-[35%] z-10
             min-[1023px]:left-[30%] right-[10vw]
             min-[468px]:w-[300px] w-[50vw]
             min-[468px]:h-[300px] h-[50vw]
@@ -53,7 +53,7 @@ export function IndexEnfoquePropuestaContainer() {
           />
         </article>
       </div>
-      <div className='w-full py-10 bg-primaryColor2 flex flex-row justify-center'>
+      <div className='w-full py-10 bg-primaryColor3 flex flex-row justify-center text-textColor2'>
         <TitleComponent title='¡PERMÍTEME ACOMPAÑARTE!' /> 
       </div>
     </section>

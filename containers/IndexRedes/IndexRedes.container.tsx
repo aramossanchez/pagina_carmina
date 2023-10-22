@@ -8,7 +8,7 @@ import Link from 'next/link';
 export function IndexRedesContainer() {
 
   return (
-    <section id='Redes' className='w-full relative py-20 bg-primaryColor2'>
+    <section id='Redes' className='w-full relative py-20 bg-primaryColor1'>
       <div
         className='w-full h-full absolute opacity-10 top-0'
         style={{
@@ -37,10 +37,10 @@ export function IndexRedesContainer() {
           <span>Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. </span>
           <div className='flex flex-row gap-3 items-center z-20'>
             <Link href={'/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
-              <IconBrandInstagram size={50} />
+              <IconBrandInstagram size={50} className='text-secondaryColor2' />
             </Link>
             <Link href={'/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
-              <IconBrandLinkedin size={50} />
+              <IconBrandLinkedin size={50} className='text-secondaryColor2' />
             </Link>
           </div>
         </article>
@@ -51,7 +51,7 @@ export function IndexRedesContainer() {
             height={550}
             alt="Foto redes y medios de comunicación"
             className={`
-            border-2 border-whiteColor shadow-customStrong
+            border-4 border-secondaryColor2 shadow-customStrong
             min-[450px]:w-[400px] w-[325px]
             min-[450px]:h-[600px] h-[525px]
           `}

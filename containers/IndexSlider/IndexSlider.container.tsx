@@ -30,26 +30,30 @@ export function IndexSliderContainer() {
           min-[1023px]:max-w-[1000px] max-w-full
           min-[1023px]:relative
         `}>
-          <div className={`
-            z-20 cursor-pointer p-[1px] rounded-full bg-whiteColor shadow-customSoft
-            min-[1023px]:sticky absolute
-            min-[1023px]:left-0 left-2
-          `}
-          onClick={() => handleScrollLeft()}>
-            <IconArrowBadgeLeftFilled />
+          <div
+            className={`
+              z-20 cursor-pointer p-[1px] rounded-full bg-textColor2 shadow-customSoft
+              min-[1023px]:sticky absolute
+              min-[1023px]:left-0 left-2
+            `}
+            onClick={() => handleScrollLeft()}
+          >
+            <IconArrowBadgeLeftFilled className='text-secondaryColor2' />
           </div>
           {data.map((item) => {
             return (
               <SliderItemComponent key={`${item.id}-item-slider`} image={item.image} text={item.text} />
               )
             })}
-          <div className={`
-            z-20 cursor-pointer p-[1px] rounded-full bg-whiteColor shadow-customSoft
-            min-[1023px]:sticky absolute
-            min-[1023px]:right-0 right-2
-          `}
-          onClick={() => handleScrollRight()}>
-            <IconArrowBadgeRightFilled />
+          <div
+            className={`
+              z-20 cursor-pointer p-[1px] rounded-full bg-textColor2 shadow-customSoft
+              min-[1023px]:sticky absolute
+              min-[1023px]:right-0 right-2
+            `}
+            onClick={() => handleScrollRight()}
+          >
+            <IconArrowBadgeRightFilled className='text-secondaryColor2' />
           </div>
         </article>
       </div>

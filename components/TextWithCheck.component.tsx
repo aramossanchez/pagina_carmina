@@ -8,7 +8,7 @@ export function TextWithCheckComponent({ text = '' }) {
     min-[1023px]:w-[450px] w-[300px]
     '>
       <div className='p-3 rounded-full bg-whiteColor'>
-        <IconCheck />
+        <IconCheck className='text-secondaryColor2' />
       </div>
       <div className='min-[1023px]:text-[16px] text-[14px]'>{text}</div>
     </div>

@@ -23,7 +23,7 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
           {checks.map((check, index) => {
             return (
               <div key={`${index}-check`} className='flex flex-row items-start gap-2'>
-                <IconCheck className='w-[15px]' />
+                <IconCheck className='w-[15px] text-secondaryColor2' />
                 <span>{check}</span>
               </div>
             )

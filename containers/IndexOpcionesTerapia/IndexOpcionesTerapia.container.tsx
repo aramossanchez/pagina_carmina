@@ -23,7 +23,7 @@ export function IndexOpcionesTerapiaContainer() {
 
   return (
     <section id='Servicios' className='w-full relative'>
-      <article className='w-full flex flex-col items-center gap-9 bg-primaryColor5 py-20'>
+      <article className='w-full flex flex-col items-center gap-9 bg-primaryColor1 py-20'>
         <div className='flex flex-row gap-x-40 gap-y-16 justify-center flex-wrap items-start px-10'>
           {data.map((item) => {
             return (
@@ -35,10 +35,10 @@ export function IndexOpcionesTerapiaContainer() {
       </article>
       <article className='w-full flex flex-col items-center gap-9 py-7 overflow-hidden relative'>
         <div className='flex flex-col items-center justify-around gap-5 px-10 w-full z-20'>
-          <span className='text-lg text-center'>¿Prefieres que valoremos cual es la mejor opción en tu caso?</span>
+          <span className='text-lg text-center text-textColor2'>¿Prefieres que valoremos cual es la mejor opción en tu caso?</span>
           <ButtonComponent text='Formulario 1ª visita' />
         </div>
-        <div className='absolute z-10 bg-primaryColor2 w-full top-0 h-full'>
+        <div className='absolute z-10 bg-primaryColor3 w-full top-0 h-full'>
           {/* IMÁGENES PC */}
           <Image
             src={`${basePath}images/blob.svg`}

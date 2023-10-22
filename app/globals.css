@@ -4,22 +4,36 @@
 
 :root {
 
-  --primaryColor1: #b88bad;
+  /* --primaryColor1: #b88bad;
   --primaryColor2: rgb(233, 197, 165);
   --primaryColor2Soft: rgba(233, 197, 165, 0.651);
   --primaryColor3: #F4E2D2;
   --transparent: #f4e2d200;
   --primaryColor4: rgb(249, 240, 231);
   --primaryColor5: rgb(252, 247, 242);
-  --textColor: rgb(95,57,26);
+  --textColor1: rgb(95,57,26);
   --whiteColor: #ffffff;
   --whiteColorTransparent: #ffffffec;
   --greyColor: #aaaaaa;
   --blackColor: #000000;
+  --shadow: rgba(80, 80, 80, 0.459); */
+
+  --primaryColor1: #E5E5DC;
+  --primaryColor2: #B6C4AA;
+  --primaryColor3: #72846F;
+  --primaryColor4: #C3AE9E;
+  --secondaryColor1: #B7CBD3;
+  --secondaryColor2: #B8A7BC;
+  --textColor1: rgb(39, 39, 39);
+  --textColor2: #E5E5DC;
+  --whiteColor: #f8f8f8;
+  --whiteColorTransparent: #f8f8f8ec;
+  --greyColor: #aaaaaa;
   --shadow: rgba(80, 80, 80, 0.459);
+  --transparent: #f4e2d200;
 
   background-color: white;
-  color: var(--textColor);
+  color: var(--textColor1);
   margin: 0;
   padding: 0;
   overflow-x: hidden;

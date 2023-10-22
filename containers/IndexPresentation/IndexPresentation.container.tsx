@@ -6,7 +6,7 @@ import { TitleComponent } from '@/components/Title.component';
 export function IndexPresentationContainer() {
 
   return (
-    <section id='Inicio' className='w-full relative bg-primaryColor5'>
+    <section id='Inicio' className='w-full relative bg-primaryColor1'>
       <div className="flex flex-col w-full relative items-center pb-20" >
         {/* IMAGEN DE FONDO CON FRASE IMPORTANTE */}
         <div
@@ -21,11 +21,11 @@ export function IndexPresentationContainer() {
             min-[768px]:items-start items-center
           '>
             <span className='
-              text-whiteColor min-[768px]:px-0 px-5
+              text-textColor2 min-[768px]:px-0 px-5
               min-[768px]:text-left text-center
               min-[1440px]:text-4xl min-[1280px]:text-3xl text-2xl
               '>NEUROPSICOLOGÍA Y PSICOLOGÍA CLÍNICA</span>
-            <span className='text-whiteColor min-[768px]:px-0 px-5 min-[768px]:text-left text-center min-[1440px]:text-3xl min-[1280px]:text-2xl text-xl'>(RE) CONECTAR CONTIGO... ES POSIBLE</span>
+            <span className='text-textColor2 min-[768px]:px-0 px-5 min-[768px]:text-left text-center min-[1440px]:text-3xl min-[1280px]:text-2xl text-xl'>(RE) CONECTAR CONTIGO... ES POSIBLE</span>
           </div>
         </div>
         {/* FOTO Y TEXTO */}
@@ -42,7 +42,7 @@ export function IndexPresentationContainer() {
           height={550}
           alt="Foto presentación"
           className='
-            border-2 border-whiteColor shadow-customStrong left-0
+            border-4 border-secondaryColor2 shadow-customStrong left-0
             min-[1023px]:top-[-150px] top-0
             min-[1023px]:order-1 order-2
             min-[1023px]:absolute relative

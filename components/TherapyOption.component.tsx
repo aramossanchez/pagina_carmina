@@ -5,7 +5,7 @@ export function TherapyOptionsComponent({ image = '', text = ''}) {
 
   return (
     <div className='flex flex-col gap-3 items-center justify-center w-[125px]'>
-      <div className='border-2 border-textColor rounded-full p-5 shadow-customSoft'>
+      <div className='border-2 border-secondaryColor2 rounded-full p-5 shadow-customSoft'>
         <Image
           src={`${basePath}images/${image}`}
           width={100}

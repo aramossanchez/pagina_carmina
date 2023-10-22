@@ -23,7 +23,7 @@ export function SliderItemComponent({ image = '', text = '', link = '' }) {
           `}
         />
       </div>
-      <span>{text}</span>
+      <span className='text-textColor2'>{text}</span>
     </Link>
   )
 }

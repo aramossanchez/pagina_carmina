@@ -23,7 +23,7 @@ export function MenuTop() {
   return (
     <>
       {/* PARTE MOVIL */}
-      <div className='w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor4'>
+      <div className='w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'>
         <Image
           src={`${basePath}images/logo.png`}
           width={50}
@@ -36,13 +36,13 @@ export function MenuTop() {
         />
         <div className='min-[1023px]:hidden block cursor-pointer'>
           {menuOpen ?
-            <IconX onClick={() => setMenuOpen(false)} />
+            <IconX onClick={() => setMenuOpen(false)} color='white' />
             :
-            <IconMenu2 onClick={() => setMenuOpen(true)} />
+            <IconMenu2 onClick={() => setMenuOpen(true)} color='white' />
           }
         </div>
-        <div className="min-[1023px]:hidden block w-auto cursor-pointer py-2 px-5 bg-primaryColor1 text-primaryColor5 hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg absolute right-5">
-          ¿HABLAMOS?
+        <div className="min-[1023px]:hidden block absolute right-5">
+          <ButtonComponent text='¿Hablamos?' />
         </div>
       </div>
       {/* PARTE PC */}
@@ -53,7 +53,7 @@ export function MenuTop() {
       min-[1023px]:w-full w-full
       min-[1023px]:flex-row flex-col
       min-[1023px]:top-0 top-14
-      min-[1023px]:bg-primaryColor4 bg-primaryColor5
+      min-[1023px]:bg-primaryColor3 bg-primaryColor3
       min-[1023px]:pr-5 p-0 '
       min-[1023px]:text-sm text-xs`
       }>
@@ -78,42 +78,42 @@ export function MenuTop() {
         min-[1290px]:text-[14px] min-[1146px]:text-[13px] min-[1023px]:text-[11px]
         `}>
           <a href={`${basePath}#Inicio`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
               INICIO
             </span>
           </a>
           <a href={`${basePath}#Puedo_Ayudarte`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
               PUEDO AYUDARTE
             </span>
           </a>
           <a href={`${basePath}#Servicios`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
             SERVICIOS
             </span>
           </a>
           <a href={`${basePath}#Enfoque`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
             ENFOQUE
             </span>
           </a>
           <a href={`${basePath}#Acompañamiento`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
             ACOMPAÑAMIENTO
             </span>
           </a>
           <a href={`${basePath}#Dudas`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
             DUDAS
             </span>
           </a>
           <a href={`${basePath}#Redes`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
               REDES
             </span>
           </a>
           <a href={`${basePath}#Mis_Sitios`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
               MIS SITIOS
             </span>
           </a>

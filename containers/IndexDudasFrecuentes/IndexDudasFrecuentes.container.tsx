@@ -5,7 +5,7 @@ import { FrequentDoubtComponent } from '@/components/FrequentDoubtComponent/Freq
 export function IndexDudasFrecuentesContainer() {
 
   return (
-    <section id='Dudas' className='w-full relative py-20 bg-primaryColor4'>
+    <section id='Dudas' className='w-full relative py-20 bg-primaryColor2'>
       <div className='
         flex w-full justify-center gap-9
         min-[1023px]:flex-row flex-col

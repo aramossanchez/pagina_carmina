@@ -5,9 +5,9 @@ import { basePath } from '../../config/config';
 export function IndexFooterContainer() {
 
   return (
-    <section className='w-full py-8 bg-primaryColor2 sticky bottom-0 z-[-2]'>
+    <section className='w-full py-8 bg-primaryColor4 sticky bottom-0 z-[-2]'>
       <div className='w-full flex flex-col items-center justify-center gap-4'>
-      <Image
+        <Image
           src={`${basePath}images/logo.png`}
           width={100}
           height={100}

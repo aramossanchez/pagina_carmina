@@ -12,15 +12,16 @@ module.exports = {
         'primaryColor': 'var(--primaryColor)',
         'primaryColor1': 'var(--primaryColor1)',
         'primaryColor2': 'var(--primaryColor2)',
-        'primaryColor2Soft': 'var(--primaryColor2Soft)',
         'primaryColor3': 'var(--primaryColor3)',
         'primaryColor4': 'var(--primaryColor4)',
-        'primaryColor5': 'var(--primaryColor5)',
-        'textColor': 'var(--textColor)',
+        'secondaryColor1': 'var(--secondaryColor1)',
+        'secondaryColor2': 'var(--secondaryColor2)',
+        'textColor1': 'var(--textColor1)',
+        'textColor2': 'var(--textColor2)',
         'whiteColor': 'var(--whiteColor)',
         'whiteColorTransparent': 'var(--whiteColorTransparent)',
         'greyColor': 'var(--greyColor)',
-        'blackColor': 'var(--blackColor)'
+        'transparent': 'var(--transparent)'
       },
       boxShadow: {
         'customStrong': '0px 0px 12px 4px var(--shadow)',
