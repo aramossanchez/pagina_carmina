@@ -1,0 +1,44 @@
+.openedOption{
+  transition: 0.25s;
+  line-height: normal;
+}
+.closedOption {
+  line-height: 0px;
+  transition: 0.25s;
+  height: 0px;
+}
+.container_opened {
+  min-height: 20px;
+  max-height: 150px;
+  padding: 7px 10px;
+  transition: 0.25s;
+  overflow: auto;
+}
+.container_closed {
+  transition: 0.25s;
+  overflow: hidden;
+  min-height: 0px;
+  max-height: 0px;
+  padding: 0px 10px;
+}
+
+/* SCROLL DEL CONTAINER OPENED */
+.container_opened::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none;  
+}
+
+/* ANIMACION PARA LOS ICONOS AL APARECER */
+.animated_icon {
+  animation: move 0.25s;
+}
+
+@keyframes move {
+  from {
+    rotate: 90deg;
+  }
+  to {
+    rotate: 0deg;
+  }
+}

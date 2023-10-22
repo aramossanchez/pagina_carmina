@@ -1,6 +1,7 @@
 "use client"
 
 import { IndexConoceme } from '@/containers/IndexConoceme/IndexConoceme.container'
+import { IndexDudasFrecuentesContainer } from '@/containers/IndexDudasFrecuentes/IndexDudasFrecuentes.container'
 import { IndexEnfoquePropuestaContainer } from '@/containers/IndexEnfoquePropuesta/IndexEnfoquePropuesta.container'
 import { IndexIntroduction } from '@/containers/IndexIntroduction/IndexIntroduction.container'
 import { IndexOpcionesTerapiaContainer } from '@/containers/IndexOpcionesTerapia/IndexOpcionesTerapia.container'
@@ -18,6 +19,7 @@ export default function Index() {
       <IndexOpcionesTerapiaContainer />
       <IndexEnfoquePropuestaContainer />
       <IndexPermitemeAcompañarteContainer />
+      <IndexDudasFrecuentesContainer />
       {/* <IndexIntroduction />
       <IndexConoceme /> */}
     </main>
