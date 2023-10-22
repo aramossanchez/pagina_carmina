@@ -34,8 +34,8 @@ export function MenuTop() {
       <div className={'w-full flex flex-row justify-center items-center fixed z-20 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'}>
         <Image
           src={`${basePath}images/logo.png`}
-          width={50}
-          height={50}
+          width={100}
+          height={100}
           alt="Imagen del Logo"
           className='
           absolute left-2
