@@ -73,14 +73,16 @@ export function MenuTop() {
         min-[1023px]:flex-row flex-col
         min-[1280px]:gap-28 min-[1023px]:gap-20
         `}>
-          <Link href={'/'}>
-            <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">INICIO</div>
-          </Link>
+          <a href={`${basePath}#Inicio`} onClick={() => setMenuOpen(false)}>
+            <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>
+              INICIO
+            </span>
+          </a>
           <Link href={'/conoceme'}>
             <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">CONÓCEME</div>
           </Link>
           <Link href={'/necesitas_ayuda'}>
-          <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">¿NECESITAS AYUDA?</div>
+            <div className="text-textColor cursor-pointer hover:text-primaryColor1 font-medium">¿NECESITAS AYUDA?</div>
           </Link>
           <div className="min-[1023px]:flex hidden cursor-pointer py-2 px-5 bg-primaryColor1 text-white hover:bg-greyColor font-medium ease-in-out duration-300 rounded-lg">¿HABLAMOS?</div>
         </div>

@@ -6,12 +6,14 @@ import { TitleComponent } from '@/components/Title.component';
 export function IndexPresentationContainer() {
 
   return (
-    <section className='w-full relative'>
+    <section id='Inicio' className='w-full relative bg-primaryColor5'>
       <div className="flex flex-col w-full relative items-center pb-20" >
-        <div className='
-          w-full flex flex-row items-center justify-end h-[500px] bg-no-repeat bg-cover
-          min-[768px]:pr-20 pr-0
-        ' style={{backgroundImage: `url("${basePath}images/index_presentacion_fondo.jpg")`}}>
+        <div
+          className='
+            w-full flex flex-row items-center justify-end h-[500px] bg-no-repeat bg-cover
+            min-[768px]:pr-20 pr-0
+          '
+          style={{backgroundImage: `url("${basePath}images/index_presentacion_fondo.jpg")`}}>
           <div className='
             flex flex-col pt-10 gap-3
             min-[768px]:w-auto w-full
