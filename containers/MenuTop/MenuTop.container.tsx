@@ -4,6 +4,14 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { basePath } from '../../config/config';
 import { ButtonComponent } from '@/components/Button.component';
+import { Alata } from 'next/font/google';
+
+const AlataFont = Alata({
+  weight: ['400'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 export function MenuTop() {
 
@@ -23,7 +31,7 @@ export function MenuTop() {
   return (
     <>
       {/* PARTE MOVIL */}
-      <div className='w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'>
+      <div className={'w-full flex flex-row justify-center items-center fixed z-20 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'}>
         <Image
           src={`${basePath}images/logo.png`}
           width={50}
@@ -49,11 +57,12 @@ export function MenuTop() {
       <div className={`
       ${scrolled > 0 ? style.menu_top_down : 'py-2 ease-in-out duration-300'}
       ${menuOpen ? style.menu_top_down : style.menu_top_down_closed}
-      flex items-center justify-between fixed z-30
+      ${AlataFont.className}
+      flex items-center justify-between fixed z-20
       min-[1023px]:w-full w-full
       min-[1023px]:flex-row flex-col
       min-[1023px]:top-0 top-14
-      min-[1023px]:bg-primaryColor3 bg-primaryColor3
+      min-[1023px]:bg-primaryColor3 bg-primaryColor3Soft
       min-[1023px]:pr-5 p-0 '
       min-[1023px]:text-sm text-xs`
       }>
@@ -63,15 +72,15 @@ export function MenuTop() {
           height={100}
           alt="Picture of the author"
           className={`
-          ${scrolled > 0 ? 'h-[50px] w-[50px]' : 'h-[100px] w-[100px]'}
+          ${scrolled > 0 ? 'h-[45px] w-[170px]' : 'h-[60px] w-[200px]'}
           ease-in duration-150
-          min-[1281px]:ml-[1vw] min-[1023px]:ml-[1vw] ml-0
+          min-[1281px]:ml-[3vw] min-[1023px]:ml-[3vw] ml-0
           min-[1023px]:flex hidden
           `}
         />
         <div className={`
         ${menuOpen ? 'gap-10' : 'gap-0'}
-        flex items-center
+        flex items-center text-semibold
         min-[1023px]:flex-row flex-col
         min-[1023px]:justify-end justify-start
         min-[1290px]:gap-10 min-[1023px]:gap-8
@@ -82,24 +91,9 @@ export function MenuTop() {
               INICIO
             </span>
           </a>
-          <a href={`${basePath}#Puedo_Ayudarte`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
-              PUEDO AYUDARTE
-            </span>
-          </a>
           <a href={`${basePath}#Servicios`} onClick={() => setMenuOpen(false)}>
             <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
             SERVICIOS
-            </span>
-          </a>
-          <a href={`${basePath}#Enfoque`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
-            ENFOQUE
-            </span>
-          </a>
-          <a href={`${basePath}#Acompañamiento`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
-            ACOMPAÑAMIENTO
             </span>
           </a>
           <a href={`${basePath}#Dudas`} onClick={() => setMenuOpen(false)}>
@@ -110,11 +104,6 @@ export function MenuTop() {
           <a href={`${basePath}#Redes`} onClick={() => setMenuOpen(false)}>
             <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
               REDES
-            </span>
-          </a>
-          <a href={`${basePath}#Mis_Sitios`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
-              MIS SITIOS
             </span>
           </a>
           <div className='min-[1023px]:flex hidden'>

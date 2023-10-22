@@ -57,7 +57,8 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
             backgroundImage: `url(${basePath}images/${image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            filter: 'saturate(0.8)'
           }}
         >
         </div>

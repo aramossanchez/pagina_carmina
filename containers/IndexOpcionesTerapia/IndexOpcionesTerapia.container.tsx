@@ -1,25 +1,25 @@
 import data from '../../data/TherapyOptions.json';
 import { TherapyOptionsComponent } from '@/components/TherapyOption.component';
 import { ButtonComponent } from '@/components/Button.component';
-import { basePath } from '../../config/config';
-import Image from 'next/image';
-import { useEffect, useState } from 'react';
+// import { basePath } from '../../config/config';
+// import Image from 'next/image';
+// import { useEffect, useState } from 'react';
 
 export function IndexOpcionesTerapiaContainer() {
 
-  const [scrollY, setScrollY] = useState<number>(0);
-  const [scrollYMobile, setScrollYMobile] = useState<number>(0);
+  // const [scrollY, setScrollY] = useState<number>(0);
+  // const [scrollYMobile, setScrollYMobile] = useState<number>(0);
 
-  useEffect(() => {
-    const knowScrollHeight = () => {
-      setScrollY((window.scrollY) / 9);
-      setScrollYMobile((window.scrollY / 25) - 150);
-    };
-    window.addEventListener('scroll', knowScrollHeight);
-    return () => {
-      window.removeEventListener('scroll', knowScrollHeight);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const knowScrollHeight = () => {
+  //     setScrollY((window.scrollY) / 9);
+  //     setScrollYMobile((window.scrollY / 25) - 150);
+  //   };
+  //   window.addEventListener('scroll', knowScrollHeight);
+  //   return () => {
+  //     window.removeEventListener('scroll', knowScrollHeight);
+  //   };
+  // }, []);
 
   return (
     <section id='Servicios' className='w-full relative'>
@@ -35,12 +35,12 @@ export function IndexOpcionesTerapiaContainer() {
       </article>
       <article className='w-full flex flex-col items-center gap-9 py-7 overflow-hidden relative'>
         <div className='flex flex-col items-center justify-around gap-5 px-10 w-full z-20'>
-          <span className='text-lg text-center text-textColor2'>¿Prefieres que valoremos cual es la mejor opción en tu caso?</span>
+          <span className='text-lg text-center text-textColor1'>¿Prefieres que valoremos cual es la mejor opción en tu caso?</span>
           <ButtonComponent text='Formulario 1ª visita' />
         </div>
-        <div className='absolute z-10 bg-primaryColor3 w-full top-0 h-full'>
+        <div className='absolute z-10 bg-primaryColor1 w-full top-0 h-full'>
           {/* IMÁGENES PC */}
-          <Image
+          {/* <Image
             src={`${basePath}images/blob.svg`}
             width={600}
             height={600}
@@ -55,9 +55,9 @@ export function IndexOpcionesTerapiaContainer() {
             alt="Forma en fondo"
             className='absolute right-[-20vw] w-[70vw] h-[70vw]'
             style={{ top: `-${scrollY}px` }}
-          />
+          /> */}
           {/* IMÁGENES MÓVIL */}
-          <Image
+          {/* <Image
             src={`${basePath}images/blob.svg`}
             width={600}
             height={600}
@@ -78,7 +78,7 @@ export function IndexOpcionesTerapiaContainer() {
             min-[1023px]:hidden block
             `}
             style={{ top: `-${scrollYMobile}px` }}
-          />
+          /> */}
         </div>
       </article>
     </section>

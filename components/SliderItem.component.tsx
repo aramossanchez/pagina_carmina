@@ -17,13 +17,13 @@ export function SliderItemComponent({ image = '', text = '', link = '' }) {
           height={250}
           alt="Foto de slider"
           className={`
-            border-2 border-whiteColor shadow-customStrong
+            border-2 border-whiteColor shadow-customStrong saturate-[0.8]
             min-[1023px]:h-[250px] h-[200px]
             min-[1023px]:w-[250px] w-[200px]
           `}
         />
       </div>
-      <span className='text-textColor2'>{text}</span>
+      <span className='text-textColor'>{text}</span>
     </Link>
   )
 }

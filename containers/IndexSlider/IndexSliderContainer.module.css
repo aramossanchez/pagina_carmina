@@ -8,7 +8,7 @@
   position:sticky;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(to right, var(--primaryColor3), var(--transparent));
+  background-image: linear-gradient(to right, var(--secondaryColor1), var(--transparent));
   width: 10px;
   min-width: 50px;
   height: 310px;
@@ -19,19 +19,19 @@
   position:sticky;
   top: 0px;
   right: 0px;
-  background-image: linear-gradient(to right, var(--transparent), var(--primaryColor3));
+  background-image: linear-gradient(to right, var(--transparent), var(--secondaryColor1));
   width: 10px;
   min-width: 50px;
   height: 310px;
 }
 
 .container_slider::-webkit-scrollbar-thumb {
-  background: var(--primaryColor2);
+  background: var(--whiteColor);
   border-radius: 4px;
 }
 
 .container_slider::-webkit-scrollbar-track {
-  background: var(--primaryColor3);
+  background: var(--secondaryColor1);
   border-radius: 0px;
 }
 
