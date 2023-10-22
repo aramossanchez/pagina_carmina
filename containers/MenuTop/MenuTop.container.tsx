@@ -74,8 +74,8 @@ export function MenuTop() {
         flex items-center
         min-[1023px]:flex-row flex-col
         min-[1023px]:justify-end justify-start
-        min-[1280px]:gap-10 min-[1023px]:gap-8
-        min-[1280px]:text-[13px] min-[1023px]:text-[10px]
+        min-[1290px]:gap-10 min-[1023px]:gap-8
+        min-[1290px]:text-[14px] min-[1146px]:text-[13px] min-[1023px]:text-[11px]
         `}>
           <a href={`${basePath}#Inicio`} onClick={() => setMenuOpen(false)}>
             <span className='text-textColor cursor-pointer hover:text-primaryColor1 font-medium"'>

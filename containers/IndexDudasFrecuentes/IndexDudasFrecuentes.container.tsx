@@ -21,7 +21,7 @@ export function IndexDudasFrecuentesContainer() {
         </article>
         <article className='
           min-[1023px]:pr-5 pr-0
-          min-[550px]:w-[500px] w-full 
+          min-[550px]:w-[500px] w-[95%] 
         '>
           {data.map((item) => {
             return (
