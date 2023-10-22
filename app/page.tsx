@@ -8,6 +8,7 @@ import { IndexOpcionesTerapiaContainer } from '@/containers/IndexOpcionesTerapia
 import { IndexPermitemeAcompañarteContainer } from '@/containers/IndexPermitemeAcompañarte/IndexPermitemeAcompañarte.container'
 import { IndexPresentationContainer } from '@/containers/IndexPresentation/IndexPresentation.container'
 import { IndexPuedoAyudarteContainer } from '@/containers/IndexPuedoAyudarte/IndexPuedoAyudarte.container'
+import { IndexRedesContainer } from '@/containers/IndexRedes/IndexRedes.container'
 import { MenuTop } from '@/containers/MenuTop/MenuTop.container'
 
 export default function Index() {
@@ -20,6 +21,7 @@ export default function Index() {
       <IndexEnfoquePropuestaContainer />
       <IndexPermitemeAcompañarteContainer />
       <IndexDudasFrecuentesContainer />
+      <IndexRedesContainer />
       {/* <IndexIntroduction />
       <IndexConoceme /> */}
     </main>
