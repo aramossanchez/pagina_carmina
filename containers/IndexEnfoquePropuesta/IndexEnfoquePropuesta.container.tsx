@@ -34,7 +34,7 @@ export function IndexEnfoquePropuestaContainer() {
             height={250}
             alt="Enfoque propuesta imagen 1"
             className='
-            relative border-2 border-whiteColor shadow-customStrong z-20 saturate-[0.8]
+            relative border-2 border-whiteColor shadow-customStrong z-10 saturate-[0.8]
             min-[468px]:w-[300px] w-[50vw]
             min-[468px]:h-[300px] h-[50vw]
             '
@@ -45,7 +45,7 @@ export function IndexEnfoquePropuestaContainer() {
             height={250}
             alt="Enfoque propuesta imagen 1"
             className='
-            absolute border-2 border-whiteColor shadow-customStrong top-[35%] z-10 saturate-[0.6]
+            absolute border-2 border-whiteColor shadow-customStrong top-[35%] z-0 saturate-[0.6]
             min-[1023px]:left-[30%] right-[10vw]
             min-[468px]:w-[300px] w-[50vw]
             min-[468px]:h-[300px] h-[50vw]
