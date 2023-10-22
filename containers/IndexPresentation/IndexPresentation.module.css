@@ -1,8 +1,4 @@
-.photo_presentation {
-  box-shadow: 0px 0px 12px 4px var(--shadow);
-}
 .container_subsection_presentation {
-  padding-left: calc(10vw + 400px + 50px);
 }
 
 @media only screen and (max-width: 1023px) {
