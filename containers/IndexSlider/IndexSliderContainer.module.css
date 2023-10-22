@@ -12,6 +12,7 @@
   width: 10px;
   min-width: 50px;
   height: 310px;
+  z-index: 10;
 }
 
 .container_slider::after {
