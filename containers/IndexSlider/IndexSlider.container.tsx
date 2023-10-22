@@ -3,7 +3,7 @@ import style from './IndexSliderContainer.module.css'
 import { basePath } from '../../config/config';
 import Image from 'next/image';
 import { SliderItemComponent } from '@/components/SliderItem.component';
-import { ReactElement, useRef } from 'react';
+import { ReactElement, useEffect, useRef, useState } from 'react';
 import { IconArrowBadgeLeftFilled, IconArrowBadgeRightFilled } from '@tabler/icons-react';
 
 export function IndexSliderContainer() {
@@ -26,10 +26,16 @@ export function IndexSliderContainer() {
     <section className='w-full relative py-10 bg-primaryColor3'>
       <div className='flex flex-row justify-center'>
         <article ref={sliderRef} className={`
-          ${style.container_slider} relative flex flex-row items-center justify-start overflow-x-scroll py-5
+          ${style.container_slider} flex flex-row items-center justify-start overflow-x-scroll py-5
           min-[1023px]:max-w-[1000px] max-w-full
+          min-[1023px]:relative
         `}>
-          <div className='sticky left-0 z-20 cursor-pointer p-1 rounded-full bg-whiteColor border-2 border-textColor' onClick={() => handleScrollLeft()}>
+          <div className={`
+            z-20 cursor-pointer p-1 rounded-full bg-whiteColor border-2 border-textColor
+            min-[1023px]:sticky absolute
+            min-[1023px]:left-0 left-2
+          `}
+          onClick={() => handleScrollLeft()}>
             <IconArrowBadgeLeftFilled />
           </div>
           {data.map((item) => {
@@ -37,7 +43,12 @@ export function IndexSliderContainer() {
               <SliderItemComponent key={`${item.id}-item-slider`} image={item.image} text={item.text} />
               )
             })}
-          <div className='sticky right-0 z-20 cursor-pointer p-1 rounded-full bg-whiteColor border-2 border-textColor' onClick={() => handleScrollRight()}>
+          <div className={`
+            z-20 cursor-pointer p-1 rounded-full bg-whiteColor border-2 border-textColor
+            min-[1023px]:sticky absolute
+            min-[1023px]:right-0 right-2
+          `}
+          onClick={() => handleScrollRight()}>
             <IconArrowBadgeRightFilled />
           </div>
         </article>

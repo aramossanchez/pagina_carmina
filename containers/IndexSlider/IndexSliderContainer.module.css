@@ -8,7 +8,7 @@
   position:sticky;
   top: 0px;
   left: 0px;
-  background-image: linear-gradient(to right, var(--primaryColor3), var(--primaryColor3Soft));
+  background-image: linear-gradient(to right, var(--primaryColor3), var(--transparent));
   width: 10px;
   min-width: 50px;
   height: 310px;
@@ -19,7 +19,7 @@
   position:sticky;
   top: 0px;
   right: 0px;
-  background-image: linear-gradient(to right, var(--primaryColor3Soft), var(--primaryColor3));
+  background-image: linear-gradient(to right, var(--transparent), var(--primaryColor3));
   width: 10px;
   min-width: 50px;
   height: 310px;
