@@ -35,7 +35,7 @@ export function IndexOpcionesTerapiaContainer() {
       </article>
       <article className='w-full flex flex-col items-center gap-9 py-7 overflow-hidden relative bg-primaryColor1'>
         <div className='flex flex-col items-center justify-around gap-5 px-10 w-full z-10'>
-          <span className='text-lg text-center text-textColor1'>¿Prefieres que valoremos cual es la mejor opción en tu caso?</span>
+          <span className='text-lg text-center text-textColor1'>Si no tienes claro cual es el mejor formato para tí, rellena este formulario y podremos decidirlo juntas/os</span>
           <ButtonComponent text='Formulario 1ª visita' />
         </div>
         {/* <div className='absolute z-10 bg-primaryColor1 w-full top-0 h-full'> */}

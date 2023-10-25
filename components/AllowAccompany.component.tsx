@@ -3,7 +3,7 @@ import { IconCheck } from '@tabler/icons-react';
 import { basePath } from '../config/config';
 import { ButtonComponent } from './Button.component';
 
-export function AllowAccompanyComponent({ title = '', subtitle = '', image = '', checks = ['', ''], button = '', orientation = 'left' }) {
+export function AllowAccompanyComponent({ title = '', image = '', text = '', orientation = 'left' }) {
 
   return (
     <article className='
@@ -17,19 +17,8 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
       `}>
         <SubtitleComponent title={title} />
         <div className='flex flex-col items-start'>
-          {subtitle.length > 0 &&
-            <span className='w-full text-left'>{subtitle}</span>
-          }
-          {checks.map((check, index) => {
-            return (
-              <div key={`${index}-check`} className='flex flex-row items-start gap-2'>
-                <IconCheck className='w-[15px] text-secondaryColor2' />
-                <span>{check}</span>
-              </div>
-            )
-          })}
+          <span>{text}</span>
         </div>
-        <ButtonComponent text={button} />
       </div>
       <div className={`
       min-h-[250px] px-10 py-5 flex flex-col items-center justify-center gap-5 relative
@@ -38,19 +27,8 @@ export function AllowAccompanyComponent({ title = '', subtitle = '', image = '',
       `}>
         <SubtitleComponent title={title} />
         <div className='flex flex-col items-start'>
-          {subtitle.length > 0 &&
-            <span className='w-full text-left'>{subtitle}</span>
-          }
-          {checks.map((check, index) => {
-            return (
-              <div key={`${index}-check-hidden`} className='flex flex-row items-start gap-2'>
-                <IconCheck className='w-[15px]' />
-                <span>{check}</span>
-              </div>
-            )
-          })}
+          <span>{text}</span>
         </div>
-        <ButtonComponent text={button} />
         <div
           className='absolute w-full h-full bg-greyColor'
           style={{

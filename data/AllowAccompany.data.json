@@ -1,53 +1,30 @@
 [
   {
     "id": 0,
-    "title": "EVALUACIÓN / INTERVENCIÓN NEUROPSICOLÓGICA",
-    "subtitle": "",
+    "title": "(RE)CONECTAR CONTIGO",
     "image": "permiteme-1.jpg",
-    "checks": [
-      "Texto de prueba.",
-      "Texto de prueba. Texto de prueba.",
-      "Texto de prueba. Texto de prueba. Texto de prueba."
-    ],
-    "button": "Formulario 1ª cita",
+    "text": "Quiero que entiendas tu recuperación,desde un enfoque global. Puedo ayudarte no solamente a calmar los síntomas, sino a sanar realmente todo aquello que te ha traído hasta aquí. Es ahí, cuando por fín permitimos reconstruirnos y volver a recuperar la energía, equilibrio y motivación que venimos a buscar. ",
     "orientation": "right"
   },
   {
     "id": 1,
-    "title": "(RE) CONECTAR CONTIGO",
-    "subtitle": "Acompañamiento psicológico en:",
+    "title": "ELABORAR LA PÉRDIDA",
     "image": "permiteme-2.jpg",
-    "checks": [
-      "Texto de prueba.",
-      "Texto de prueba. Texto de prueba.",
-      "Texto de prueba. Texto de prueba. Texto de prueba.",
-      "Texto de prueba. Texto de prueba. Texto de prueba.",
-      "Texto de prueba. Texto de prueba."
-    ],
-    "button": "Texto de prueba",
+    "text": "La vida está repleta de momentos en los que transitamos una pérdida,(un fallecimiento, un gran cambio vital, una enfermedad...) pero hay algunas, que nos duelen especialmente. Quiero ser tu copiloto en este viaje. Yo puedo mostrarte las opciones y sostener tu mochila. Serás tú, quien marcarás los ritmos y el camino a seguir.  ",
     "orientation": "left"
   },
   {
     "id": 2,
-    "title": "INTEGRAR LA PÉRDIDA",
-    "subtitle": "",
+    "title": "NEURORREHABILITACIÓN",
     "image": "permiteme-3.jpg",
-    "checks": [
-      "Texto de prueba.",
-      "Texto de prueba. Texto de prueba.",
-      "Texto de prueba. Texto de prueba. Texto de prueba.",
-      "Texto de prueba. Texto de prueba."
-    ],
-    "button": "Texto de prueba",
+    "text": "Diversos son los problemas que alternan nuestro sistema nervioso, pero uno es, principalmente mi enfoque: ofrecerte las técnicas, las prácticas, y estrategias, para recuperar al máximo tus conexiones, y adaptar aquello que necesites para devolverte una calidad de vida, que no tienes porqué perder. ",
     "orientation": "right"
   },
   {
     "id": 3,
-    "title": "INTEGRAR LA PÉRDIDA",
-    "subtitle": "TALLERES - CHARLAS - CURSOS",
+    "title": "DIVULGACIÓN COMO INTERVENCIÓN",
     "image": "permiteme-4.jpg",
-    "checks": [],
-    "button": "Texto de prueba",
+    "text": "Si hay una herramienta poderosa para el ser humano, es la información. Una de mis máximas siempre será, la de ofrecer conocimiento a la sociedad en general o colectivos en particular, con el objetivo de visibilizar, normalizar y expandir la curiosidad, sobre aquellas cuestiones que, entre todas/os, podamos transformar.",
     "orientation": "left"
   }
 ]
