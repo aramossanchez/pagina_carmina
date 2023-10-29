@@ -54,8 +54,8 @@ export function IndexPresentationContainer() {
             min-[1023px]:top-[-150px] top-0
             min-[1023px]:order-1 order-2
             min-[1023px]:absolute relative
-            min-[450px]:w-[400px] w-[325px]
-            min-[450px]:h-[600px] h-[525px]
+            min-[450px]:w-[400px] min-[374px]:w-[325px] w-[290px]
+            min-[450px]:h-[600px] min-[374px]:h-[500px] h-[450px]
           '
         />
           <div className='

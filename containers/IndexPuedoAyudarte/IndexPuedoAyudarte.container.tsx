@@ -7,7 +7,9 @@ export function IndexPuedoAyudarteContainer() {
   return (
     <section id='Puedo_Ayudarte' className='w-full relative py-20 bg-primaryColor4'>
       <article className='w-full flex flex-col items-center gap-9'>
+        <div className='px-2 flex flex-col justify-center'>
         <TitleComponent title='Si te identificas aquí... ¡PUEDO AYUDARTE!' />
+        </div>
         <div className='
         flex flex-start flex-wrap justify-center px-5 gap-y-8 gap-x-6
         min-[1023px]:w-[1024px] w-[90%]
