@@ -2,6 +2,7 @@ import data from '../../data/TherapyOptions.json';
 import { TherapyOptionsComponent } from '@/components/TherapyOption.component';
 import { ButtonComponent } from '@/components/Button.component';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
+import { SubtitleComponent } from '@/components/Subtitle.component';
 // import { basePath } from '../../config/config';
 // import Image from 'next/image';
 // import { useEffect, useState } from 'react';
@@ -36,7 +37,7 @@ export function IndexOpcionesTerapiaContainer() {
       </article>
       <article className='w-full flex flex-col items-center gap-9 py-7 overflow-hidden relative bg-primaryColor1'>
         <div className='flex flex-col items-center justify-around gap-5 px-10 w-full z-10'>
-          <span className='text-lg text-center text-textColor1'>Si no tienes claro cual es el mejor formato para tí, rellena este formulario y podremos decidirlo juntas/os</span>
+          <SubtitleComponent title='Si no tienes claro cual es el mejor formato para tí, rellena este formulario y podremos decidirlo juntas/os' />
           <SecondaryButtonComponent text='FORMULARIO 1ª VISITA' />
         </div>
       </article>
