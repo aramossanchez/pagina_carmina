@@ -87,22 +87,22 @@ export function MenuTop() {
         min-[1290px]:text-[14px] min-[1146px]:text-[13px] min-[1023px]:text-[11px]
         `}>
           <a href={`${basePath}#Inicio`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
               INICIO
             </span>
           </a>
           <a href={`${basePath}#Servicios`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
             SERVICIOS
             </span>
           </a>
           <a href={`${basePath}#Dudas`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
             DUDAS
             </span>
           </a>
           <a href={`${basePath}#Redes`} onClick={() => setMenuOpen(false)}>
-            <span className='text-textColor2 cursor-pointer hover:text-text-textColor2 font-medium"'>
+            <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
               REDES
             </span>
           </a>
