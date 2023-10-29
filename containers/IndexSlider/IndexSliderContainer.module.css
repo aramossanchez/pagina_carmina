@@ -38,7 +38,7 @@
 
 @media only screen and (max-width: 1023px) {
 	.container_slider::-webkit-scrollbar {
-    width: 8px;  
+    width: 8px;
     height: 8px;
   }
 }
