@@ -1,27 +1,27 @@
 [
   {
     "id": 0,
-    "image": "slider-1.png",
+    "image": "slider-1.jpg",
     "text":  "PODCAST"
   },
   {
     "id": 1,
-    "image": "slider-2.png",
+    "image": "slider-2.jpg",
     "text":  "INSTAGRAM"
   },
   {
     "id": 2,
-    "image": "slider-3.png",
-    "text":  "COLABORACIONES"
+    "image": "slider-3.jpg",
+    "text":  "ENTREVISTA ASLEUVAL"
   },
   {
     "id": 3,
-    "image": "slider-4.png",
-    "text":  "CHARLAS"
+    "image": "slider-4.jpg",
+    "text":  "PODCAST-TAKE IT SIMPLE"
   },
   {
     "id": 4,
-    "image": "slider-5.png",
-    "text":  "RADIO"
+    "image": "slider-5.jpg",
+    "text":  "ENTREVISTA EN RADIO CLM"
   }
 ]
