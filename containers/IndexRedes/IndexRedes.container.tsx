@@ -34,7 +34,7 @@ export function IndexRedesContainer() {
           <SubtitleComponent title='Me apasiona la divulgación...' />
           <span>Hace tiempo descubrí, que las redes sociales y los medios de comunicación, me permitían seguir ayudando a otras personas, enseñando las partes más científicas de la psicología, de una manera sencilla y fácilmente comprensible por todos y todas.  </span>
           <span>Para ello, intento seguir tres máximas, que me ayudan a mantener una línea coherente conmigo misma: </span>
-          <ul>
+          <ul className=' list-disc pl-7'>
             <li>Responsabilidad: Me aseguro que el contenido publicado sea de calidad y basado en evidencia científica.  </li>
             <li>Valores: Para mí, ser congruente y coherente con mis principios, es esencial en mis participaciones.  </li>
             <li>Naturalidad: Tal como me muestro, es como soy. La sencillez, serenidad y consciencia social, forman parte de mi esencia personal.   </li>
