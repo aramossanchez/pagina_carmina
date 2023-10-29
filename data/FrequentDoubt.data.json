@@ -1,27 +1,32 @@
 [
   {
     "id": 0,
-    "title": "¿Como se reserva online?",
-    "text": "Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba."
+    "title": "¿Cómo puedo reservar?",
+    "text": "Muy sencillo, puedes solicitar la información desde el Formulario en esta página. Una vez hecho esto, realizaremos una videollamada GRATUÍTA de 15-20 minutos (pudiendo usar Whatsapp, Meet, ...) donde valoraremos disponibilidad y dudas sobre la terapia para ofrecerte mayor seguridad."
   },
   {
     "id": 1,
-    "title": "¿Es igual de efectivo?",
-    "text": "Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba."
+    "title": "¿Cuánto duran las sesiones?",
+    "text": "La duración está entre 55-60 minutos aproximadamente. Aunque me gusta recordar que mis sesiones no finalizan ahí. Ya que, de cada una, saldrás con una serie de lecturas, tareas o ejercicios a poner en práctica durante el resto de la semana, para permitir integrar todo aquello que hemos removido y trabajado durante la intervención conjunta. "
   },
   {
     "id": 2,
-    "title": "¿Cómo nos conectaremos?",
-    "text": "Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba."
+    "title": "¿Coste y frecuencia de las sesiones?",
+    "text": "Sesión On-line: 50 euros. Sesión presencial: 55 euros. La frecuencia la decidiremos conjuntamente, en función de tus necesidades y posibilidades. Sí me gusta recordar que frecuentemente, las primeras 4-5 sesiones será necesario realizarlas de manera semanal, para incidir en los síntomas más agudos, y posteriormente si lo necesitas, podemos ampliar la frecuencia a un máximo de cada 15 días."
   },
   {
     "id": 3,
-    "title": "¿Qué duración tienen las sesiones?",
-    "text": "Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba."
+    "title": "¿La terapia On-line es igual de efectiva?",
+    "text": "Por supuesto. La clave en una intervención radica en la relación terapéutica, y las estrategias que ponemos en práctica conversando, mediante ejercicios y dinámicas conjuntas, por lo que, estar físicamente cerca o no, no condiciona el avance terapéutico. "
   },
   {
     "id": 4,
+    "title": "En terapia On-line ¿Cómo nos conectaremos?",
+    "text": "Generalmente, yo utilizo la plataforma Meet para realizar las sesiones. Sin embargo, podemos adaptarnos si necesitas que sea otro formato como Skype."
+  },
+  {
+    "id": 5,
     "title": "¿Cuánto dura el tratamiento?",
-    "text": "Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba."
+    "text": "Recordemos que, iniciar una terapia psicológica implica un compromiso contigo misma/o, donde no venimos únicamente a calmar el síntoma y el malestar actual (que también, por supuesto), sino que, vamos a descubrir y sanar aquellas cuestiones que nos han traído hasta aquí, y por tanto, el tiempo que necesites para permitírtelo, será determinante y personalizado."
   }
 ]
