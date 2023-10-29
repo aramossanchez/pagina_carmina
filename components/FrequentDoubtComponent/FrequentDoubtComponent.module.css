@@ -9,7 +9,7 @@
 }
 .container_opened {
   min-height: 20px;
-  max-height: 160px;
+  max-height: 200px;
   padding: 7px 10px;
   transition: 0.25s;
   overflow: auto;

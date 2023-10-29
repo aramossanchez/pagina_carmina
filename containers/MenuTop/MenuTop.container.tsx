@@ -50,7 +50,7 @@ export function MenuTop() {
           }
         </div>
         <div className="min-[1023px]:hidden block absolute right-5">
-          <ButtonComponent text='¿Hablamos?' />
+          <ButtonComponent text='¿HABLAMOS?' />
         </div>
       </div>
       {/* PARTE PC */}

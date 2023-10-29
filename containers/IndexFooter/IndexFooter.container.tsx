@@ -12,7 +12,7 @@ export function IndexFooterContainer() {
           width={100}
           height={100}
           alt="Picture of the author"
-          className='h-[60px] w-[200px]'
+          className='h-[55px] w-[200px]'
         />
         <div className='flex flex-row gap-5 items-center px-2 flex-wrap justify-center'>
           <Link href={'/'} className='underline'>
@@ -24,6 +24,12 @@ export function IndexFooterContainer() {
           <Link href={'/'} className='underline'>
             Aviso Legal
           </Link>
+        </div>
+        <div className='flex  items-center justify-center gap-y-2
+          min-[768px]:flex-row flex-col
+        '>
+          <span className='text-center px-2'><strong>Dirección de correo:</strong> contacto@carminazamora.com</span>
+          <span className='text-center px-2'><strong>Tlf de contacto:</strong> 613041566</span>
         </div>
         <span className='text-center px-2'>2023 - Carmina Zamora. Todos los derechos reservados.</span>
       </div>
