@@ -67,10 +67,10 @@ export function IndexPresentationContainer() {
             min-[1023px]:order-2 order-1
           '>
             <TitleComponent title='¡TE DOY LA BIENVENIDA!' />
-            <span className='max-w-[700px] text-lg'>Mi nombre es Carmina Zamora, psicóloga especialista en neuropsicología clínica, con casi 10 años de experiencia en el acompañamiento de personas con problemas del estado de ánimo, procesos de aceptación, acompañamiento en pérdidas y rehabilitación en lesiones neurológicas.  </span>
+            <span className='max-w-[700px] text-lg'>Mi nombre es Carmina Zamora, psicóloga especialista en neuropsicología clínica, con casi 10 años de experiencia en el acompañamiento de personas con problemas del estado de ánimo, procesos de aceptación y pérdidas, así como rehabilitación en lesiones neurológicas.  </span>
             <span className='max-w-[700px] text-lg'>Mi pasión por el ser humano y la neurociencia, me ha permitido conocer en profundidad el origen de nuestros pensamientos y emociones más profundas, entendiendo cómo se manifiestan tanto en nuestro cuerpo como en nuestra conducta. Ya que es en ese descubrimiento personal, 
             donde nace la transformación. </span>
-            <span className='max-w-[700px] text-lg'>Me gusta definirme como una persona apasionada por lo que hace, cercana, creativa y con una gran consciencia social. Algo que no puedo (ni quiero) separar de mi labor como terapeuta, ya que me ayuda a mantener un gran rigor y respeto por las personas a quienes acompaño. </span>
+            <span className='max-w-[700px] text-lg'>Me gusta definirme como una persona apasionada por lo que hace, cercana, creativa y con una gran conciencia social. Algo que no puedo (ni quiero) separar de mi labor como terapeuta, ya que me ayuda a mantener un gran rigor y respeto por las personas a quienes acompaño. </span>
           </div>
         </div>
       </div>
