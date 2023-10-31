@@ -25,7 +25,7 @@ module.exports = {
         'transparent': 'var(--transparent)'
       },
       boxShadow: {
-        'customStrong': '0px 0px 12px 4px var(--shadow)',
+        'customStrong': '0px 0px 8px 4px var(--shadow)',
         'customSoft': '0px 0px 8px 1px var(--shadow)',
         'normalButton': '2px 2px 8px 2px var(--shadow)',
         'pressedButton': '2px 2px 4px 1px var(--shadow)',

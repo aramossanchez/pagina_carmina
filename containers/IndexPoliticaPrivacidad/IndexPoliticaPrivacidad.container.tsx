@@ -10,7 +10,10 @@ export function IndexPoliticaPrivacidadContainer() {
   return (
     <section id='Inicio' className='w-full relative bg-whiteColor'>
       <div className='w-full flex flex-col items-center justify-start pb-20'>
-        <article className='w-[1000px] flex flex-col items-start gap-2'>
+        <article className='
+          flex flex-col items-start gap-2
+          min-[1023px]:w-[1000px] w-[92%]
+        '>
           <header className='flex flex-row items-center gap-1 mt-28 w-full'>
             <Link href={`${basePath}`} className='underline text-primaryColor3'>
               Inicio
@@ -51,7 +54,10 @@ export function IndexPoliticaPrivacidadContainer() {
             </Link>
             , con las siguientes finalidades:
           </p>
-          <ol className=' list-decimal pl-20'>
+          <ol className=' 
+            list-decimal
+            min-[1023px]pl-20 pl-[10vw]
+            '>
             <li className='py-1'>Prestar sus servicios de acuerdo con las necesidades particulares de los clientes, con el fin de cumplir los contratos suscritos por la misma.</li>
           </ol>
           <p>
@@ -74,7 +80,10 @@ export function IndexPoliticaPrivacidadContainer() {
             El tratamiento de tus datos se realiza con las siguientes bases jurídicas que
             legitiman el mismo:
           </p>
-          <ol className=' list-decimal pl-20'>
+          <ol className=' 
+            list-decimal
+            min-[1023px]pl-20 pl-[10vw]
+            '>
             <li className='py-1'>La solicitud de información y/o la contratación de los servicios de Carmina Zamora Fernández, cuyos términos y condiciones se pondrán a tu disposición en todo caso, de forma previa a una eventual contratación.</li>
             <li className='py-1'>El consentimiento libre, específico, informado e inequívoco, en tanto que te informamos poniendo a tu disposición la presente política de privacidad, que tras la lectura de la misma, en caso de estar conforme, puedes aceptar mediante una declaración o una clara acción afirmativa, como el marcado de una casilla dispuesta al efecto.</li>
           </ol>
@@ -118,7 +127,10 @@ export function IndexPoliticaPrivacidadContainer() {
           <p>
             Se prohíbe el uso contrario a la legislación sobre propiedad intelectual de los servicios prestados por Carmina Zamora Fernández y, en particular de:
           </p>
-          <ol className=' list-decimal pl-20'>
+          <ol className=' 
+            list-decimal
+            min-[1023px]pl-20 pl-[10vw]
+            '>
             <li className='py-1'>La utilización que resulte contraria a las leyes españolas o que infrinja los derechos de terceros.</li>
             <li className='py-1'>La publicación o la transmisión de cualquier contenido que, a juicio de Carmina Zamora Fernández, resulte violento, obsceno, abusivo, ilegal, racial, xenófobo o difamatorio.</li>
             <li className='py-1'>Los cracks, números de serie de programas o cualquier otro contenido que vulnere derechos de la propiedad intelectual de terceros.</li>

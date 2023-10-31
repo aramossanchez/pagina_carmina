@@ -10,6 +10,6 @@ const AlataFont = Alata({
 export function LegalH1Component({ title = '' }) {
 
   return (
-    <h1 className={`${AlataFont.className} mt-5 text-3xl text-center text-textColor1`}>{title}</h1>
+    <h1 className={`${AlataFont.className} mt-5 text-3xl text-left text-textColor1`}>{title}</h1>
   )
 }
