@@ -40,7 +40,7 @@ export function IndexSliderContainer() {
           </div>
           {data.map((item) => {
             return (
-              <SliderItemComponent key={`${item.id}-item-slider`} image={item.image} text={item.text} />
+              <SliderItemComponent key={`${item.id}-item-slider`} image={item.image} text={item.text} link={item.link} />
               )
             })}
           <div

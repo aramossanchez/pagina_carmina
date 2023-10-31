@@ -72,7 +72,7 @@ export function MenuTop() {
           height={100}
           alt="Picture of the author"
           className={`
-          ${scrolled > 0 ? 'h-[45px] w-[170px]' : 'h-[60px] w-[200px]'}
+          ${scrolled > 0 ? 'h-[45px] w-[170px]' : 'h-[55px] w-[200px]'}
           ease-in duration-150
           min-[1281px]:ml-[3vw] min-[1023px]:ml-[3vw] ml-0
           min-[1023px]:flex hidden

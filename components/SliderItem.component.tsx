@@ -5,7 +5,7 @@ import Image from 'next/image';
 export function SliderItemComponent({ image = '', text = '', link = '' }) {
 
   return (
-    <Link href={link} className='flex flex-col items-center justify-center gap-2 cursor-pointer hover:scale-105 ease-in-out duration-200 transition-all'>
+    <Link href={link} target='_blank' className='flex flex-col items-center justify-center gap-2 cursor-pointer hover:scale-105 ease-in-out duration-200 transition-all'>
       <div className='
         mx-5
         min-[1023px]:h-[250px] h-[200px]

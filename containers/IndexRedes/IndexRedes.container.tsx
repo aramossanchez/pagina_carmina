@@ -40,10 +40,10 @@ export function IndexRedesContainer() {
             <li>Naturalidad: Tal como me muestro, es como soy. La sencillez, serenidad y consciencia social, forman parte de mi esencia personal.   </li>
           </ul>
           <div className='flex flex-row gap-3 items-center z-10'>
-            <Link href={'/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
+            <Link href={'https://www.instagram.com/laneuronamina/?hl=es'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
               <IconBrandInstagram size={50} className='text-secondaryColor1' />
             </Link>
-            <Link href={'/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
+            <Link href={'https://www.linkedin.com/in/carmina-zamora-8640a3168/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
               <IconBrandLinkedin size={50} className='text-secondaryColor1' />
             </Link>
           </div>

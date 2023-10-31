@@ -2,26 +2,31 @@
   {
     "id": 0,
     "image": "slider-1.jpg",
-    "text":  "PODCAST"
+    "text":  "PODCAST",
+    "link": "https://open.spotify.com/show/26p23JalnBavzjkey1kK4s"
   },
   {
     "id": 1,
     "image": "slider-2.jpg",
-    "text":  "INSTAGRAM"
+    "text":  "INSTAGRAM",
+    "link": "https://www.instagram.com/laneuronamina/?hl=es"
   },
   {
     "id": 2,
     "image": "slider-3.jpg",
-    "text":  "ENTREVISTA ASLEUVAL"
+    "text":  "ENTREVISTA ASLEUVAL",
+    "link": "https://www.instagram.com/p/CrJcg2jI-nz/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
   },
   {
     "id": 3,
     "image": "slider-4.jpg",
-    "text":  "PODCAST-TAKE IT SIMPLE"
+    "text":  "PODCAST-TAKE IT SIMPLE",
+    "link": "https://open.spotify.com/episode/3ebnh3mgF5rr2LyQERPaxr"
   },
   {
     "id": 4,
     "image": "slider-5.jpg",
-    "text":  "ENTREVISTA EN RADIO CLM"
+    "text":  "ENTREVISTA EN RADIO CLM",
+    "link": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuaXZvb3guY29tL3BvZGNhc3QtcGFzZW8tcG9yLXR1LW1lbnRlX2ZnX2YxMTE1NTE5Nl9maWx0cm9fMS54bWw/episode/aHR0cHM6Ly93d3cuaXZvb3guY29tLzc5NDMyNDM2?sa=X&ved=0CAUQkfYCahcKEwjYnZW6qJuCAxUAAAAAHQAAAAAQAQ"
   }
 ]

@@ -15,13 +15,13 @@ export function IndexFooterContainer() {
           className='h-[55px] w-[200px]'
         />
         <div className='flex flex-row gap-5 items-center px-2 flex-wrap justify-center'>
-          <Link href={'/'} className='underline'>
+          <Link href={'/politica-privacidad'} className='underline'>
             Política de Privacidad
           </Link>
-          <Link href={'/'} className='underline'>
+          <Link href={'/politica-cookies'} className='underline'>
             Política de Cookies
           </Link>
-          <Link href={'/'} className='underline'>
+          <Link href={'/aviso-legal'} className='underline'>
             Aviso Legal
           </Link>
         </div>
