@@ -31,6 +31,7 @@ export function IndexFormularioContactoContainer() {
           <div className='
             flex flex-col gap-y-5 items-center
             min-[500px]:w-[450px] w-[95vw]
+            min-[1023px]:order-1 order-2
           '>
             <SubtitleComponent title='Puedes encontrarme en:' />
             <div className='flex flex-row flex-wrap gap-x-3 gap-y-4 justify-center'>
@@ -90,6 +91,7 @@ export function IndexFormularioContactoContainer() {
           <div className='
             flex flex-col gap-y-5
             min-[500px]:w-[450px] w-[95vw]
+            min-[1023px]:order-2 order-1
           '>
             <SubtitleComponent title='Formulario' />
           </div>
