@@ -4,7 +4,7 @@ import { LegalH2Component } from '@/components/TitlesForLegalText/LegalH2';
 import { LegalH3Component } from '@/components/TitlesForLegalText/LegalH3';
 import { LegalH4Component } from '@/components/TitlesForLegalText/LegalH4';
 
-export function IndexPoliticaPrivacidadContainer() {
+export function IndexPoliticaCookiesContainer() {
 
   return (
     <section id='Inicio' className='w-full relative bg-whiteColor'>

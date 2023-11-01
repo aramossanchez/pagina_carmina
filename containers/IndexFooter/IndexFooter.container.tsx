@@ -18,9 +18,9 @@ export function IndexFooterContainer() {
           <Link href={'/politica-privacidad'} className='underline'>
             Política de Privacidad
           </Link>
-          <Link href={'/politica-cookies'} className='underline'>
+          {/* <Link href={'/politica-cookies'} className='underline'>
             Política de Cookies
-          </Link>
+          </Link> */}
           <Link href={'/aviso-legal'} className='underline'>
             Aviso Legal
           </Link>
