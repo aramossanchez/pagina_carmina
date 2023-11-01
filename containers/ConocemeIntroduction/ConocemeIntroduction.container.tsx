@@ -26,7 +26,7 @@ export function ConocemeIntroduction() {
                   flex flex-row items-center
                 '>
                 <Image
-                  src={`${basePath}images/logo.png`}
+                  src={`${basePath}images/logo.svg`}
                   width={100}
                   height={100}
                   alt="Picture of the author"

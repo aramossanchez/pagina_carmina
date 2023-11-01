@@ -8,7 +8,7 @@ export function IndexFooterContainer() {
     <section className='w-full py-8 bg-primaryColor3 sticky bottom-0 z-[-2]'>
       <div className='w-full flex flex-col items-center justify-center gap-4 text-textColor2'>
         <Image
-          src={`${basePath}images/logo.png`}
+          src={`${basePath}images/logo.svg`}
           width={100}
           height={100}
           alt='Logo'

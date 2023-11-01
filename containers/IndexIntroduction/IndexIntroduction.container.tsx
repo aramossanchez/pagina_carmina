@@ -44,7 +44,7 @@ export function IndexIntroduction() {
         <div className='flex flex-row items-center justify-center gap-2 mb-5'>
           <hr className="w-[100px] border-b-[1px] border-slate-100" />
           <Image
-            src={`${basePath}images/logo.png`}
+            src={`${basePath}images/logo.svg`}
             width={50}
             height={50}
             alt="Picture of the author"

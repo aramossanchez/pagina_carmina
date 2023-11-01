@@ -31,9 +31,9 @@ export function MenuTop() {
   return (
     <>
       {/* PARTE MOVIL */}
-      <div className={'w-full flex flex-row justify-center items-center fixed z-40 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'}>
+      <div className={'w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'}>
         <Image
-          src={`${basePath}images/logo.png`}
+          src={`${basePath}images/logo.svg`}
           width={100}
           height={100}
           alt='Logo'
@@ -67,7 +67,7 @@ export function MenuTop() {
         min-[1023px]:text-sm text-xs`
       }>
         <Image
-          src={`${basePath}images/logo.png`}
+          src={`${basePath}images/logo.svg`}
           width={100}
           height={100}
           alt='Logo'
@@ -112,10 +112,11 @@ export function MenuTop() {
         </div>
       </div>
       {/* CAPA INVISIBLE PARA PODER CERRAR MENU TOP AL CLICKAR FUERA DE ÉL */}
-      <div className='
+      <div className={`
         bg-transparent z-20 h-[100vh] fixed top-0 w-[100vw]
         min-[1023px]:hidden block
-      '
+        ${menuOpen ? 'block' : 'hidden'}
+      `}
       onClick={() => setMenuOpen(false)}
       ></div>
     </>
