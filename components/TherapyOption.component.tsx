@@ -10,7 +10,7 @@ export function TherapyOptionsComponent({ image = '', text = ''}) {
           src={`${basePath}images/${image}`}
           width={100}
           height={100}
-          alt="Icono online"
+          alt={`Icono opción terapia ${text}`}
         />
       </div>
       <span className='text-center'>{text}</span>

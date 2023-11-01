@@ -48,7 +48,7 @@ export function IndexPresentationContainer() {
           src={`${basePath}images/index_presentacion.jpg`}
           width={400}
           height={550}
-          alt="Foto presentación"
+          alt='Foto de Carmina'
           className='
             border-2 border-whiteColor shadow-customStrong left-0 saturate-[0.8]
             min-[1023px]:top-[-150px] top-0

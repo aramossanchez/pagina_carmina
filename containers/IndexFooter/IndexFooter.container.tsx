@@ -11,16 +11,13 @@ export function IndexFooterContainer() {
           src={`${basePath}images/logo.png`}
           width={100}
           height={100}
-          alt="Picture of the author"
+          alt='Logo'
           className='h-[55px] w-[200px]'
         />
         <div className='flex flex-row gap-5 items-center px-2 flex-wrap justify-center'>
           <Link href={'/politica-privacidad'} className='underline'>
             Política de Privacidad
           </Link>
-          {/* <Link href={'/politica-cookies'} className='underline'>
-            Política de Cookies
-          </Link> */}
           <Link href={'/aviso-legal'} className='underline'>
             Aviso Legal
           </Link>

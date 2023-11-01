@@ -44,7 +44,7 @@ export function IndexEnfoquePropuestaContainer() {
             src={`${basePath}images/enfoque-propuesta-2.jpg`}
             width={250}
             height={250}
-            alt="Enfoque propuesta imagen 1"
+            alt="Enfoque propuesta imagen 2"
             className='
             absolute border-2 border-whiteColor shadow-customStrong top-[35%] z-0 saturate-[0.6]
             min-[1023px]:left-[30%] right-[10vw]

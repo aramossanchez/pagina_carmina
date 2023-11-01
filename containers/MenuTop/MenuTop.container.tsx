@@ -36,7 +36,7 @@ export function MenuTop() {
           src={`${basePath}images/logo.png`}
           width={100}
           height={100}
-          alt="Imagen del Logo"
+          alt='Logo'
           className='
           absolute left-2
           min-[1023px]:hidden block
@@ -70,7 +70,7 @@ export function MenuTop() {
           src={`${basePath}images/logo.png`}
           width={100}
           height={100}
-          alt="Picture of the author"
+          alt='Logo'
           className={`
           ${scrolled > 0 ? 'h-[45px] w-[170px]' : 'h-[55px] w-[200px]'}
           ease-in duration-150

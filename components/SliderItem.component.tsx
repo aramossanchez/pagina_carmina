@@ -15,7 +15,7 @@ export function SliderItemComponent({ image = '', text = '', link = '' }) {
           src={`${basePath}images/${image}`}
           width={250}
           height={250}
-          alt="Foto de slider"
+          alt={`Foto de slider ${text}`}
           className={`
             border-2 border-whiteColor shadow-customStrong saturate-[0.8]
             min-[1023px]:h-[250px] h-[200px]
