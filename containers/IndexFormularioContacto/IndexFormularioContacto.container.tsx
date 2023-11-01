@@ -4,12 +4,35 @@ import data from '../../data/ContactData.json';
 import style from './IndexFormularioContacto.module.css';
 import { useState } from 'react';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
-import Image from 'next/image';
 import { basePath } from '../../config/config';
+import Link from 'next/link';
 
 export function IndexFormularioContactoContainer() {
 
   const [selectedCenter, setSelectedCenter] = useState(0);
+
+  type FormData = {
+    [key: string]: string | boolean;
+    name: string;
+    phone: string;
+    email: string;
+    text: string;
+    checked: boolean;
+  };
+
+  const [form, setForm] = useState<FormData>({
+    name: '',
+    phone: '',
+    email: '',
+    text: '',
+    checked: false
+  });
+
+  const setFieldOfForm = (field: string, value: string | boolean) => {
+    const copyOfForm = structuredClone(form);
+    copyOfForm[field] = value;
+    setForm(copyOfForm);
+  }
 
   return (
     <section id='Contacto' className='w-full relative py-20 bg-primaryColor1'>
@@ -71,7 +94,7 @@ export function IndexFormularioContactoContainer() {
                 `}>
                   <a href={center.maps_url} target='_blank' className='absolute top-5 left-4 flex flex-col items-start gap-1 bg-white px-3 py-1 shadow-customSoft'>
                     <span className='text-[14px] font-bold'>{center.direction}</span>
-                    <span className='text-[13px] text-blue-500'>Ampliar el mapa</span>
+                    <span className='text-[13px] text-blue-400'>Ampliar el mapa</span>
                   </a>
                 </div>
               )
@@ -98,22 +121,62 @@ export function IndexFormularioContactoContainer() {
             min-[1023px]:order-2 order-1
           '>
             <SubtitleComponent title='Formulario de contacto' />
+            {/* FORMULARIO */}
             <div className='w-full flex flex-col gap-3'>
               <div className='flex flex-col gap-1'>
                 <span className='text-sm font-semibold'>Nombre:</span>
-                <input type="text" className='border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3' />
+                <input
+                  type="text"
+                  className='border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3'
+                  value={form.name}
+                  onChange={(e) => setFieldOfForm('name', e.target.value)}
+                />
               </div>
               <div className='flex flex-col gap-1'>
                 <span className='text-sm font-semibold'>Teléfono:</span>
-                <input type="text" className='border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3' />
+                <input
+                  type="text"
+                  className='border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3'
+                  value={form.phone}
+                  onChange={(e) => setFieldOfForm('phone', e.target.value)}
+                />
               </div>
               <div className='flex flex-col gap-1'>
                 <span className='text-sm font-semibold'>Email:</span>
-                <input type="text" className='border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3' />
+                <input
+                  type="text"
+                  className='border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3'
+                  value={form.email}
+                  onChange={(e) => setFieldOfForm('email', e.target.value)}
+                />
               </div>
               <div className='flex flex-col gap-2'>
                 <span className='text-sm font-semibold'>Consulta:</span>
-                <textarea className='min-h-[150px] max-h-[250px] border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3'></textarea>
+                <textarea
+                  className='min-h-[150px] max-h-[250px] border-2 border-primaryColor1 py-[4px] px-2 outline-none focus:outline focus:border-2 focus:border-primaryColor3'
+                  value={form.text}
+                  onChange={(e) => setFieldOfForm('text', e.target.value)}
+                ></textarea>
+              </div>
+            </div>
+            <div className='w-full flex flex-row items-start justify-start'>
+              <span className='text-[13px]'>* Todos los campos deben estar rellenados correctamente, y debe ser aceptada la política de protección de datos.</span>
+            </div>
+            <div className='w-full flex flex-row justify-start'>
+              <label className={style.checkbox_container}>
+                <input
+                  className={style.custom_checkbox}
+                  checked={form.checked}
+                  type='checkbox'
+                  onClick={() => setFieldOfForm('checked', !form.checked)}
+                />
+                <span className={style.checkmark}></span>
+              </label>
+              <div className='flex flex-row items-center gap-1'>
+                <span>Acepto la</span>
+                <Link href={`${basePath}politica-privacidad`} target='_blank' className='text-primaryColor3 underline'>
+                  política de protección de datos
+                </Link>
               </div>
             </div>
             <div className='mt-5'>
