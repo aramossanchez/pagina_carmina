@@ -2,11 +2,17 @@ import { TitleComponent } from '@/components/Title.component';
 import { SubtitleComponent } from '@/components/Subtitle.component';
 import data from '../../data/ContactData.json';
 import style from './IndexFormularioContacto.module.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export function IndexFormularioContactoContainer() {
 
   const [selectedCenter, setSelectedCenter] = useState(0);
+  const [selectedMap, setSelectedMap] = useState<string | undefined>('');
+
+  useEffect(() => {
+    const center = data.find((center) => center.id === selectedCenter);
+    setSelectedMap(center?.maps_url);
+  }, [selectedCenter]);
 
   return (
     <section id='Contacto' className='w-full relative py-20 bg-primaryColor1'>
@@ -56,22 +62,17 @@ export function IndexFormularioContactoContainer() {
                 )
               })}
             </div>
-            {data.map((center) => {
-              return (
                 <div
                   className={`
-                  ${selectedCenter === center.id ? 'block' : 'hidden'}
                   ${style.with_animation}
                   h-[350px] bg-primaryColor3
                   min-[500px]:w-[450px] w-[95vw]
                 `}>
-                  <iframe src={center.maps_url} className='
+                  <iframe src={selectedMap} className='
                     h-[350px]
                     min-[500px]:w-[450px] w-[95vw]
                   '></iframe>
                 </div>
-              )
-            })}
 
             {data.map((center) => {
               return (
