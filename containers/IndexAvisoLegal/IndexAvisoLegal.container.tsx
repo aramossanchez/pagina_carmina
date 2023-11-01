@@ -27,7 +27,7 @@ export function IndexAvisoLegalContainer() {
           '>
             <li className='py-1'>Denominación social: Carmina Zamora Fernández</li>
             <li className='py-1'>NIF: 74521470K</li>
-            <li className='py-1'>Domicilio: C/ Serra Martes, 7, puerta 7, 46015 - Valencia (Valencia)</li>
+            <li className='py-1'>Domicilio: C/ Serra Martes, 46015 - Valencia (Valencia)</li>
           </ol>
           <p>
             Con los límites establecidos en la ley, Carmina Zamora Fernández no asume ninguna responsabilidad derivada de la falta de veracidad, integridad, actualización y precisión de los datos o informaciones que contienen sus páginas web.

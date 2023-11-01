@@ -4,6 +4,7 @@ import { IndexConoceme } from '@/containers/IndexConoceme/IndexConoceme.containe
 import { IndexDudasFrecuentesContainer } from '@/containers/IndexDudasFrecuentes/IndexDudasFrecuentes.container'
 import { IndexEnfoquePropuestaContainer } from '@/containers/IndexEnfoquePropuesta/IndexEnfoquePropuesta.container'
 import { IndexFooterContainer } from '@/containers/IndexFooter/IndexFooter.container'
+import { IndexFormularioContactoContainer } from '@/containers/IndexFormularioContacto/IndexFormularioContacto.container'
 import { IndexIntroduction } from '@/containers/IndexIntroduction/IndexIntroduction.container'
 import { IndexOpcionesTerapiaContainer } from '@/containers/IndexOpcionesTerapia/IndexOpcionesTerapia.container'
 import { IndexPermitemeAcompañarteContainer } from '@/containers/IndexPermitemeAcompañarte/IndexPermitemeAcompañarte.container'
@@ -32,6 +33,7 @@ export default function Index() {
       <IndexEnfoquePropuestaContainer />
       <IndexPermitemeAcompañarteContainer />
       <IndexDudasFrecuentesContainer />
+      <IndexFormularioContactoContainer />
       <IndexRedesContainer />
       <IndexSliderContainer />
       <IndexFooterContainer />
