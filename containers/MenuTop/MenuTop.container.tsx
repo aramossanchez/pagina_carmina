@@ -106,6 +106,11 @@ export function MenuTop() {
               REDES
             </span>
           </a>
+          <a href={`${basePath}#Contacto`} onClick={() => setMenuOpen(false)} className='min-[1023px]:hidden block'>
+            <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
+              CONTACTO
+            </span>
+          </a>
           <div className='min-[1023px]:flex hidden'>
             <ButtonComponent text='¿HABLAMOS?' />
           </div>
