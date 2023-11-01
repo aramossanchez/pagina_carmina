@@ -15,7 +15,7 @@ export function IndexPoliticaPrivacidadContainer() {
           min-[1023px]:w-[1000px] w-[92%]
         '>
           <header className='flex flex-row items-center gap-1 mt-28 w-full'>
-            <Link href={`${basePath}`} className='underline text-primaryColor3'>
+            <Link href='/' className='underline text-primaryColor3'>
               Inicio
             </Link>
             <span>/ Política de Privacidad</span>
@@ -25,7 +25,7 @@ export function IndexPoliticaPrivacidadContainer() {
           <LegalH2Component title='Protección de datos de carácter personal según el RGPD' />
           <p>
             Carmina Zamora Fernández, en aplicación de la normativa vigente en materia de protección de datos de carácter personal, informa que los datos personales que se recogen a través de los formularios del Sitio web:
-            <Link href={`${basePath}`} className='underline ml-1 text-primaryColor3'>
+            <Link href='/' className='underline ml-1 text-primaryColor3'>
               www.carminazamora.com
             </Link>
             , se incluyen en los ficheros automatizados específicos de usuarios de los servicios de Carmina Zamora Fernández.
@@ -49,14 +49,14 @@ export function IndexPoliticaPrivacidadContainer() {
           <LegalH3Component title='¿Con qué finalidad trataremos tus datos personales?' />
           <p>
             En Carmina Zamora Fernández, trataremos tus datos personales recabados a través del Sitio Web:
-            <Link href={`${basePath}`} className='underline ml-1 text-primaryColor3'>
+            <Link href='/' className='underline ml-1 text-primaryColor3'>
               www.carminazamora.com
             </Link>
             , con las siguientes finalidades:
           </p>
           <ol className=' 
             list-decimal
-            min-[1023px]pl-20 pl-[10vw]
+            min-[1023px]:pl-20 pl-[10vw]
             '>
             <li className='py-1'>Prestar sus servicios de acuerdo con las necesidades particulares de los clientes, con el fin de cumplir los contratos suscritos por la misma.</li>
           </ol>
@@ -82,7 +82,7 @@ export function IndexPoliticaPrivacidadContainer() {
           </p>
           <ol className=' 
             list-decimal
-            min-[1023px]pl-20 pl-[10vw]
+            min-[1023px]:pl-20 pl-[10vw]
             '>
             <li className='py-1'>La solicitud de información y/o la contratación de los servicios de Carmina Zamora Fernández, cuyos términos y condiciones se pondrán a tu disposición en todo caso, de forma previa a una eventual contratación.</li>
             <li className='py-1'>El consentimiento libre, específico, informado e inequívoco, en tanto que te informamos poniendo a tu disposición la presente política de privacidad, que tras la lectura de la misma, en caso de estar conforme, puedes aceptar mediante una declaración o una clara acción afirmativa, como el marcado de una casilla dispuesta al efecto.</li>
@@ -101,7 +101,7 @@ export function IndexPoliticaPrivacidadContainer() {
           <LegalH4Component title='Derechos propiedad intelectual www.carminazamora.com' />
           <p>
             Carmina Zamora Fernández es titular de todos los derechos de autor, propiedad intelectual, industrial, &quot;know how&quot; y cuantos otros derechos guardan relación con los contenidos del sitio web
-            <Link href={`${basePath}`} className='underline mx-1 text-primaryColor3'>
+            <Link href='/' className='underline mx-1 text-primaryColor3'>
               www.carminazamora.com
             </Link>
             y los servicios ofertados en el mismo, así como de los programas necesarios para su implementación y la información relacionada.
@@ -129,7 +129,7 @@ export function IndexPoliticaPrivacidadContainer() {
           </p>
           <ol className=' 
             list-decimal
-            min-[1023px]pl-20 pl-[10vw]
+            min-[1023px]:pl-20 pl-[10vw]
             '>
             <li className='py-1'>La utilización que resulte contraria a las leyes españolas o que infrinja los derechos de terceros.</li>
             <li className='py-1'>La publicación o la transmisión de cualquier contenido que, a juicio de Carmina Zamora Fernández, resulte violento, obsceno, abusivo, ilegal, racial, xenófobo o difamatorio.</li>
