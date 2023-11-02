@@ -35,7 +35,7 @@ export function IndexOpcionesTerapiaContainer() {
 
         </div>
       </article>
-      <article className='w-full flex flex-col items-center gap-9 py-7 overflow-hidden relative bg-primaryColor1'>
+      <article className='w-full flex flex-col items-center gap-9 pt-7 pb-20 overflow-hidden relative bg-primaryColor1'>
         <div className='flex flex-col items-center justify-around gap-5 px-10 w-full z-10'>
           <SubtitleComponent title='Si no tienes claro cual es el mejor formato para tí, rellena este formulario y podremos decidirlo juntas/os' />
           <SecondaryButtonComponent text='FORMULARIO 1ª VISITA' />
