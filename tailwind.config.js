@@ -19,6 +19,7 @@ module.exports = {
         'secondaryColor2': 'var(--secondaryColor2)',
         'textColor1': 'var(--textColor1)',
         'textColor2': 'var(--textColor2)',
+        'textColorError': 'var(--textColorError)',
         'whiteColor': 'var(--whiteColor)',
         'whiteColorTransparent': 'var(--whiteColorTransparent)',
         'greyColor': 'var(--greyColor)',
