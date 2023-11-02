@@ -59,7 +59,9 @@ export function IndexFormularioContactoContainer() {
             min-[500px]:w-[450px] w-[90vw]
             min-[1023px]:order-1 order-2
           '>
-            <SubtitleComponent title='PUEDES ENCONTRARME EN:' />
+            <div className='min-[1023px]:normal-case uppercase'>
+              <SubtitleComponent title='Puedes encontrarme en:' />
+            </div>
             <div className='flex flex-row flex-wrap gap-x-3 gap-y-4 justify-center'>
               {data.map((center) => {
                 return (
@@ -120,7 +122,9 @@ export function IndexFormularioContactoContainer() {
             min-[500px]:w-[450px] w-[85vw]
             min-[1023px]:order-2 order-1
           '>
-            <SubtitleComponent title='FORMULARIO DE CONTACTO' />
+            <div className='min-[1023px]:normal-case uppercase'>
+              <SubtitleComponent title='Formulario de contacto' />
+            </div>
             {/* FORMULARIO */}
             <div className='w-full flex flex-col gap-3'>
               <div className='flex flex-col gap-1'>
