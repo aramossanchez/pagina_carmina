@@ -94,24 +94,26 @@ export function IndexFormularioContactoContainer() {
         </div>
         <div className='
           flex flex-col gap-y-3
-          min-[1023px]:w-[1000px] w-[95%]
+          min-[1023px]:w-[1000px] w-[90%]
         '>
           <span>Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. </span>
           <span>Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. </span>
           <span>Texto de prueba.Texto de prueba.Texto de prueba.Texto de prueba.</span>
         </div>
         <div className='
-          flex gap-x-3 gap-y-20 justify-between mt-10
+          flex gap-x-3 gap-y-32 justify-between mt-10
           min-[1023px]:w-[1000px] w-full
           min-[1023px]:flex-row flex-col
           min-[1023px]:items-start items-center
         '>
           <div className='
             flex flex-col gap-y-5 items-center
-            min-[500px]:w-[450px] w-[95vw]
+            min-[500px]:w-[450px] w-[90vw]
             min-[1023px]:order-1 order-2
           '>
-            <SubtitleComponent title='Puedes encontrarme en:' />
+            <div className='min-[1023px]:normal-case uppercase'>
+              <SubtitleComponent title='Puedes encontrarme en:' />
+            </div>
             <div className='flex flex-row flex-wrap gap-x-3 gap-y-4 justify-center'>
               {data.map((center) => {
                 return (
@@ -142,7 +144,7 @@ export function IndexFormularioContactoContainer() {
                   ${selectedCenter === center.id ? 'block' : 'hidden'}
                   ${style.with_animation}
                   h-[350px] bg-primaryColor3 relative
-                  min-[500px]:w-[450px] w-[95vw]
+                  min-[500px]:w-[450px] w-[90vw]
                 `}>
                   <a href={center.maps_url} target='_blank' className='absolute top-5 left-4 flex flex-col items-start gap-1 bg-white px-3 py-1 shadow-customSoft'>
                     <span className='text-[14px] font-bold'>{center.direction}</span>
@@ -169,10 +171,12 @@ export function IndexFormularioContactoContainer() {
           </div>
           <div className='
             flex flex-col gap-y-5 items-center
-            min-[500px]:w-[450px] w-[95vw]
+            min-[500px]:w-[450px] w-[85vw]
             min-[1023px]:order-2 order-1
           '>
-            <SubtitleComponent title='Formulario de contacto' />
+            <div className='min-[1023px]:normal-case uppercase'>
+              <SubtitleComponent title='Formulario de contacto' />
+            </div>
             {/* FORMULARIO */}
             <div className='w-full flex flex-col gap-3'>
               <div className='flex flex-col gap-1'>
