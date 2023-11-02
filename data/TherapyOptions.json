@@ -1,17 +1,17 @@
 [
   {
     "id": 0,
-    "image": "online.png",
+    "image": "terapia0.png",
     "text": "ONLINE"
   },
   {
     "id": 1,
-    "image": "online.png",
+    "image": "terapia1.png",
     "text": "PRESENCIAL (Valencia-España)"
   },
   {
     "id": 2,
-    "image": "online.png",
+    "image": "terapia2.png",
     "text": "Cursos / Talleres / Charlas"
   }
 ]
