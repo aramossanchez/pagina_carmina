@@ -2,89 +2,16 @@ import { TitleComponent } from '@/components/Title.component';
 import { SubtitleComponent } from '@/components/Subtitle.component';
 import data from '../../data/ContactData.json';
 import style from './IndexFormularioContacto.module.css';
-import { useState } from 'react';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
 import { ErrorMessageComponent } from '@/components/ErrorMessage.component';
 import { basePath } from '../../config/config';
 import Link from 'next/link';
+import { UseIndexFormularioContacto } from './IndexFormularioContacto.hook';
+import { InputFormComponent } from '@/components/InputForm/InputForm.component';
 
 export function IndexFormularioContactoContainer() {
 
-  const [selectedCenter, setSelectedCenter] = useState(0);
-
-  type FormData = {
-    [key: string]: string | boolean;
-    name: string;
-    phone: string;
-    email: string;
-    text: string;
-    checked: boolean;
-  };
-
-  const [form, setForm] = useState<FormData>({
-    name: '',
-    phone: '',
-    email: '',
-    text: '',
-    checked: false
-  });
-
-  const [validationError, setValidationError] = useState({
-    name: false,
-    phone: false,
-    email: false,
-    text: false,
-    checked: false
-  });
-
-  const setFieldOfForm = (field: string, value: string | boolean) => {
-    const copyOfForm = structuredClone(form);
-    copyOfForm[field] = value;
-    setForm(copyOfForm);
-  }
-
-  const sendMail = () => {
-    const mailtoLink = `mailto:contactoweb@carminazamora.com?subject=${encodeURIComponent('Formulario web - ' + form.name)}&body=--------------------------------------------------%0D%0AFormulario rellenado desde la web.%0D%0A--------------------------------------------------%0D%0A%0D%0ANombre: ${form.name} %0D%0A%0D%0ATeléfono de contacto: ${form.phone} %0D%0A%0D%0AEmail de contacto: ${form.email} %0D%0A%0D%0AMotivo de mi consulta:%0D%0A${form.text}`;
-    window.location.href = mailtoLink;
-  }
-
-  const validateForm = (form: FormData) => {
-
-    const errorChecks = structuredClone(validationError);
-
-    const normalTextRgx = /^.{3,}$/;
-    const phoneRgx = /^\d{9,}$/;
-    const emailRgx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    const keys = Object.keys(form);
-
-    keys.forEach(key => {
-      switch (key) {
-        case 'name':
-        case 'text':
-          errorChecks[key] = !normalTextRgx.test(form[key]);
-          break;
-        case 'phone':
-          errorChecks[key] = !phoneRgx.test(form[key]);
-          break;
-        case 'email':
-          errorChecks[key] = !emailRgx.test(form[key]);
-          break;
-        case 'checked':
-          errorChecks[key] = !form[key];
-          break;
-
-        default:
-          break;
-      }
-    });
-    setValidationError(errorChecks);
-
-    const checkedForm = Object.values(errorChecks).some(value => value === true);
-    if (!checkedForm) {
-      sendMail();
-    }
-
-  }
+  const { selectedCenter, setSelectedCenter, validationError, form, setFieldOfForm, validateForm } = UseIndexFormularioContacto();
 
   return (
     <section id='Contacto' className='w-full relative py-20 bg-primaryColor1'>
@@ -179,42 +106,9 @@ export function IndexFormularioContactoContainer() {
             </div>
             {/* FORMULARIO */}
             <div className='w-full flex flex-col gap-3'>
-              <div className='flex flex-col gap-1'>
-                <span className='text-sm font-semibold'>Nombre:</span>
-                <input
-                  type="text"
-                  className={`${validationError.name ? 'border-textColorError focus:border-textColorError' : 'border-primaryColor1 focus:border-primaryColor3'} border-2 py-[4px] px-2 outline-none focus:outline`}
-                  value={form.name}
-                  onChange={(e) => setFieldOfForm('name', e.target.value)}
-                />
-                {validationError.name &&
-                  <ErrorMessageComponent text='El nombre debe tener al menos 3 caracteres' />
-                }
-              </div>
-              <div className='flex flex-col gap-1'>
-                <span className='text-sm font-semibold'>Teléfono:</span>
-                <input
-                  type="text"
-                  className={`${validationError.phone ? 'border-textColorError focus:border-textColorError' : 'border-primaryColor1 focus:border-primaryColor3'} border-2 py-[4px] px-2 outline-none focus:outline`}
-                  value={form.phone}
-                  onChange={(e) => setFieldOfForm('phone', e.target.value)}
-                />
-                {validationError.phone &&
-                  <ErrorMessageComponent text='El número de teléfono debe tener al menos 9 números' />
-                }
-              </div>
-              <div className='flex flex-col gap-1'>
-                <span className='text-sm font-semibold'>Correo electrónico:</span>
-                <input
-                  type="text"
-                  className={`${validationError.email ? 'border-textColorError focus:border-textColorError' : 'border-primaryColor1 focus:border-primaryColor3'} border-2 py-[4px] px-2 outline-none focus:outline`}
-                  value={form.email}
-                  onChange={(e) => setFieldOfForm('email', e.target.value)}
-                />
-                {validationError.email &&
-                  <ErrorMessageComponent text='El correo electrónico debe ser una dirección válida' />
-                }
-              </div>
+              <InputFormComponent label='Nombre' errorMessage='El nombre debe tener al menos 3 caracteres' form={form} validationError={validationError} formProperty='name' setFieldOfForm={setFieldOfForm} />
+              <InputFormComponent label='Teléfono' errorMessage='El número de teléfono debe tener al menos 9 números' form={form} validationError={validationError} formProperty='phone' setFieldOfForm={setFieldOfForm} />
+              <InputFormComponent label='Correo electrónico' errorMessage='El correo electrónico debe ser una dirección válida' form={form} validationError={validationError} formProperty='email' setFieldOfForm={setFieldOfForm} />
               <div className='flex flex-col gap-2'>
                 <span className='text-sm font-semibold'>Consulta:</span>
                 <textarea

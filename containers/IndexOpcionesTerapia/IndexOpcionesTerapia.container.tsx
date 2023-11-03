@@ -3,25 +3,8 @@ import { TherapyOptionsComponent } from '@/components/TherapyOption.component';
 import { ButtonComponent } from '@/components/Button.component';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
 import { SubtitleComponent } from '@/components/Subtitle.component';
-// import { basePath } from '../../config/config';
-// import Image from 'next/image';
-// import { useEffect, useState } from 'react';
 
 export function IndexOpcionesTerapiaContainer() {
-
-  // const [scrollY, setScrollY] = useState<number>(0);
-  // const [scrollYMobile, setScrollYMobile] = useState<number>(0);
-
-  // useEffect(() => {
-  //   const knowScrollHeight = () => {
-  //     setScrollY((window.scrollY) / 9);
-  //     setScrollYMobile((window.scrollY / 25) - 150);
-  //   };
-  //   window.addEventListener('scroll', knowScrollHeight);
-  //   return () => {
-  //     window.removeEventListener('scroll', knowScrollHeight);
-  //   };
-  // }, []);
 
   return (
     <section id='Servicios' className='w-full relative'>
