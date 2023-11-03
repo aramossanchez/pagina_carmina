@@ -10,13 +10,14 @@ export function SliderItemComponent({ image = '', text = '', resume = '', link =
     <Link href={link} target='_blank' className='flex flex-col items-center justify-center gap-4 cursor-pointer mx-5'>
       <div className='
         bg-whiteColor flex flex-col justify-center items-center rounded-lg
-        min-[1023px]:h-[400px] h-[425px]
+        min-[1023px]:h-[400px] h-[375px]
         min-[1023px]:min-w-[250px] min-w-[200px]
       '>
         <div
           className='
-          h-[200px] flex flex-col items-center justify-center bg-primaryColor1 rounded-lg
+          flex flex-col items-center justify-center bg-primaryColor1 rounded-lg
           min-[1023px]:min-w-[250px] min-w-[200px]
+          min-[1023px]:h-[200px] h-[150px]
         '>
           <Image
             src={`${basePath}images/${image}`}
@@ -24,7 +25,9 @@ export function SliderItemComponent({ image = '', text = '', resume = '', link =
             height={250}
             alt={`Foto de slider ${text}`}
             className={`
-              border-2 border-whiteColor shadow-customSoft saturate-[0.8] rounded-full h-[150px] w-[150px]
+              border-2 border-whiteColor shadow-customSoft saturate-[0.8] rounded-full
+              min-[1023px]:h-[150px] h-[100px]
+              min-[1023px]:w-[150px] w-[100px]
             `}
           /></div>
         <span className='font-bold p-1 text-center'>{text}</span>
