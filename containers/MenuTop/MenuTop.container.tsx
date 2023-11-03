@@ -49,9 +49,9 @@ export function MenuTop() {
             <IconMenu2 onClick={() => setMenuOpen(true)} color='white' />
           }
         </div>
-        <div className="min-[1023px]:hidden block absolute right-5">
+        <a href={`${basePath}#Dudas`} onClick={() => setMenuOpen(false)} className='min-[1023px]:hidden block absolute right-5'>
           <ButtonComponent text='¿HABLAMOS?' />
-        </div>
+        </a>
       </div>
       {/* PARTE PC */}
       <div className={`
@@ -93,12 +93,12 @@ export function MenuTop() {
           </a>
           <a href={`${basePath}#Servicios`} onClick={() => setMenuOpen(false)}>
             <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
-            SERVICIOS
+              SERVICIOS
             </span>
           </a>
           <a href={`${basePath}#Dudas`} onClick={() => setMenuOpen(false)}>
             <span className='text-textColor2 cursor-pointer hover:text-secondaryColor1 font-medium'>
-            DUDAS
+              DUDAS
             </span>
           </a>
           <a href={`${basePath}#Redes`} onClick={() => setMenuOpen(false)}>
@@ -111,9 +111,9 @@ export function MenuTop() {
               CONTACTO
             </span>
           </a>
-          <div className='min-[1023px]:flex hidden'>
+          <a href={`${basePath}#Contacto`} onClick={() => setMenuOpen(false)} className='min-[1023px]:flex hidden'>
             <ButtonComponent text='¿HABLAMOS?' />
-          </div>
+          </a>
         </div>
       </div>
       {/* CAPA INVISIBLE PARA PODER CERRAR MENU TOP AL CLICKAR FUERA DE ÉL */}
@@ -122,7 +122,7 @@ export function MenuTop() {
         min-[1023px]:hidden block
         ${menuOpen ? 'block' : 'hidden'}
       `}
-      onClick={() => setMenuOpen(false)}
+        onClick={() => setMenuOpen(false)}
       ></div>
     </>
   )
