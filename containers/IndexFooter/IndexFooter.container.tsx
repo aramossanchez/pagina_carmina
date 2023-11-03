@@ -25,7 +25,7 @@ export function IndexFooterContainer() {
         <div className='flex  items-center justify-center gap-y-2
           min-[768px]:flex-row flex-col
         '>
-          <span className='text-center px-2'><strong>Dirección de correo:</strong> contacto@carminazamora.com</span>
+          <span className='text-center px-2'><strong>Dirección de correo:</strong> info@carminazamora.com</span>
           <span className='text-center px-2'><strong>Tlf de contacto:</strong> 613041566</span>
         </div>
         <span className='text-center px-2'>2023 - Carmina Zamora. Todos los derechos reservados.</span>

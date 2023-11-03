@@ -2,7 +2,7 @@ import { TitleComponent } from '@/components/Title.component';
 import { basePath } from '../../config/config';
 import Image from 'next/image';
 import { SubtitleComponent } from '@/components/Subtitle.component';
-import { IconBrandInstagram, IconBrandLinkedin } from '@tabler/icons-react';
+import { IconBrandInstagram, IconBrandLinkedin, IconBrandSpotify, IconBrandTiktok } from '@tabler/icons-react';
 import Link from 'next/link';
 
 export function IndexRedesContainer() {
@@ -33,12 +33,18 @@ export function IndexRedesContainer() {
             <li>Valores: Para mí, ser congruente y coherente con mis principios, es esencial en mis participaciones.  </li>
             <li>Naturalidad: Tal como me muestro, es como soy. La sencillez, serenidad y consciencia social, forman parte de mi esencia personal.   </li>
           </ul>
-          <div className='flex flex-row gap-3 items-center z-10'>
+          <div className='flex flex-row justify-center gap-3 items-center z-10 w-full mt-5'>
             <Link href={'https://www.instagram.com/laneuronamina/?hl=es'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
               <IconBrandInstagram size={50} className='text-secondaryColor1' />
             </Link>
             <Link href={'https://www.linkedin.com/in/carmina-zamora-8640a3168/'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
               <IconBrandLinkedin size={50} className='text-secondaryColor1' />
+            </Link>
+            <Link href={'https://open.spotify.com/show/26p23JalnBavzjkey1kK4s'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
+              <IconBrandSpotify size={50} className='text-secondaryColor1' />
+            </Link>
+            <Link href={'https://www.tiktok.com/@laneuronamina'} target='_blank' className='cursor-pointer hover:scale-105 duration-200 ease-in-out transition-all'>
+              <IconBrandTiktok size={50} className='text-secondaryColor1' />
             </Link>
           </div>
         </article>

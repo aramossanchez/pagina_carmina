@@ -1,4 +1,3 @@
-import { ButtonComponent } from '@/components/Button.component';
 import dataRaw from '../../data/AllowAccompany.data.json';
 import { AllowAccompanyComponent } from '@/components/AllowAccompany.component';
 

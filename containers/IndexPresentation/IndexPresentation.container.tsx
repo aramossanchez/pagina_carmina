@@ -35,7 +35,7 @@ export function IndexPresentationContainer() {
               min-[768px]:text-left text-center
               min-[1440px]:text-4xl min-[1280px]:text-3xl min-[768px]:text-2xl text-lg
               `}>(RE) CONECTAR CONTIGO... ES POSIBLE</span>
-            <span className='text-textColor1 min-[768px]:px-0 px-5 min-[768px]:text-left text-center min-[1440px]:text-xl min-[768px]:text-lg text-sm'>NEUROPSICOLOGÍA Y PSICOLOGÍA CLÍNICA</span>
+            <span className='text-textColor1 min-[768px]:px-0 px-5 min-[768px]:text-left text-center min-[1440px]:text-xl min-[768px]:text-lg text-sm'>PSICOLOGÍA  Y NEUROCIENCIA</span>
           </div>
         </div>
         {/* FOTO Y TEXTO */}
@@ -70,11 +70,11 @@ export function IndexPresentationContainer() {
           '>
             <TitleComponent title='¡TE DOY LA BIENVENIDA!' />
             <span className='max-w-[700px] text-lg'>Mi nombre es Carmina Zamora, psicóloga especialista en neuropsicología clínica, con casi 10 años de experiencia en el acompañamiento de personas con problemas del estado de ánimo, procesos de aceptación y pérdidas, así como rehabilitación en lesiones neurológicas.  </span>
-            <span className='max-w-[700px] text-lg'>Mi pasión por el ser humano y la neurociencia, me ha permitido conocer en profundidad el origen de nuestros pensamientos y emociones más profundas, entendiendo cómo se manifiestan tanto en nuestro cuerpo como en nuestra conducta. Ya que es en ese descubrimiento personal, 
+            <span className='max-w-[700px] text-lg'>Mi pasión por el ser humano y la neurociencia, me ha permitido conocer el origen de nuestros pensamientos y emociones más profundas, entendiendo cómo se manifiestan tanto en nuestro cuerpo como en nuestra conducta. Ya que es en ese descubrimiento personal, 
             donde nace la transformación. </span>
             <span className='max-w-[700px] text-lg'>Me gusta definirme como una persona apasionada por lo que hace, cercana, creativa y con una gran conciencia social. Algo que no puedo (ni quiero) separar de mi labor como terapeuta, ya que me ayuda a mantener un gran rigor y respeto por las personas a quienes acompaño. </span>
             <Link href='https://drive.google.com/file/d/1vdJ2Kt8eNYmKta3EmMRSi8RmlH3_i57V/view?usp=sharing' target='_blank' className='flex flex-row w-full justify-center pt-5'>
-              <ButtonComponent text='MÁS INFORMACIÓN' />
+              <ButtonComponent text='CONÓCEME MEJOR' />
             </Link>
           </div>
         </div>

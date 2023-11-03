@@ -10,7 +10,7 @@ export function IndexPuedoAyudarteContainer() {
     <section id='Puedo_Ayudarte' className='w-full relative py-20 bg-primaryColor4'>
       <article className='w-full flex flex-col items-center gap-9'>
         <div className='px-2 flex flex-col justify-center'>
-        <TitleComponent title='¿VIVES ALGUNO DE ESTOS MOMENTOS? HABLEMOS.' />
+        <TitleComponent title='SI VIVES ALGUNO DE ESTOS MOMENTOS, HABLEMOS' />
         </div>
         <div className='
         flex flex-start flex-wrap justify-center px-5 gap-y-8 gap-x-6

@@ -55,7 +55,7 @@ export function IndexEnfoquePropuestaContainer() {
         </article>
       </div>
       <div className='w-full py-10 bg-primaryColor1 flex flex-row justify-center text-textColor1'>
-        <TitleComponent title='MI MANERA DE ACOMPAÑAR...' /> 
+        <TitleComponent title='COMO PUEDO AYUDARTE' /> 
       </div>
     </section>
   )
