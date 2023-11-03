@@ -1,8 +1,10 @@
 import { ButtonComponent } from '@/components/Button.component';
-import data from '../../data/AllowAccompany.data.json';
+import dataRaw from '../../data/AllowAccompany.data.json';
 import { AllowAccompanyComponent } from '@/components/AllowAccompany.component';
 
 export function IndexPermitemeAcompañarteContainer() {
+
+  const data: {id: number, title: string, image: string, text: string, orientation: string}[] = dataRaw;
 
   return (
     <section id='Acompañamiento' className='w-full relative bg-whiteColor min-[1000px]:pt-0 pt-10'>

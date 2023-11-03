@@ -1,6 +1,6 @@
 import { TitleComponent } from '@/components/Title.component';
 import { SubtitleComponent } from '@/components/Subtitle.component';
-import data from '../../data/ContactData.json';
+import dataRaw from '../../data/ContactData.json';
 import style from './IndexFormularioContacto.module.css';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
 import { ErrorMessageComponent } from '@/components/ErrorMessage.component';
@@ -10,6 +10,8 @@ import { UseIndexFormularioContacto } from './IndexFormularioContacto.hook';
 import { InputFormComponent } from '@/components/InputForm/InputForm.component';
 
 export function IndexFormularioContactoContainer() {
+
+  const data: { id: number, name: string, direction: string, tlf: string, maps_url: string }[] = dataRaw;
 
   const { selectedCenter, setSelectedCenter, validationError, form, setFieldOfForm, validateForm } = UseIndexFormularioContacto();
 
@@ -65,33 +67,29 @@ export function IndexFormularioContactoContainer() {
             </div>
             {data.map((center) => {
               return (
-                <div
-                  style={{ backgroundImage: `url("${basePath}images/mapa${center.id}.png")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
-                  className={`
-                  ${selectedCenter === center.id ? 'block' : 'hidden'}
-                  ${style.with_animation}
-                  h-[350px] bg-primaryColor3 relative
-                  min-[500px]:w-[450px] w-[90vw]
-                `}>
-                  <a href={center.maps_url} target='_blank' className='absolute top-5 left-4 flex flex-col items-start gap-1 bg-white px-3 py-1 shadow-customSoft'>
-                    <span className='text-[14px] font-bold'>{center.direction}</span>
-                    <span className='text-[13px] text-blue-400'>Ampliar el mapa</span>
-                  </a>
-                </div>
-              )
-            })}
-
-            {data.map((center) => {
-              return (
-                <div
-                  key={`data-center-${center.id}`}
-                  className={`
-                    ${selectedCenter === center.id ? 'block' : 'hidden'}
-                    ${style.with_animation}
-                    flex flex-col gap-2 items-center
-                  `}>
-                  <span>Dirección: {center.direction}</span>
-                  <span>Tlf de contacto: {center.tlf}</span>
+                <div key={`data-center-${center.id}`}>
+                  <div
+                    style={{ backgroundImage: `url("${basePath}images/mapa${center.id}.png")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
+                    className={`
+                      ${selectedCenter === center.id ? 'block' : 'hidden'}
+                      ${style.with_animation}
+                      h-[350px] bg-primaryColor3 relative
+                      min-[500px]:w-[450px] w-[90vw]
+                    `}>
+                    <a href={center.maps_url} target='_blank' className='absolute top-5 left-4 flex flex-col items-start gap-1 bg-white px-3 py-1 shadow-customSoft'>
+                      <span className='text-[14px] font-bold'>{center.direction}</span>
+                      <span className='text-[13px] text-blue-400'>Ampliar el mapa</span>
+                    </a>
+                  </div>
+                  <div
+                    className={`
+                      ${selectedCenter === center.id ? 'block' : 'hidden'}
+                      ${style.with_animation}
+                      flex flex-col gap-2 items-center
+                    `}>
+                    <span>Dirección: {center.direction}</span>
+                    <span>Tlf de contacto: {center.tlf}</span>
+                  </div>
                 </div>
               )
             })}

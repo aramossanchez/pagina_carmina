@@ -1,8 +1,10 @@
 import { TitleComponent } from '@/components/Title.component';
-import data from '../../data/FrequentDoubt.data.json';
+import dataRaw from '../../data/FrequentDoubt.data.json';
 import { FrequentDoubtComponent } from '@/components/FrequentDoubtComponent/FrequentDoubt.component';
 
 export function IndexDudasFrecuentesContainer() {
+
+  const data: {id: number, title: string, text: string}[] = dataRaw;
 
   return (
     <section id='Dudas' className='w-full relative py-20 bg-primaryColor4'>
@@ -12,7 +14,7 @@ export function IndexDudasFrecuentesContainer() {
         min-[1023px]:items-start items-center
       '>
         <article className='
-          flex flex-col gap-3 px-5
+          flex flex-col gap-3 px-5 items-start
           min-[1023px]:w-[500px] w-[90%]
         '>
           <TitleComponent title='DUDAS FRECUENTES SOBRE LA TERAPIA' />

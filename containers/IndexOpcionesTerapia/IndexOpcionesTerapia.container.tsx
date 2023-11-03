@@ -1,10 +1,11 @@
-import data from '../../data/TherapyOptions.json';
+import dataRaw from '../../data/TherapyOptions.json';
 import { TherapyOptionsComponent } from '@/components/TherapyOption.component';
-import { ButtonComponent } from '@/components/Button.component';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
 import { SubtitleComponent } from '@/components/Subtitle.component';
 
 export function IndexOpcionesTerapiaContainer() {
+
+  const data: {id: number, image: string, text: string}[] = dataRaw;
 
   return (
     <section id='Servicios' className='w-full relative'>

@@ -1,10 +1,12 @@
-import data from '../../data/SliderItem.data.json';
+import dataRaw from '../../data/SliderItem.data.json';
 import style from './IndexSliderContainer.module.css'
 import { SliderItemComponent } from '@/components/SliderItem.component';
 import { IconArrowBadgeLeftFilled, IconArrowBadgeRightFilled } from '@tabler/icons-react';
 import { UseIndexSlider } from './IndexSlider.hook';
 
 export function IndexSliderContainer() {
+
+  const data: {id: number, image: string, text: string, link: string}[] = dataRaw;
 
   const { sliderRef, setScrollLeft, setScrollRight } = UseIndexSlider();
 
