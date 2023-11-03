@@ -84,10 +84,10 @@ export function IndexFormularioContactoContainer() {
                     className={`
                       ${selectedCenter === center.id ? 'block' : 'hidden'}
                       ${style.with_animation}
-                      flex flex-col gap-2 items-center
+                      flex flex-col gap-2 items-center mt-5
                     `}>
-                    <span>Dirección: {center.direction}</span>
-                    <span>Tlf de contacto: {center.tlf}</span>
+                    <span className='text-center'>Dirección: {center.direction}</span>
+                    <span className='text-center'>Tlf de contacto: {center.tlf}</span>
                   </div>
                 </div>
               )
