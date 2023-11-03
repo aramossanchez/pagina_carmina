@@ -33,6 +33,7 @@
   --greyColor: #aaaaaa;
   --shadow: rgba(80, 80, 80, 0.459);
   --transparent: #f4e2d200;
+  --whatsapp: #25D366;
 
   background-color: white;
   color: var(--textColor1);

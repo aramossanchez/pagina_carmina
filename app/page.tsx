@@ -1,5 +1,6 @@
 "use client"
 
+import { WhatsappComponent } from '@/components/Whatsapp.component'
 import { IndexConoceme } from '@/containers/IndexConoceme/IndexConoceme.container'
 import { IndexDudasFrecuentesContainer } from '@/containers/IndexDudasFrecuentes/IndexDudasFrecuentes.container'
 import { IndexEnfoquePropuestaContainer } from '@/containers/IndexEnfoquePropuesta/IndexEnfoquePropuesta.container'
@@ -25,7 +26,7 @@ const CardoFont = Cardo({
 
 export default function Index() {
   return (
-    <main className={`${CardoFont.className} w-[100vw] h-[100vh]`}>
+    <main className={`${CardoFont.className} w-[100vw] h-[100vh] relative`}>
       <MenuTop />
       <IndexPresentationContainer />
       <IndexPuedoAyudarteContainer />
@@ -37,6 +38,7 @@ export default function Index() {
       <IndexRedesContainer />
       <IndexSliderContainer />
       <IndexFooterContainer />
+      <WhatsappComponent />
       {/* <IndexIntroduction />
       <IndexConoceme /> */}
     </main>

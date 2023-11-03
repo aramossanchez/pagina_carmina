@@ -23,7 +23,8 @@ module.exports = {
         'whiteColor': 'var(--whiteColor)',
         'whiteColorTransparent': 'var(--whiteColorTransparent)',
         'greyColor': 'var(--greyColor)',
-        'transparent': 'var(--transparent)'
+        'transparent': 'var(--transparent)',
+        'whatsapp': 'var(--whatsapp)'
       },
       boxShadow: {
         'customStrong': '0px 0px 8px 4px var(--shadow)',
