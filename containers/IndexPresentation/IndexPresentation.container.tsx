@@ -3,6 +3,7 @@ import { basePath } from '../../config/config';
 import Image from 'next/image';
 import { TitleComponent } from '@/components/Title.component';
 import { Alata } from 'next/font/google';
+import { ButtonComponent } from '@/components/Button.component';
 
 const AlataFont = Alata({
   weight: ['400'],
@@ -71,6 +72,9 @@ export function IndexPresentationContainer() {
             <span className='max-w-[700px] text-lg'>Mi pasión por el ser humano y la neurociencia, me ha permitido conocer en profundidad el origen de nuestros pensamientos y emociones más profundas, entendiendo cómo se manifiestan tanto en nuestro cuerpo como en nuestra conducta. Ya que es en ese descubrimiento personal, 
             donde nace la transformación. </span>
             <span className='max-w-[700px] text-lg'>Me gusta definirme como una persona apasionada por lo que hace, cercana, creativa y con una gran conciencia social. Algo que no puedo (ni quiero) separar de mi labor como terapeuta, ya que me ayuda a mantener un gran rigor y respeto por las personas a quienes acompaño. </span>
+            <div className='flex flex-row w-full justify-center pt-5'>
+            <ButtonComponent text='MÁS INFORMACIÓN' />
+            </div>
           </div>
         </div>
       </div>

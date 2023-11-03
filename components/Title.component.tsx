@@ -10,6 +10,6 @@ const AlataFont = Alata({
 export function TitleComponent({ title = '' }) {
 
   return (
-    <span className={`${AlataFont.className} text-2xl text-center`}>{title}</span>
+    <span className={`${AlataFont.className} text-2xl text-center text-titleColor`}>{title}</span>
   )
 }

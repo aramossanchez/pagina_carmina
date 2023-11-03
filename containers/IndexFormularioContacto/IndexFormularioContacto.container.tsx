@@ -68,7 +68,7 @@ export function IndexFormularioContactoContainer() {
             </div>
             {data.map((center) => {
               return (
-                <div key={`data-center-${center.id}`}>
+                <div key={`center-${center.id}`}>
                   <div
                     style={{ backgroundImage: `url("${basePath}images/mapa${center.id}.png")`, backgroundPosition: 'center', backgroundSize: 'cover' }}
                     className={`
@@ -130,7 +130,7 @@ export function IndexFormularioContactoContainer() {
               <label className={style.checkbox_container}>
                 <input
                   className={style.custom_checkbox}
-                  checked={form.checked}
+                  defaultChecked={form.checked}
                   type='checkbox'
                   onClick={() => setFieldOfForm('checked', !form.checked)}
                 />
@@ -138,7 +138,7 @@ export function IndexFormularioContactoContainer() {
               </label>
               <div className='flex flex-row items-center gap-1'>
                 <span>Acepto la</span>
-                <Link href={`${basePath}politica-privacidad`} target='_blank' className='text-primaryColor3 underline'>
+                <Link href='/politica-privacidad' target='_blank' className='text-primaryColor3 underline'>
                   política de protección de datos
                 </Link>
               </div>

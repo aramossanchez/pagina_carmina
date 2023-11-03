@@ -13,9 +13,6 @@ export function IndexPermitemeAcompañarteContainer() {
           <AllowAccompanyComponent key={`allow-accompany-${item.id}`} title={item.title} image={item.image} text={item.text} orientation={item.orientation} />
         )
       })}
-      <div className='py-20 w-full flex flex-row justify-center items-center'>
-        <ButtonComponent text='MÁS INFORMACIÓN' />
-      </div>
     </section>
   )
 }

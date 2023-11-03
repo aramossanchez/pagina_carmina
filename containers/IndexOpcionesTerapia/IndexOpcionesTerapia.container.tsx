@@ -2,10 +2,12 @@ import dataRaw from '../../data/TherapyOptions.json';
 import { TherapyOptionsComponent } from '@/components/TherapyOption.component';
 import { SecondaryButtonComponent } from '@/components/SecondaryButton.component';
 import { SubtitleComponent } from '@/components/Subtitle.component';
+import Link from 'next/link';
+import { basePath } from '@/config/config';
 
 export function IndexOpcionesTerapiaContainer() {
 
-  const data: {id: number, image: string, text: string}[] = dataRaw;
+  const data: { id: number, image: string, text: string }[] = dataRaw;
 
   return (
     <section id='Servicios' className='w-full relative'>
@@ -22,7 +24,9 @@ export function IndexOpcionesTerapiaContainer() {
       <article className='w-full flex flex-col items-center gap-9 pt-7 pb-20 overflow-hidden relative bg-primaryColor1'>
         <div className='flex flex-col items-center justify-around gap-5 px-10 w-full z-10'>
           <SubtitleComponent title='Si no tienes claro cual es el mejor formato para tí, rellena este formulario y podremos decidirlo juntas/os' />
-          <SecondaryButtonComponent text='FORMULARIO 1ª VISITA' />
+          <a href={`${basePath}#Contacto`}>
+            <SecondaryButtonComponent text='ESCRÍBEME' />
+          </a>
         </div>
       </article>
     </section>
