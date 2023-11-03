@@ -1,24 +1,12 @@
 import data from '../../data/SliderItem.data.json';
 import style from './IndexSliderContainer.module.css'
 import { SliderItemComponent } from '@/components/SliderItem.component';
-import { useRef } from 'react';
 import { IconArrowBadgeLeftFilled, IconArrowBadgeRightFilled } from '@tabler/icons-react';
+import { UseIndexSlider } from './IndexSlider.hook';
 
 export function IndexSliderContainer() {
 
-  const sliderRef = useRef<HTMLDivElement>(null);
-
-  const handleScrollLeft = () => {
-    if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: -200, behavior: 'smooth' });
-    }
-  };
-
-  const handleScrollRight = () => {
-    if (sliderRef.current) {
-      sliderRef.current.scrollBy({ left: 200, behavior: 'smooth' });
-    }
-  };
+  const { sliderRef, setScrollLeft, setScrollRight } = UseIndexSlider();
 
   return (
     <section id='Mis_Sitios' className='w-full relative py-10 bg-secondaryColor1'>
@@ -34,7 +22,7 @@ export function IndexSliderContainer() {
               min-[1023px]:sticky absolute
               min-[1023px]:left-0 left-2
             `}
-            onClick={() => handleScrollLeft()}
+            onClick={() => setScrollLeft()}
           >
             <IconArrowBadgeLeftFilled className='text-secondaryColor1' />
           </div>
@@ -49,7 +37,7 @@ export function IndexSliderContainer() {
               min-[1023px]:sticky absolute
               min-[1023px]:right-0 right-2
             `}
-            onClick={() => handleScrollRight()}
+            onClick={() => setScrollRight()}
           >
             <IconArrowBadgeRightFilled className='text-secondaryColor1' />
           </div>

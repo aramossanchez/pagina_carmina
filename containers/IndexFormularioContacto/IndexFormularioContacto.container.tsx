@@ -106,9 +106,11 @@ export function IndexFormularioContactoContainer() {
             </div>
             {/* FORMULARIO */}
             <div className='w-full flex flex-col gap-3'>
+              {/* 3 INPUTS */}
               <InputFormComponent label='Nombre' errorMessage='El nombre debe tener al menos 3 caracteres' form={form} validationError={validationError} formProperty='name' setFieldOfForm={setFieldOfForm} />
               <InputFormComponent label='Teléfono' errorMessage='El número de teléfono debe tener al menos 9 números' form={form} validationError={validationError} formProperty='phone' setFieldOfForm={setFieldOfForm} />
               <InputFormComponent label='Correo electrónico' errorMessage='El correo electrónico debe ser una dirección válida' form={form} validationError={validationError} formProperty='email' setFieldOfForm={setFieldOfForm} />
+              {/* TEXTAREA */}
               <div className='flex flex-col gap-2'>
                 <span className='text-sm font-semibold'>Consulta:</span>
                 <textarea
@@ -124,6 +126,7 @@ export function IndexFormularioContactoContainer() {
             <div className='w-full flex flex-row items-start justify-start'>
               <span className='text-[13px]'>* Todos los campos deben estar rellenados correctamente, y debe ser aceptada la política de protección de datos.</span>
             </div>
+            {/* CHECK DE ACEPTAR TEXTO LEGAL */}
             <div className='w-full flex flex-row justify-start'>
               <label className={style.checkbox_container}>
                 <input

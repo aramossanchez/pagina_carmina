@@ -11,12 +11,6 @@ export function IndexRedesContainer() {
     <section id='Redes' className='w-full relative py-20 bg-whiteColor'>
       <div
         className='w-full h-full absolute opacity-10 top-0'
-      // style={{
-      //   backgroundImage: `url(${basePath}images/index_redes_background.png)`,
-      //   backgroundSize: 'cover',
-      //   backgroundPosition: 'center',
-      //   backgroundRepeat: 'no-repeat'
-      // }}
       ></div>
       <div className='w-full flex flex-row justify-center'>
         <TitleComponent title='REDES Y MEDIOS DE COMUNICACIÓN' />
