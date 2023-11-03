@@ -1,10 +1,10 @@
 import style from './MenuTop.module.css';
 import { IconMenu2, IconX } from '@tabler/icons-react';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
 import { basePath } from '../../config/config';
 import { ButtonComponent } from '@/components/Button.component';
 import { Alata } from 'next/font/google';
+import { UseMenuTop } from './MenuTop.hook';
 
 const AlataFont = Alata({
   weight: ['400'],
@@ -15,18 +15,7 @@ const AlataFont = Alata({
 
 export function MenuTop() {
 
-  const [scrolled, setScrolled] = useState(0);
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  const { scrolled, menuOpen, setMenuOpen } = UseMenuTop();
 
   return (
     <>
