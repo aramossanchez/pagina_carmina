@@ -8,11 +8,11 @@ export function IndexFooterContainer() {
     <section className='w-full py-8 bg-primaryColor3 sticky bottom-0 z-[-2]'>
       <div className='w-full flex flex-col items-center justify-center gap-4 text-textColor2'>
         <Image
-          src={`${basePath}images/logo.svg`}
+          src={`${basePath}images/logo.png`}
           width={100}
           height={100}
           alt='Logo'
-          className='h-[55px] w-[200px]'
+          className='h-[116px] w-[200px] my-10'
         />
         <div className='flex flex-row gap-5 items-center px-2 flex-wrap justify-center'>
           <Link href={'/politica-privacidad'} className='underline'>

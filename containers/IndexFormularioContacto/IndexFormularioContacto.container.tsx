@@ -25,9 +25,10 @@ export function IndexFormularioContactoContainer() {
           flex flex-col gap-y-3
           min-[1023px]:w-[1000px] w-[90%]
         '>
-          <span>Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. </span>
-          <span>Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. Texto de prueba. </span>
-          <span>Texto de prueba.Texto de prueba.Texto de prueba.Texto de prueba.</span>
+          <span> Si quieres comenzar a sentirte mejor, y te has decidido a iniciar una terapia, puedes ponerte en contacto conmigo contándome brevemente cuál es tu situación actual y en qué necesitas ayuda. </span>
+          <span> Rellena el siguiente formulario, y me pondré en contacto contigo, ¡lo más brevemente posible!</span>
+          <span></span>
+          <span></span>
         </div>
         <div className='
           flex gap-x-3 gap-y-32 justify-between mt-10

@@ -22,12 +22,12 @@ export function MenuTop() {
       {/* PARTE MOVIL */}
       <div className={'w-full flex flex-row justify-center items-center fixed z-30 h-14 text-xs min-[1023px]:bg-transparent bg-primaryColor3'}>
         <Image
-          src={`${basePath}images/logo.svg`}
+          src={`${basePath}images/logo.png`}
           width={100}
           height={100}
           alt='Logo'
           className='
-          absolute left-2
+          absolute left-2 h-[40px] w-[68px]
           min-[1023px]:hidden block
           '
         />
@@ -56,12 +56,12 @@ export function MenuTop() {
         min-[1023px]:text-sm text-xs`
       }>
         <Image
-          src={`${basePath}images/logo.svg`}
+          src={`${basePath}images/logo.png`}
           width={100}
           height={100}
           alt='Logo'
           className={`
-          ${scrolled > 0 ? 'h-[45px] w-[170px]' : 'h-[55px] w-[200px]'}
+          ${scrolled > 0 ? 'h-[45px] w-[76px]' : 'h-[58px] w-[100px]'}
             ease-in duration-150
             min-[1281px]:ml-[3vw] min-[1023px]:ml-[3vw] ml-0
             min-[1023px]:flex hidden
