@@ -49,7 +49,7 @@ export function MenuTop() {
             <IconMenu2 onClick={() => setMenuOpen(true)} color='white' />
           }
         </div>
-        <a href={`${basePath}#Dudas`} onClick={() => setMenuOpen(false)} className='min-[1023px]:hidden block absolute right-5'>
+        <a href={`${basePath}#Contacto`} onClick={() => setMenuOpen(false)} className='min-[1023px]:hidden block absolute right-5'>
           <ButtonComponent text='¿HABLAMOS?' />
         </a>
       </div>
