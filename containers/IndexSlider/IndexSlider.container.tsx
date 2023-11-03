@@ -6,7 +6,7 @@ import { UseIndexSlider } from './IndexSlider.hook';
 
 export function IndexSliderContainer() {
 
-  const data: {id: number, image: string, text: string, link: string}[] = dataRaw;
+  const data: {id: number, image: string, text: string, resume: string, link: string}[] = dataRaw;
 
   const { sliderRef, setScrollLeft, setScrollRight } = UseIndexSlider();
 
@@ -30,9 +30,9 @@ export function IndexSliderContainer() {
           </div>
           {data.map((item) => {
             return (
-              <SliderItemComponent key={`${item.id}-item-slider`} image={item.image} text={item.text} link={item.link} />
-              )
-            })}
+              <SliderItemComponent key={`${item.id}-item-slider`} image={item.image} text={item.text} resume={item.resume} link={item.link} />
+            )
+          })}
           <div
             className={`
               z-20 cursor-pointer p-[1px] rounded-full bg-primaryColor1
