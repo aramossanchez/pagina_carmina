@@ -1,12 +1,10 @@
 "use client"
 
 import { WhatsappComponent } from '@/components/Whatsapp.component'
-import { IndexConoceme } from '@/containers/IndexConoceme/IndexConoceme.container'
 import { IndexDudasFrecuentesContainer } from '@/containers/IndexDudasFrecuentes/IndexDudasFrecuentes.container'
 import { IndexEnfoquePropuestaContainer } from '@/containers/IndexEnfoquePropuesta/IndexEnfoquePropuesta.container'
 import { IndexFooterContainer } from '@/containers/IndexFooter/IndexFooter.container'
 import { IndexFormularioContactoContainer } from '@/containers/IndexFormularioContacto/IndexFormularioContacto.container'
-import { IndexIntroduction } from '@/containers/IndexIntroduction/IndexIntroduction.container'
 import { IndexOpcionesTerapiaContainer } from '@/containers/IndexOpcionesTerapia/IndexOpcionesTerapia.container'
 import { IndexPermitemeAcompañarteContainer } from '@/containers/IndexPermitemeAcompañarte/IndexPermitemeAcompañarte.container'
 import { IndexPresentationContainer } from '@/containers/IndexPresentation/IndexPresentation.container'
@@ -39,8 +37,6 @@ export default function Index() {
       <IndexSliderContainer />
       <IndexFooterContainer />
       <WhatsappComponent />
-      {/* <IndexIntroduction />
-      <IndexConoceme /> */}
     </main>
   )
 }

@@ -1,8 +1,10 @@
 import { TitleComponent } from '@/components/Title.component';
 import { TextWithCheckComponent } from '@/components/TextWithCheck.component';
-import data from '../../data/TextWithCheck.data.json';
+import dataRaw from '../../data/TextWithCheck.data.json';
 
 export function IndexPuedoAyudarteContainer() {
+
+  const data: {id: number, text: string}[] = dataRaw;
 
   return (
     <section id='Puedo_Ayudarte' className='w-full relative py-20 bg-primaryColor4'>
