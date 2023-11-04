@@ -26,4 +26,4 @@
 9. Botón con conexión a api de whatsapp.
 
 ## CÓDIGO QR DE LA WEB
-![Código QR](images/qr.png)
+![Código QR](public/images/qr.png)
