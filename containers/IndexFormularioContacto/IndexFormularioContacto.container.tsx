@@ -135,10 +135,11 @@ export function IndexFormularioContactoContainer() {
                 <span className={style.checkmark}></span>
               </label>
               <div className='flex flex-row items-center gap-1'>
-                <span>Acepto la</span>
-                <Link href='/politica-privacidad' target='_blank' className='text-primaryColor3 underline'>
-                  política de protección de datos
-                </Link>
+                <span>Acepto la
+                  <Link href='/politica-privacidad' target='_blank' className='pl-1 text-primaryColor3 underline'>
+                    política de protección de datos
+                  </Link>
+                </span>
               </div>
             </div>
             {validationError.checked &&

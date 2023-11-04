@@ -21,7 +21,7 @@ export function IndexEnfoquePropuestaContainer() {
         '>
           <TitleComponent title='ESTA ES MI PROPUESTA...'/>
           <span className='mt-4'>Hay algo que para mí es fundamental en el acompañamiento de una persona, que es, el vínculo terapéutico, es decir, esa sensación de confianza y seguridad que, como terapeuta, me encanta generar, y así, podernos sentir libres para construir y deconstruir aquello que necesitemos en cada momento.  </span>
-          <span>Asumo el proceso terapéutico, como ese espacio de aprendizaje que nos ofrece las estrategias y nos guía, para conseguir trasladarlo al contexto natural en el que se desarrolla la vida real. Por ello, las estrategias que utilizo para conseguirlo, cuentan con evidencia científica, y se enmarcan dentro de la terapia cognitivo-conductual, integrando a su vez, técnicas de otras corrientes como narrativa, sistémica, y de tercera generación. Ofreciendo un valor añadido y enriquecendo los procesos de transformación y crecimiento personal en las intervenciones. </span>
+          <span>Asumo el proceso terapéutico, como ese espacio de aprendizaje que nos ofrece las estrategias y nos guía, para conseguir trasladarlo al contexto natural en el que se desarrolla la vida real. Por ello, las estrategias que utilizo para conseguirlo, cuentan con evidencia científica, y se enmarcan dentro de la terapia cognitivo-conductual, integrando a su vez, técnicas de otras corrientes como narrativa, sistémica, y de tercera generación. Ofreciendo un valor añadido y enriqueciendo los procesos de transformación y crecimiento personal en las intervenciones. </span>
         </article>
         <article className='
         px-10 relative pt-2 flex flex-row
@@ -55,7 +55,7 @@ export function IndexEnfoquePropuestaContainer() {
         </article>
       </div>
       <div className='w-full py-10 bg-primaryColor1 flex flex-row justify-center text-textColor1'>
-        <TitleComponent title='COMO PUEDO AYUDARTE' /> 
+        <TitleComponent title='CÓMO PUEDO AYUDARTE' /> 
       </div>
     </section>
   )

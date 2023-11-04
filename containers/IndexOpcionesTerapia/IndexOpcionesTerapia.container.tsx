@@ -22,7 +22,7 @@ export function IndexOpcionesTerapiaContainer() {
       </article>
       <article className='w-full flex flex-col items-center gap-9 pt-10 pb-20 overflow-hidden relative bg-primaryColor1'>
         <div className='flex flex-col items-center justify-around gap-10 px-10 w-full z-10'>
-          <SubtitleComponent title='Si no tienes claro cual es el mejor formato para tí, rellena este formulario y podremos decidirlo juntas/os' />
+          <SubtitleComponent title='Si no tienes claro cual es el mejor formato para ti, rellena este formulario y podremos decidirlo juntas/os' />
           <a href={`${basePath}#Contacto`}>
             <SecondaryButtonComponent text='ESCRÍBEME' />
           </a>
