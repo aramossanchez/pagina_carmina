@@ -22,7 +22,7 @@ export function SliderItemComponent({ image = '', text = '', resume = '', link =
             src={`${basePath}images/${image}`}
             width={250}
             height={250}
-            alt={`Foto de slider ${text}`}
+            alt={`neuropsicología neurorehabilitacion psicología valencia online laneuronamina ${text}`}
             className={`
               border-2 border-whiteColor shadow-customSoft saturate-[0.8] rounded-full
               min-[1023px]:h-[150px] h-[100px]

@@ -50,7 +50,8 @@ export function IndexPresentationContainer() {
           src={`${basePath}images/index_presentacion.jpg`}
           width={400}
           height={550}
-          alt='Foto de Carmina'
+          alt='neuropsicología neurorehabilitacion psicología valencia online foto Carmina Zamora laneuronamina'
+          title='neuropsicología neurorehabilitacion psicología valencia online foto Carmina Zamora laneuronamina'
           className='
             border-2 border-whiteColor shadow-customStrong left-0 saturate-[0.8]
             min-[1023px]:top-[-150px] top-0

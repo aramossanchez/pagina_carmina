@@ -53,7 +53,8 @@ export function IndexRedesContainer() {
             src={`${basePath}images/index_redes.jpg`}
             width={400}
             height={550}
-            alt="Foto redes y medios de comunicación"
+            alt="neuropsicología neurorehabilitacion psicología valencia online laneuronamina"
+            title="neuropsicología neurorehabilitacion psicología valencia online laneuronamina"
             className={`
             border-2 border-whiteColor shadow-customStrong saturate-[0.8]
             min-[450px]:w-[400px] w-[325px]

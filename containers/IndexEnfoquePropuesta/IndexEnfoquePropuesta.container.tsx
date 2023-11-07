@@ -33,7 +33,7 @@ export function IndexEnfoquePropuestaContainer() {
             src={`${basePath}images/enfoque-propuesta-1.jpg`}
             width={250}
             height={250}
-            alt="Enfoque propuesta imagen 1"
+            alt="neuropsicología neurorehabilitacion psicología valencia online 1"
             className='
             relative border-2 border-whiteColor shadow-customStrong z-10 saturate-[0.8]
             min-[468px]:w-[300px] w-[50vw]
@@ -44,7 +44,8 @@ export function IndexEnfoquePropuestaContainer() {
             src={`${basePath}images/enfoque-propuesta-2.jpg`}
             width={250}
             height={250}
-            alt="Enfoque propuesta imagen 2"
+            alt="neuropsicología neurorehabilitacion psicología valencia online 2"
+            title="neuropsicología neurorehabilitacion psicología valencia online 2"
             className='
             absolute border-2 border-whiteColor shadow-customStrong top-[35%] z-0 saturate-[0.6]
             min-[1023px]:left-[30%] right-[10vw]

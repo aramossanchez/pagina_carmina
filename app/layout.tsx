@@ -6,7 +6,13 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Carmina Zamora - Neuropsicología y Psicología clínica',
-  description: '(RE) CONECTAR CONTIGO... ES POSIBLE - NEUROPSICOLOGÍA Y PSICOLOGÍA CLÍNICA',
+  description: 'Servicios profesionales de psicología, especializados en neuropsicología y neurorrehabilitación en Valencia y online. Atención personalizada y basada en la evidencia.',
+  robots: {
+    follow: false,
+    googleBot: {
+      follow: false
+    }
+  }
 }
 
 export default function RootLayout({
